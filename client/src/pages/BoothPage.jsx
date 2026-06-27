@@ -21,18 +21,22 @@ export default function BoothPage() {
   const videoRef = useRef(null);
   const fileInputRef = useRef(null);
 
-  const [windowWidth, setWindowWidth] = useState(window.innerWidth);
+  const [windowSize, setWindowSize] = useState({ width: window.innerWidth, height: window.innerHeight });
   useEffect(() => {
-    const handleResize = () => setWindowWidth(window.innerWidth);
+    const handleResize = () => setWindowSize({ width: window.innerWidth, height: window.innerHeight });
     window.addEventListener('resize', handleResize);
     return () => window.removeEventListener('resize', handleResize);
   }, []);
 
-  // Booth dimensions scaling factor for rendering preview
-  const displayWidth = selectedFrame 
-    ? Math.min(selectedFrame.width, windowWidth - 48) 
-    : 200;
-  const scale = selectedFrame ? displayWidth / selectedFrame.width : 0.5;
+  // Responsive scaling calculations
+  const isMobile = windowSize.width <= 768;
+  const max_w = isMobile ? (windowSize.width - 48) : (windowSize.width - 500);
+  const max_h = isMobile ? Math.min(500, windowSize.height - 220) : 600;
+
+  const scale = selectedFrame 
+    ? Math.min(max_w / selectedFrame.width, max_h / selectedFrame.height) 
+    : 0.5;
+  const displayWidth = selectedFrame ? selectedFrame.width * scale : 200;
   const displayHeight = selectedFrame ? selectedFrame.height * scale : 600;
 
   // Initialize camera stream
