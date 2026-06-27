@@ -15,7 +15,12 @@ function FrameCard({ frame, selectFrame }) {
       className="glass-panel frame-card"
       onClick={() => selectFrame(frame)}
     >
-      <div className="frame-card-preview" style={{ background: frame.bgColor }}>
+      <div className="frame-card-preview" style={{ background: frame.bgColor, position: 'relative' }}>
+        {/* Overlay Badge */}
+        <span className="frame-badge" style={{ position: 'absolute', top: '12px', left: '12px', zIndex: 10, boxShadow: '0 4px 10px rgba(0,0,0,0.05)', border: '1px solid rgba(255, 94, 126, 0.15)' }}>
+          {slotText}
+        </span>
+
         {!imgFailed ? (
           <img 
             src={`${API_BASE_URL}${frame.thumbnail_url}`}
@@ -39,7 +44,7 @@ function FrameCard({ frame, selectFrame }) {
             }}
             className="frame-local-preview-fallback"
           >
-            <div style={{ display: 'flex', flexWrap: 'wrap', gap: '4px' }}>
+            <div style={{ display: 'flex', flexWrap: 'wrap', gap: '4px', marginTop: '24px' }}>
               {Array(frame.photo_slot_count).fill(null).map((_, i) => (
                 <div 
                   key={i} 
@@ -65,11 +70,8 @@ function FrameCard({ frame, selectFrame }) {
       </div>
       
       <div className="frame-info">
-        <div className="frame-meta-row">
-          <h4 style={{ fontSize: '16px', fontWeight: '700' }}>{frame.name}</h4>
-          <span className="frame-badge">{slotText}</span>
-        </div>
-        <p style={{ fontSize: '12px' }}>Dipakai {frame.download_count || 0} kali</p>
+        <h4 style={{ fontSize: '15px', fontWeight: '700', lineHeight: '1.4', margin: 0 }}>{frame.name}</h4>
+        <p style={{ fontSize: '12px', color: 'var(--text-muted)', margin: '4px 0 0 0' }}>Dipakai {frame.download_count || 0} kali</p>
       </div>
     </div>
   );
