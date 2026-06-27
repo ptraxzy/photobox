@@ -1,4 +1,4 @@
-import React, { useState, useRef } from 'react';
+import React, { useState, useEffect, useRef } from 'react';
 import { useBooth, API_BASE_URL } from '../context/BoothContext';
 import { drawComposite } from '../utils/canvasComposer';
 import { Trash2, Type, Smile, Sparkles, Wand2, RefreshCw, Loader2, ArrowRight } from 'lucide-react';
@@ -28,10 +28,19 @@ export default function EditorPage() {
   const [isExporting, setIsExporting] = useState(false);
   const containerRef = useRef(null);
 
+  const [windowWidth, setWindowWidth] = useState(window.innerWidth);
+  useEffect(() => {
+    const handleResize = () => setWindowWidth(window.innerWidth);
+    window.addEventListener('resize', handleResize);
+    return () => window.removeEventListener('resize', handleResize);
+  }, []);
+
   // Booth dimensions scaling factor for rendering canvas preview
-  const displayHeight = 550;
-  const scale = selectedFrame ? displayHeight / selectedFrame.height : 0.5;
-  const displayWidth = selectedFrame ? selectedFrame.width * scale : 200;
+  const displayWidth = selectedFrame 
+    ? Math.min(selectedFrame.width, windowWidth - 48) 
+    : 200;
+  const scale = selectedFrame ? displayWidth / selectedFrame.width : 0.5;
+  const displayHeight = selectedFrame ? selectedFrame.height * scale : 550;
 
   // Add custom text handler
   const handleAddText = (e) => {

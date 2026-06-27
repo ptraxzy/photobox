@@ -21,10 +21,19 @@ export default function BoothPage() {
   const videoRef = useRef(null);
   const fileInputRef = useRef(null);
 
+  const [windowWidth, setWindowWidth] = useState(window.innerWidth);
+  useEffect(() => {
+    const handleResize = () => setWindowWidth(window.innerWidth);
+    window.addEventListener('resize', handleResize);
+    return () => window.removeEventListener('resize', handleResize);
+  }, []);
+
   // Booth dimensions scaling factor for rendering preview
-  const displayHeight = 600; 
-  const scale = selectedFrame ? displayHeight / selectedFrame.height : 0.5;
-  const displayWidth = selectedFrame ? selectedFrame.width * scale : 200;
+  const displayWidth = selectedFrame 
+    ? Math.min(selectedFrame.width, windowWidth - 48) 
+    : 200;
+  const scale = selectedFrame ? displayWidth / selectedFrame.width : 0.5;
+  const displayHeight = selectedFrame ? selectedFrame.height * scale : 600;
 
   // Initialize camera stream
   useEffect(() => {
