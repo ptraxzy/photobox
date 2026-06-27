@@ -2,7 +2,10 @@ import React, { createContext, useContext, useState, useEffect } from 'react';
 
 const BoothContext = createContext();
 
-export const API_BASE_URL = import.meta.env.VITE_API_BASE_URL || 'http://localhost:5001';
+export const API_BASE_URL = import.meta.env.VITE_API_BASE_URL || 
+  (typeof window !== 'undefined' && window.location.hostname === 'localhost' 
+    ? 'http://localhost:5001' 
+    : '');
 
 export function BoothProvider({ children }) {
   const [categories, setCategories] = useState([]);

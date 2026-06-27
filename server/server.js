@@ -1764,6 +1764,10 @@ app.get('/', (req, res) => {
   res.send('SnapVibe API Server running successfully.');
 });
 
-app.listen(PORT, () => {
-  console.log(`[SnapVibe Server] Running on http://localhost:${PORT}`);
-});
+if (require.main === module) {
+  app.listen(PORT, () => {
+    console.log(`[SnapVibe Server] Running on http://localhost:${PORT}`);
+  });
+}
+
+module.exports = app;

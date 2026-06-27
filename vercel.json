@@ -3,6 +3,14 @@
   "outputDirectory": "client/dist",
   "rewrites": [
     {
+      "source": "/api/scraped-frames/:path*",
+      "destination": "/api/scraped-frames/:path*"
+    },
+    {
+      "source": "/api/:path*",
+      "destination": "/api"
+    },
+    {
       "source": "/(.*)",
       "destination": "/index.html"
     }
