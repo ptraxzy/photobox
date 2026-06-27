@@ -2438,7 +2438,7 @@
       "thumbnail_url": "/api/scraped-frames/Dynamic_Monochrome.webp",
       "overlay_image_url": "/api/scraped-frames/Dynamic_Monochrome.webp",
       "layout_type": "strip_4",
-      "photo_slot_count": 0,
+      "photo_slot_count": 3,
       "width": 1080,
       "height": 3240,
       "bgColor": "#FF6600",
@@ -2447,7 +2447,29 @@
       "is_premium": true,
       "is_active": true,
       "download_count": 13,
-      "slots": []
+      "slots": [
+        {
+          "slot_index": 0,
+          "x": 86,
+          "y": 259,
+          "width": 908,
+          "height": 875
+        },
+        {
+          "slot_index": 1,
+          "x": 86,
+          "y": 1182,
+          "width": 908,
+          "height": 875
+        },
+        {
+          "slot_index": 2,
+          "x": 86,
+          "y": 2105,
+          "width": 908,
+          "height": 875
+        }
+      ]
     },
     {
       "id": "frame-scraped-instant-polaroid-joy",
@@ -2457,7 +2479,7 @@
       "thumbnail_url": "/api/scraped-frames/Instant_Polaroid_Joy.webp",
       "overlay_image_url": "/api/scraped-frames/Instant_Polaroid_Joy.webp",
       "layout_type": "strip_4",
-      "photo_slot_count": 0,
+      "photo_slot_count": 3,
       "width": 1080,
       "height": 3240,
       "bgColor": "#000000",
@@ -2466,7 +2488,29 @@
       "is_premium": true,
       "is_active": true,
       "download_count": 17,
-      "slots": []
+      "slots": [
+        {
+          "slot_index": 0,
+          "x": 86,
+          "y": 259,
+          "width": 908,
+          "height": 875
+        },
+        {
+          "slot_index": 1,
+          "x": 86,
+          "y": 1182,
+          "width": 908,
+          "height": 875
+        },
+        {
+          "slot_index": 2,
+          "x": 86,
+          "y": 2105,
+          "width": 908,
+          "height": 875
+        }
+      ]
     },
     {
       "id": "frame-scraped-flight-ticket",
@@ -2476,7 +2520,7 @@
       "thumbnail_url": "/api/scraped-frames/Flight_Ticket.webp",
       "overlay_image_url": "/api/scraped-frames/Flight_Ticket.webp",
       "layout_type": "strip_4",
-      "photo_slot_count": 0,
+      "photo_slot_count": 3,
       "width": 1080,
       "height": 3240,
       "bgColor": "#f7f1ed",
@@ -2485,7 +2529,29 @@
       "is_premium": true,
       "is_active": true,
       "download_count": 20,
-      "slots": []
+      "slots": [
+        {
+          "slot_index": 0,
+          "x": 86,
+          "y": 259,
+          "width": 908,
+          "height": 875
+        },
+        {
+          "slot_index": 1,
+          "x": 86,
+          "y": 1182,
+          "width": 908,
+          "height": 875
+        },
+        {
+          "slot_index": 2,
+          "x": 86,
+          "y": 2105,
+          "width": 908,
+          "height": 875
+        }
+      ]
     },
     {
       "id": "frame-scraped-hangout-exploration",
@@ -2495,7 +2561,7 @@
       "thumbnail_url": "/api/scraped-frames/Hangout_Exploration.webp",
       "overlay_image_url": "/api/scraped-frames/Hangout_Exploration.webp",
       "layout_type": "strip_4",
-      "photo_slot_count": 0,
+      "photo_slot_count": 3,
       "width": 1080,
       "height": 3240,
       "bgColor": "#f7f1ed",
@@ -2504,7 +2570,29 @@
       "is_premium": true,
       "is_active": true,
       "download_count": 12,
-      "slots": []
+      "slots": [
+        {
+          "slot_index": 0,
+          "x": 86,
+          "y": 259,
+          "width": 908,
+          "height": 875
+        },
+        {
+          "slot_index": 1,
+          "x": 86,
+          "y": 1182,
+          "width": 908,
+          "height": 875
+        },
+        {
+          "slot_index": 2,
+          "x": 86,
+          "y": 2105,
+          "width": 908,
+          "height": 875
+        }
+      ]
     },
     {
       "id": "frame-scraped-urban-heart",
@@ -2514,7 +2602,7 @@
       "thumbnail_url": "/api/scraped-frames/Urban_Heart.webp",
       "overlay_image_url": "/api/scraped-frames/Urban_Heart.webp",
       "layout_type": "strip_4",
-      "photo_slot_count": 0,
+      "photo_slot_count": 3,
       "width": 1080,
       "height": 3240,
       "bgColor": "#f7f1ed",
@@ -2523,7 +2611,29 @@
       "is_premium": true,
       "is_active": true,
       "download_count": 24,
-      "slots": []
+      "slots": [
+        {
+          "slot_index": 0,
+          "x": 86,
+          "y": 259,
+          "width": 908,
+          "height": 875
+        },
+        {
+          "slot_index": 1,
+          "x": 86,
+          "y": 1182,
+          "width": 908,
+          "height": 875
+        },
+        {
+          "slot_index": 2,
+          "x": 86,
+          "y": 2105,
+          "width": 908,
+          "height": 875
+        }
+      ]
     },
     {
       "id": "frame-scraped-retro-snap",
@@ -2533,7 +2643,7 @@
       "thumbnail_url": "/api/scraped-frames/Retro_Snap.webp",
       "overlay_image_url": "/api/scraped-frames/Retro_Snap.webp",
       "layout_type": "strip_4",
-      "photo_slot_count": 0,
+      "photo_slot_count": 2,
       "width": 1080,
       "height": 3240,
       "bgColor": "#FF6600",
@@ -2542,7 +2652,22 @@
       "is_premium": true,
       "is_active": true,
       "download_count": 10,
-      "slots": []
+      "slots": [
+        {
+          "slot_index": 0,
+          "x": 86,
+          "y": 259,
+          "width": 908,
+          "height": 1337
+        },
+        {
+          "slot_index": 1,
+          "x": 86,
+          "y": 1644,
+          "width": 908,
+          "height": 1337
+        }
+      ]
     },
     {
       "id": "frame-scraped-birthday-celebration",
@@ -2552,7 +2677,7 @@
       "thumbnail_url": "/api/scraped-frames/Birthday_Celebration.webp",
       "overlay_image_url": "/api/scraped-frames/Birthday_Celebration.webp",
       "layout_type": "strip_4",
-      "photo_slot_count": 0,
+      "photo_slot_count": 3,
       "width": 1080,
       "height": 3240,
       "bgColor": "#f7f1ed",
@@ -2561,7 +2686,29 @@
       "is_premium": true,
       "is_active": true,
       "download_count": 5,
-      "slots": []
+      "slots": [
+        {
+          "slot_index": 0,
+          "x": 86,
+          "y": 259,
+          "width": 908,
+          "height": 875
+        },
+        {
+          "slot_index": 1,
+          "x": 86,
+          "y": 1182,
+          "width": 908,
+          "height": 875
+        },
+        {
+          "slot_index": 2,
+          "x": 86,
+          "y": 2105,
+          "width": 908,
+          "height": 875
+        }
+      ]
     },
     {
       "id": "frame-scraped-sweet-love",
@@ -2571,7 +2718,7 @@
       "thumbnail_url": "/api/scraped-frames/Sweet_Love.webp",
       "overlay_image_url": "/api/scraped-frames/Sweet_Love.webp",
       "layout_type": "strip_4",
-      "photo_slot_count": 0,
+      "photo_slot_count": 2,
       "width": 1080,
       "height": 3240,
       "bgColor": "#f7f1ed",
@@ -2580,7 +2727,22 @@
       "is_premium": true,
       "is_active": true,
       "download_count": 6,
-      "slots": []
+      "slots": [
+        {
+          "slot_index": 0,
+          "x": 86,
+          "y": 259,
+          "width": 908,
+          "height": 1337
+        },
+        {
+          "slot_index": 1,
+          "x": 86,
+          "y": 1644,
+          "width": 908,
+          "height": 1337
+        }
+      ]
     },
     {
       "id": "frame-scraped-scarlet-ribbon",
@@ -2590,7 +2752,7 @@
       "thumbnail_url": "/api/scraped-frames/Scarlet_Ribbon.webp",
       "overlay_image_url": "/api/scraped-frames/Scarlet_Ribbon.webp",
       "layout_type": "strip_4",
-      "photo_slot_count": 0,
+      "photo_slot_count": 3,
       "width": 1080,
       "height": 3240,
       "bgColor": "#f7f1ed",
@@ -2599,7 +2761,29 @@
       "is_premium": true,
       "is_active": true,
       "download_count": 15,
-      "slots": []
+      "slots": [
+        {
+          "slot_index": 0,
+          "x": 86,
+          "y": 259,
+          "width": 908,
+          "height": 875
+        },
+        {
+          "slot_index": 1,
+          "x": 86,
+          "y": 1182,
+          "width": 908,
+          "height": 875
+        },
+        {
+          "slot_index": 2,
+          "x": 86,
+          "y": 2105,
+          "width": 908,
+          "height": 875
+        }
+      ]
     },
     {
       "id": "frame-scraped-inspired-by-hindia-menari-dengan-bayangan",
@@ -3285,7 +3469,7 @@
       "thumbnail_url": "/api/scraped-frames/Visual_Soundwave.webp",
       "overlay_image_url": "/api/scraped-frames/Visual_Soundwave.webp",
       "layout_type": "strip_4",
-      "photo_slot_count": 0,
+      "photo_slot_count": 3,
       "width": 1080,
       "height": 3240,
       "bgColor": "#f7f1ed",
@@ -3294,7 +3478,29 @@
       "is_premium": true,
       "is_active": true,
       "download_count": 14,
-      "slots": []
+      "slots": [
+        {
+          "slot_index": 0,
+          "x": 86,
+          "y": 259,
+          "width": 908,
+          "height": 875
+        },
+        {
+          "slot_index": 1,
+          "x": 86,
+          "y": 1182,
+          "width": 908,
+          "height": 875
+        },
+        {
+          "slot_index": 2,
+          "x": 86,
+          "y": 2105,
+          "width": 908,
+          "height": 875
+        }
+      ]
     },
     {
       "id": "frame-scraped-the-soundtrack-of-us",
@@ -3304,7 +3510,7 @@
       "thumbnail_url": "/api/scraped-frames/The_Soundtrack_of_Us.webp",
       "overlay_image_url": "/api/scraped-frames/The_Soundtrack_of_Us.webp",
       "layout_type": "strip_4",
-      "photo_slot_count": 0,
+      "photo_slot_count": 3,
       "width": 1080,
       "height": 3240,
       "bgColor": "#FFFFFF",
@@ -3313,7 +3519,29 @@
       "is_premium": true,
       "is_active": true,
       "download_count": 25,
-      "slots": []
+      "slots": [
+        {
+          "slot_index": 0,
+          "x": 86,
+          "y": 259,
+          "width": 908,
+          "height": 875
+        },
+        {
+          "slot_index": 1,
+          "x": 86,
+          "y": 1182,
+          "width": 908,
+          "height": 875
+        },
+        {
+          "slot_index": 2,
+          "x": 86,
+          "y": 2105,
+          "width": 908,
+          "height": 875
+        }
+      ]
     },
     {
       "id": "frame-scraped-playful-bongo-cat",
@@ -3523,7 +3751,7 @@
       "thumbnail_url": "/api/scraped-frames/Denim_Keepsake_&_Receipts.webp",
       "overlay_image_url": "/api/scraped-frames/Denim_Keepsake_&_Receipts.webp",
       "layout_type": "grid_2x2",
-      "photo_slot_count": 0,
+      "photo_slot_count": 4,
       "width": 1080,
       "height": 1620,
       "bgColor": "#FDFDFD",
@@ -3532,7 +3760,36 @@
       "is_premium": true,
       "is_active": true,
       "download_count": 35,
-      "slots": []
+      "slots": [
+        {
+          "slot_index": 0,
+          "x": 64,
+          "y": 97,
+          "width": 454,
+          "height": 656
+        },
+        {
+          "slot_index": 1,
+          "x": 561,
+          "y": 97,
+          "width": 454,
+          "height": 656
+        },
+        {
+          "slot_index": 2,
+          "x": 64,
+          "y": 801,
+          "width": 454,
+          "height": 656
+        },
+        {
+          "slot_index": 3,
+          "x": 561,
+          "y": 801,
+          "width": 454,
+          "height": 656
+        }
+      ]
     },
     {
       "id": "frame-scraped-urban-monochrome-love",
@@ -3542,7 +3799,7 @@
       "thumbnail_url": "/api/scraped-frames/Urban_Monochrome_Love.webp",
       "overlay_image_url": "/api/scraped-frames/Urban_Monochrome_Love.webp",
       "layout_type": "strip_4",
-      "photo_slot_count": 0,
+      "photo_slot_count": 3,
       "width": 1080,
       "height": 3240,
       "bgColor": "#f7f1ed",
@@ -3551,7 +3808,29 @@
       "is_premium": true,
       "is_active": true,
       "download_count": 10,
-      "slots": []
+      "slots": [
+        {
+          "slot_index": 0,
+          "x": 86,
+          "y": 259,
+          "width": 908,
+          "height": 875
+        },
+        {
+          "slot_index": 1,
+          "x": 86,
+          "y": 1182,
+          "width": 908,
+          "height": 875
+        },
+        {
+          "slot_index": 2,
+          "x": 86,
+          "y": 2105,
+          "width": 908,
+          "height": 875
+        }
+      ]
     },
     {
       "id": "frame-scraped-simple-life-sweet-moments",
@@ -3595,7 +3874,7 @@
       "thumbnail_url": "/api/scraped-frames/Sweetheart_Lover_Frames.webp",
       "overlay_image_url": "/api/scraped-frames/Sweetheart_Lover_Frames.webp",
       "layout_type": "grid_2x2",
-      "photo_slot_count": 0,
+      "photo_slot_count": 6,
       "width": 1080,
       "height": 1620,
       "bgColor": "#000000",
@@ -3604,7 +3883,50 @@
       "is_premium": true,
       "is_active": true,
       "download_count": 84,
-      "slots": []
+      "slots": [
+        {
+          "slot_index": 0,
+          "x": 64,
+          "y": 97,
+          "width": 454,
+          "height": 432
+        },
+        {
+          "slot_index": 1,
+          "x": 561,
+          "y": 97,
+          "width": 454,
+          "height": 432
+        },
+        {
+          "slot_index": 2,
+          "x": 64,
+          "y": 561,
+          "width": 454,
+          "height": 432
+        },
+        {
+          "slot_index": 3,
+          "x": 561,
+          "y": 561,
+          "width": 454,
+          "height": 432
+        },
+        {
+          "slot_index": 4,
+          "x": 64,
+          "y": 1025,
+          "width": 454,
+          "height": 432
+        },
+        {
+          "slot_index": 5,
+          "x": 561,
+          "y": 1025,
+          "width": 454,
+          "height": 432
+        }
+      ]
     },
     {
       "id": "frame-scraped-vintage-philately",
@@ -3614,7 +3936,7 @@
       "thumbnail_url": "/api/scraped-frames/Vintage_Philately.webp",
       "overlay_image_url": "/api/scraped-frames/Vintage_Philately.webp",
       "layout_type": "grid_2x2",
-      "photo_slot_count": 0,
+      "photo_slot_count": 6,
       "width": 1080,
       "height": 1620,
       "bgColor": "#000000",
@@ -3623,7 +3945,50 @@
       "is_premium": true,
       "is_active": true,
       "download_count": 23,
-      "slots": []
+      "slots": [
+        {
+          "slot_index": 0,
+          "x": 64,
+          "y": 97,
+          "width": 454,
+          "height": 432
+        },
+        {
+          "slot_index": 1,
+          "x": 561,
+          "y": 97,
+          "width": 454,
+          "height": 432
+        },
+        {
+          "slot_index": 2,
+          "x": 64,
+          "y": 561,
+          "width": 454,
+          "height": 432
+        },
+        {
+          "slot_index": 3,
+          "x": 561,
+          "y": 561,
+          "width": 454,
+          "height": 432
+        },
+        {
+          "slot_index": 4,
+          "x": 64,
+          "y": 1025,
+          "width": 454,
+          "height": 432
+        },
+        {
+          "slot_index": 5,
+          "x": 561,
+          "y": 1025,
+          "width": 454,
+          "height": 432
+        }
+      ]
     },
     {
       "id": "frame-scraped-bold-monochrome-noir",
@@ -3633,7 +3998,7 @@
       "thumbnail_url": "/api/scraped-frames/Bold_Monochrome_Noir.webp",
       "overlay_image_url": "/api/scraped-frames/Bold_Monochrome_Noir.webp",
       "layout_type": "grid_2x2",
-      "photo_slot_count": 0,
+      "photo_slot_count": 8,
       "width": 1080,
       "height": 1620,
       "bgColor": "#FFFFFF",
@@ -3642,7 +4007,64 @@
       "is_premium": true,
       "is_active": true,
       "download_count": 65,
-      "slots": []
+      "slots": [
+        {
+          "slot_index": 0,
+          "x": 64,
+          "y": 97,
+          "width": 454,
+          "height": 322
+        },
+        {
+          "slot_index": 1,
+          "x": 561,
+          "y": 97,
+          "width": 454,
+          "height": 322
+        },
+        {
+          "slot_index": 2,
+          "x": 64,
+          "y": 443,
+          "width": 454,
+          "height": 322
+        },
+        {
+          "slot_index": 3,
+          "x": 561,
+          "y": 443,
+          "width": 454,
+          "height": 322
+        },
+        {
+          "slot_index": 4,
+          "x": 64,
+          "y": 789,
+          "width": 454,
+          "height": 322
+        },
+        {
+          "slot_index": 5,
+          "x": 561,
+          "y": 789,
+          "width": 454,
+          "height": 322
+        },
+        {
+          "slot_index": 6,
+          "x": 64,
+          "y": 1135,
+          "width": 454,
+          "height": 322
+        },
+        {
+          "slot_index": 7,
+          "x": 561,
+          "y": 1135,
+          "width": 454,
+          "height": 322
+        }
+      ]
     },
     {
       "id": "frame-scraped-classic-cinematic-film",
@@ -3652,7 +4074,7 @@
       "thumbnail_url": "/api/scraped-frames/Classic_Cinematic_Film.webp",
       "overlay_image_url": "/api/scraped-frames/Classic_Cinematic_Film.webp",
       "layout_type": "grid_2x2",
-      "photo_slot_count": 0,
+      "photo_slot_count": 6,
       "width": 1080,
       "height": 1620,
       "bgColor": "#FFFFFF",
@@ -3661,7 +4083,50 @@
       "is_premium": true,
       "is_active": true,
       "download_count": 67,
-      "slots": []
+      "slots": [
+        {
+          "slot_index": 0,
+          "x": 64,
+          "y": 97,
+          "width": 454,
+          "height": 432
+        },
+        {
+          "slot_index": 1,
+          "x": 561,
+          "y": 97,
+          "width": 454,
+          "height": 432
+        },
+        {
+          "slot_index": 2,
+          "x": 64,
+          "y": 561,
+          "width": 454,
+          "height": 432
+        },
+        {
+          "slot_index": 3,
+          "x": 561,
+          "y": 561,
+          "width": 454,
+          "height": 432
+        },
+        {
+          "slot_index": 4,
+          "x": 64,
+          "y": 1025,
+          "width": 454,
+          "height": 432
+        },
+        {
+          "slot_index": 5,
+          "x": 561,
+          "y": 1025,
+          "width": 454,
+          "height": 432
+        }
+      ]
     },
     {
       "id": "frame-scraped-minimalist-topography",
@@ -3671,7 +4136,7 @@
       "thumbnail_url": "/api/scraped-frames/Minimalist_Topography.webp",
       "overlay_image_url": "/api/scraped-frames/Minimalist_Topography.webp",
       "layout_type": "grid_2x2",
-      "photo_slot_count": 0,
+      "photo_slot_count": 6,
       "width": 1080,
       "height": 1620,
       "bgColor": "#FF6600",
@@ -3680,7 +4145,50 @@
       "is_premium": true,
       "is_active": true,
       "download_count": 27,
-      "slots": []
+      "slots": [
+        {
+          "slot_index": 0,
+          "x": 64,
+          "y": 97,
+          "width": 454,
+          "height": 432
+        },
+        {
+          "slot_index": 1,
+          "x": 561,
+          "y": 97,
+          "width": 454,
+          "height": 432
+        },
+        {
+          "slot_index": 2,
+          "x": 64,
+          "y": 561,
+          "width": 454,
+          "height": 432
+        },
+        {
+          "slot_index": 3,
+          "x": 561,
+          "y": 561,
+          "width": 454,
+          "height": 432
+        },
+        {
+          "slot_index": 4,
+          "x": 64,
+          "y": 1025,
+          "width": 454,
+          "height": 432
+        },
+        {
+          "slot_index": 5,
+          "x": 561,
+          "y": 1025,
+          "width": 454,
+          "height": 432
+        }
+      ]
     },
     {
       "id": "frame-scraped-denim-patchwork-style",
@@ -3690,7 +4198,7 @@
       "thumbnail_url": "/api/scraped-frames/Denim_&_Patchwork_Style.webp",
       "overlay_image_url": "/api/scraped-frames/Denim_&_Patchwork_Style.webp",
       "layout_type": "grid_2x2",
-      "photo_slot_count": 0,
+      "photo_slot_count": 4,
       "width": 1080,
       "height": 1620,
       "bgColor": "#000000",
@@ -3699,7 +4207,36 @@
       "is_premium": true,
       "is_active": true,
       "download_count": 33,
-      "slots": []
+      "slots": [
+        {
+          "slot_index": 0,
+          "x": 64,
+          "y": 97,
+          "width": 454,
+          "height": 656
+        },
+        {
+          "slot_index": 1,
+          "x": 561,
+          "y": 97,
+          "width": 454,
+          "height": 656
+        },
+        {
+          "slot_index": 2,
+          "x": 64,
+          "y": 801,
+          "width": 454,
+          "height": 656
+        },
+        {
+          "slot_index": 3,
+          "x": 561,
+          "y": 801,
+          "width": 454,
+          "height": 656
+        }
+      ]
     },
     {
       "id": "frame-scraped-retro-television-aesthetic",
@@ -3709,7 +4246,7 @@
       "thumbnail_url": "/api/scraped-frames/Retro_Television_Aesthetic.webp",
       "overlay_image_url": "/api/scraped-frames/Retro_Television_Aesthetic.webp",
       "layout_type": "grid_2x2",
-      "photo_slot_count": 0,
+      "photo_slot_count": 6,
       "width": 1080,
       "height": 1620,
       "bgColor": "#000000",
@@ -3718,7 +4255,50 @@
       "is_premium": true,
       "is_active": true,
       "download_count": 40,
-      "slots": []
+      "slots": [
+        {
+          "slot_index": 0,
+          "x": 64,
+          "y": 97,
+          "width": 454,
+          "height": 432
+        },
+        {
+          "slot_index": 1,
+          "x": 561,
+          "y": 97,
+          "width": 454,
+          "height": 432
+        },
+        {
+          "slot_index": 2,
+          "x": 64,
+          "y": 561,
+          "width": 454,
+          "height": 432
+        },
+        {
+          "slot_index": 3,
+          "x": 561,
+          "y": 561,
+          "width": 454,
+          "height": 432
+        },
+        {
+          "slot_index": 4,
+          "x": 64,
+          "y": 1025,
+          "width": 454,
+          "height": 432
+        },
+        {
+          "slot_index": 5,
+          "x": 561,
+          "y": 1025,
+          "width": 454,
+          "height": 432
+        }
+      ]
     },
     {
       "id": "frame-scraped-hello-darling-doodles",
@@ -3728,7 +4308,7 @@
       "thumbnail_url": "/api/scraped-frames/Hello_Darling_Doodles.webp",
       "overlay_image_url": "/api/scraped-frames/Hello_Darling_Doodles.webp",
       "layout_type": "grid_2x2",
-      "photo_slot_count": 0,
+      "photo_slot_count": 8,
       "width": 1080,
       "height": 1620,
       "bgColor": "#f7f1ed",
@@ -3737,7 +4317,64 @@
       "is_premium": true,
       "is_active": true,
       "download_count": 72,
-      "slots": []
+      "slots": [
+        {
+          "slot_index": 0,
+          "x": 64,
+          "y": 97,
+          "width": 454,
+          "height": 322
+        },
+        {
+          "slot_index": 1,
+          "x": 561,
+          "y": 97,
+          "width": 454,
+          "height": 322
+        },
+        {
+          "slot_index": 2,
+          "x": 64,
+          "y": 443,
+          "width": 454,
+          "height": 322
+        },
+        {
+          "slot_index": 3,
+          "x": 561,
+          "y": 443,
+          "width": 454,
+          "height": 322
+        },
+        {
+          "slot_index": 4,
+          "x": 64,
+          "y": 789,
+          "width": 454,
+          "height": 322
+        },
+        {
+          "slot_index": 5,
+          "x": 561,
+          "y": 789,
+          "width": 454,
+          "height": 322
+        },
+        {
+          "slot_index": 6,
+          "x": 64,
+          "y": 1135,
+          "width": 454,
+          "height": 322
+        },
+        {
+          "slot_index": 7,
+          "x": 561,
+          "y": 1135,
+          "width": 454,
+          "height": 322
+        }
+      ]
     },
     {
       "id": "frame-scraped-mon-amour-neon-blue",
@@ -3747,7 +4384,7 @@
       "thumbnail_url": "/api/scraped-frames/Mon_Amour_Neon_Blue.webp",
       "overlay_image_url": "/api/scraped-frames/Mon_Amour_Neon_Blue.webp",
       "layout_type": "grid_2x2",
-      "photo_slot_count": 0,
+      "photo_slot_count": 4,
       "width": 1080,
       "height": 1620,
       "bgColor": "#f7f1ed",
@@ -3756,7 +4393,36 @@
       "is_premium": true,
       "is_active": true,
       "download_count": 27,
-      "slots": []
+      "slots": [
+        {
+          "slot_index": 0,
+          "x": 64,
+          "y": 97,
+          "width": 454,
+          "height": 656
+        },
+        {
+          "slot_index": 1,
+          "x": 561,
+          "y": 97,
+          "width": 454,
+          "height": 656
+        },
+        {
+          "slot_index": 2,
+          "x": 64,
+          "y": 801,
+          "width": 454,
+          "height": 656
+        },
+        {
+          "slot_index": 3,
+          "x": 561,
+          "y": 801,
+          "width": 454,
+          "height": 656
+        }
+      ]
     },
     {
       "id": "frame-scraped-vintage-photo-dump",
@@ -3766,7 +4432,7 @@
       "thumbnail_url": "/api/scraped-frames/Vintage_Photo_Dump.webp",
       "overlay_image_url": "/api/scraped-frames/Vintage_Photo_Dump.webp",
       "layout_type": "grid_2x2",
-      "photo_slot_count": 0,
+      "photo_slot_count": 4,
       "width": 1080,
       "height": 1620,
       "bgColor": "#000000",
@@ -3775,7 +4441,36 @@
       "is_premium": true,
       "is_active": true,
       "download_count": 12,
-      "slots": []
+      "slots": [
+        {
+          "slot_index": 0,
+          "x": 64,
+          "y": 97,
+          "width": 454,
+          "height": 656
+        },
+        {
+          "slot_index": 1,
+          "x": 561,
+          "y": 97,
+          "width": 454,
+          "height": 656
+        },
+        {
+          "slot_index": 2,
+          "x": 64,
+          "y": 801,
+          "width": 454,
+          "height": 656
+        },
+        {
+          "slot_index": 3,
+          "x": 561,
+          "y": 801,
+          "width": 454,
+          "height": 656
+        }
+      ]
     },
     {
       "id": "frame-scraped-dark-love-photo-journal",
@@ -3785,7 +4480,7 @@
       "thumbnail_url": "/api/scraped-frames/Dark_Love_Photo_Journal.webp",
       "overlay_image_url": "/api/scraped-frames/Dark_Love_Photo_Journal.webp",
       "layout_type": "grid_2x2",
-      "photo_slot_count": 0,
+      "photo_slot_count": 4,
       "width": 1080,
       "height": 1620,
       "bgColor": "#f7f1ed",
@@ -3794,7 +4489,36 @@
       "is_premium": true,
       "is_active": true,
       "download_count": 28,
-      "slots": []
+      "slots": [
+        {
+          "slot_index": 0,
+          "x": 64,
+          "y": 97,
+          "width": 454,
+          "height": 656
+        },
+        {
+          "slot_index": 1,
+          "x": 561,
+          "y": 97,
+          "width": 454,
+          "height": 656
+        },
+        {
+          "slot_index": 2,
+          "x": 64,
+          "y": 801,
+          "width": 454,
+          "height": 656
+        },
+        {
+          "slot_index": 3,
+          "x": 561,
+          "y": 801,
+          "width": 454,
+          "height": 656
+        }
+      ]
     },
     {
       "id": "frame-scraped-vintage-floral-pearl",
@@ -3804,7 +4528,7 @@
       "thumbnail_url": "/api/scraped-frames/Vintage_Floral_Pearl.webp",
       "overlay_image_url": "/api/scraped-frames/Vintage_Floral_Pearl.webp",
       "layout_type": "grid_2x2",
-      "photo_slot_count": 0,
+      "photo_slot_count": 6,
       "width": 1080,
       "height": 1620,
       "bgColor": "#f7f1ed",
@@ -3813,7 +4537,50 @@
       "is_premium": true,
       "is_active": true,
       "download_count": 51,
-      "slots": []
+      "slots": [
+        {
+          "slot_index": 0,
+          "x": 64,
+          "y": 97,
+          "width": 454,
+          "height": 432
+        },
+        {
+          "slot_index": 1,
+          "x": 561,
+          "y": 97,
+          "width": 454,
+          "height": 432
+        },
+        {
+          "slot_index": 2,
+          "x": 64,
+          "y": 561,
+          "width": 454,
+          "height": 432
+        },
+        {
+          "slot_index": 3,
+          "x": 561,
+          "y": 561,
+          "width": 454,
+          "height": 432
+        },
+        {
+          "slot_index": 4,
+          "x": 64,
+          "y": 1025,
+          "width": 454,
+          "height": 432
+        },
+        {
+          "slot_index": 5,
+          "x": 561,
+          "y": 1025,
+          "width": 454,
+          "height": 432
+        }
+      ]
     },
     {
       "id": "frame-scraped-modern-contrast",
@@ -3823,7 +4590,7 @@
       "thumbnail_url": "/api/scraped-frames/Modern_Contrast.webp",
       "overlay_image_url": "/api/scraped-frames/Modern_Contrast.webp",
       "layout_type": "grid_2x2",
-      "photo_slot_count": 0,
+      "photo_slot_count": 6,
       "width": 1080,
       "height": 1620,
       "bgColor": "#FF6600",
@@ -3832,7 +4599,50 @@
       "is_premium": true,
       "is_active": true,
       "download_count": 16,
-      "slots": []
+      "slots": [
+        {
+          "slot_index": 0,
+          "x": 64,
+          "y": 97,
+          "width": 454,
+          "height": 432
+        },
+        {
+          "slot_index": 1,
+          "x": 561,
+          "y": 97,
+          "width": 454,
+          "height": 432
+        },
+        {
+          "slot_index": 2,
+          "x": 64,
+          "y": 561,
+          "width": 454,
+          "height": 432
+        },
+        {
+          "slot_index": 3,
+          "x": 561,
+          "y": 561,
+          "width": 454,
+          "height": 432
+        },
+        {
+          "slot_index": 4,
+          "x": 64,
+          "y": 1025,
+          "width": 454,
+          "height": 432
+        },
+        {
+          "slot_index": 5,
+          "x": 561,
+          "y": 1025,
+          "width": 454,
+          "height": 432
+        }
+      ]
     },
     {
       "id": "frame-scraped-vintage-ripped-paper",
@@ -3842,7 +4652,7 @@
       "thumbnail_url": "/api/scraped-frames/Vintage_Ripped_Paper.webp",
       "overlay_image_url": "/api/scraped-frames/Vintage_Ripped_Paper.webp",
       "layout_type": "strip_4",
-      "photo_slot_count": 0,
+      "photo_slot_count": 3,
       "width": 1080,
       "height": 3240,
       "bgColor": "#f7f1ed",
@@ -3851,7 +4661,29 @@
       "is_premium": true,
       "is_active": true,
       "download_count": 21,
-      "slots": []
+      "slots": [
+        {
+          "slot_index": 0,
+          "x": 86,
+          "y": 259,
+          "width": 908,
+          "height": 875
+        },
+        {
+          "slot_index": 1,
+          "x": 86,
+          "y": 1182,
+          "width": 908,
+          "height": 875
+        },
+        {
+          "slot_index": 2,
+          "x": 86,
+          "y": 2105,
+          "width": 908,
+          "height": 875
+        }
+      ]
     },
     {
       "id": "frame-scraped-galactic-dream",
@@ -3861,7 +4693,7 @@
       "thumbnail_url": "/api/scraped-frames/Galactic_Dream.webp",
       "overlay_image_url": "/api/scraped-frames/Galactic_Dream.webp",
       "layout_type": "grid_2x2",
-      "photo_slot_count": 0,
+      "photo_slot_count": 6,
       "width": 1080,
       "height": 1620,
       "bgColor": "#f7f1ed",
@@ -3870,7 +4702,50 @@
       "is_premium": true,
       "is_active": true,
       "download_count": 11,
-      "slots": []
+      "slots": [
+        {
+          "slot_index": 0,
+          "x": 64,
+          "y": 97,
+          "width": 454,
+          "height": 432
+        },
+        {
+          "slot_index": 1,
+          "x": 561,
+          "y": 97,
+          "width": 454,
+          "height": 432
+        },
+        {
+          "slot_index": 2,
+          "x": 64,
+          "y": 561,
+          "width": 454,
+          "height": 432
+        },
+        {
+          "slot_index": 3,
+          "x": 561,
+          "y": 561,
+          "width": 454,
+          "height": 432
+        },
+        {
+          "slot_index": 4,
+          "x": 64,
+          "y": 1025,
+          "width": 454,
+          "height": 432
+        },
+        {
+          "slot_index": 5,
+          "x": 561,
+          "y": 1025,
+          "width": 454,
+          "height": 432
+        }
+      ]
     },
     {
       "id": "frame-scraped-soft-blue-ribbon",
@@ -3880,7 +4755,7 @@
       "thumbnail_url": "/api/scraped-frames/Soft_Blue_Ribbon.webp",
       "overlay_image_url": "/api/scraped-frames/Soft_Blue_Ribbon.webp",
       "layout_type": "grid_2x2",
-      "photo_slot_count": 0,
+      "photo_slot_count": 4,
       "width": 1080,
       "height": 1620,
       "bgColor": "#000000",
@@ -3889,7 +4764,36 @@
       "is_premium": true,
       "is_active": true,
       "download_count": 18,
-      "slots": []
+      "slots": [
+        {
+          "slot_index": 0,
+          "x": 64,
+          "y": 97,
+          "width": 454,
+          "height": 656
+        },
+        {
+          "slot_index": 1,
+          "x": 561,
+          "y": 97,
+          "width": 454,
+          "height": 656
+        },
+        {
+          "slot_index": 2,
+          "x": 64,
+          "y": 801,
+          "width": 454,
+          "height": 656
+        },
+        {
+          "slot_index": 3,
+          "x": 561,
+          "y": 801,
+          "width": 454,
+          "height": 656
+        }
+      ]
     },
     {
       "id": "frame-scraped-urban-grid-lines",
@@ -3899,7 +4803,7 @@
       "thumbnail_url": "/api/scraped-frames/Urban_Grid_Lines.webp",
       "overlay_image_url": "/api/scraped-frames/Urban_Grid_Lines.webp",
       "layout_type": "strip_4",
-      "photo_slot_count": 0,
+      "photo_slot_count": 3,
       "width": 1080,
       "height": 3240,
       "bgColor": "#000000",
@@ -3908,7 +4812,29 @@
       "is_premium": true,
       "is_active": true,
       "download_count": 8,
-      "slots": []
+      "slots": [
+        {
+          "slot_index": 0,
+          "x": 86,
+          "y": 259,
+          "width": 908,
+          "height": 875
+        },
+        {
+          "slot_index": 1,
+          "x": 86,
+          "y": 1182,
+          "width": 908,
+          "height": 875
+        },
+        {
+          "slot_index": 2,
+          "x": 86,
+          "y": 2105,
+          "width": 908,
+          "height": 875
+        }
+      ]
     },
     {
       "id": "frame-scraped-vintage-cinema",
@@ -3918,7 +4844,7 @@
       "thumbnail_url": "/api/scraped-frames/Vintage_Cinema.webp",
       "overlay_image_url": "/api/scraped-frames/Vintage_Cinema.webp",
       "layout_type": "strip_4",
-      "photo_slot_count": 0,
+      "photo_slot_count": 3,
       "width": 1080,
       "height": 3240,
       "bgColor": "#f7f1ed",
@@ -3927,7 +4853,29 @@
       "is_premium": true,
       "is_active": true,
       "download_count": 20,
-      "slots": []
+      "slots": [
+        {
+          "slot_index": 0,
+          "x": 86,
+          "y": 259,
+          "width": 908,
+          "height": 875
+        },
+        {
+          "slot_index": 1,
+          "x": 86,
+          "y": 1182,
+          "width": 908,
+          "height": 875
+        },
+        {
+          "slot_index": 2,
+          "x": 86,
+          "y": 2105,
+          "width": 908,
+          "height": 875
+        }
+      ]
     },
     {
       "id": "frame-scraped-denim-dreams",
@@ -3937,7 +4885,7 @@
       "thumbnail_url": "/api/scraped-frames/Denim_&_Dreams.webp",
       "overlay_image_url": "/api/scraped-frames/Denim_&_Dreams.webp",
       "layout_type": "strip_4",
-      "photo_slot_count": 0,
+      "photo_slot_count": 3,
       "width": 1080,
       "height": 3240,
       "bgColor": "#000000",
@@ -3946,7 +4894,29 @@
       "is_premium": true,
       "is_active": true,
       "download_count": 19,
-      "slots": []
+      "slots": [
+        {
+          "slot_index": 0,
+          "x": 86,
+          "y": 259,
+          "width": 908,
+          "height": 875
+        },
+        {
+          "slot_index": 1,
+          "x": 86,
+          "y": 1182,
+          "width": 908,
+          "height": 875
+        },
+        {
+          "slot_index": 2,
+          "x": 86,
+          "y": 2105,
+          "width": 908,
+          "height": 875
+        }
+      ]
     },
     {
       "id": "frame-scraped-yesterdays-news",
@@ -3956,7 +4926,7 @@
       "thumbnail_url": "/api/scraped-frames/Yesterday's_News.webp",
       "overlay_image_url": "/api/scraped-frames/Yesterday's_News.webp",
       "layout_type": "strip_4",
-      "photo_slot_count": 0,
+      "photo_slot_count": 2,
       "width": 1080,
       "height": 3240,
       "bgColor": "#f7f1ed",
@@ -3965,7 +4935,22 @@
       "is_premium": true,
       "is_active": true,
       "download_count": 2,
-      "slots": []
+      "slots": [
+        {
+          "slot_index": 0,
+          "x": 86,
+          "y": 259,
+          "width": 908,
+          "height": 1337
+        },
+        {
+          "slot_index": 1,
+          "x": 86,
+          "y": 1644,
+          "width": 908,
+          "height": 1337
+        }
+      ]
     },
     {
       "id": "frame-scraped-artistic-soul",
@@ -3975,7 +4960,7 @@
       "thumbnail_url": "/api/scraped-frames/Artistic_Soul.webp",
       "overlay_image_url": "/api/scraped-frames/Artistic_Soul.webp",
       "layout_type": "strip_4",
-      "photo_slot_count": 0,
+      "photo_slot_count": 2,
       "width": 1080,
       "height": 3240,
       "bgColor": "#FFE1CD",
@@ -3984,7 +4969,22 @@
       "is_premium": true,
       "is_active": true,
       "download_count": 18,
-      "slots": []
+      "slots": [
+        {
+          "slot_index": 0,
+          "x": 86,
+          "y": 259,
+          "width": 908,
+          "height": 1337
+        },
+        {
+          "slot_index": 1,
+          "x": 86,
+          "y": 1644,
+          "width": 908,
+          "height": 1337
+        }
+      ]
     },
     {
       "id": "frame-scraped-urban-newsprint-love",
@@ -3994,7 +4994,7 @@
       "thumbnail_url": "/api/scraped-frames/Urban_Newsprint_Love.webp",
       "overlay_image_url": "/api/scraped-frames/Urban_Newsprint_Love.webp",
       "layout_type": "strip_4",
-      "photo_slot_count": 0,
+      "photo_slot_count": 3,
       "width": 1080,
       "height": 3240,
       "bgColor": "#f7f1ed",
@@ -4003,7 +5003,29 @@
       "is_premium": true,
       "is_active": true,
       "download_count": 11,
-      "slots": []
+      "slots": [
+        {
+          "slot_index": 0,
+          "x": 86,
+          "y": 259,
+          "width": 908,
+          "height": 875
+        },
+        {
+          "slot_index": 1,
+          "x": 86,
+          "y": 1182,
+          "width": 908,
+          "height": 875
+        },
+        {
+          "slot_index": 2,
+          "x": 86,
+          "y": 2105,
+          "width": 908,
+          "height": 875
+        }
+      ]
     },
     {
       "id": "frame-scraped-chained-to-my-heart",
@@ -4013,7 +5035,7 @@
       "thumbnail_url": "/api/scraped-frames/Chained_to_My_Heart.webp",
       "overlay_image_url": "/api/scraped-frames/Chained_to_My_Heart.webp",
       "layout_type": "strip_4",
-      "photo_slot_count": 0,
+      "photo_slot_count": 3,
       "width": 1080,
       "height": 3240,
       "bgColor": "#f7f1ed",
@@ -4022,7 +5044,29 @@
       "is_premium": true,
       "is_active": true,
       "download_count": 8,
-      "slots": []
+      "slots": [
+        {
+          "slot_index": 0,
+          "x": 86,
+          "y": 259,
+          "width": 908,
+          "height": 875
+        },
+        {
+          "slot_index": 1,
+          "x": 86,
+          "y": 1182,
+          "width": 908,
+          "height": 875
+        },
+        {
+          "slot_index": 2,
+          "x": 86,
+          "y": 2105,
+          "width": 908,
+          "height": 875
+        }
+      ]
     },
     {
       "id": "frame-scraped-monochrome-love",
@@ -4032,7 +5076,7 @@
       "thumbnail_url": "/api/scraped-frames/Monochrome_Love.webp",
       "overlay_image_url": "/api/scraped-frames/Monochrome_Love.webp",
       "layout_type": "strip_4",
-      "photo_slot_count": 0,
+      "photo_slot_count": 3,
       "width": 1080,
       "height": 3240,
       "bgColor": "#f7f1ed",
@@ -4041,7 +5085,29 @@
       "is_premium": true,
       "is_active": true,
       "download_count": 7,
-      "slots": []
+      "slots": [
+        {
+          "slot_index": 0,
+          "x": 86,
+          "y": 259,
+          "width": 908,
+          "height": 875
+        },
+        {
+          "slot_index": 1,
+          "x": 86,
+          "y": 1182,
+          "width": 908,
+          "height": 875
+        },
+        {
+          "slot_index": 2,
+          "x": 86,
+          "y": 2105,
+          "width": 908,
+          "height": 875
+        }
+      ]
     },
     {
       "id": "frame-scraped-classic-cinema-reel",
@@ -4051,7 +5117,7 @@
       "thumbnail_url": "/api/scraped-frames/Classic_Cinema_Reel.webp",
       "overlay_image_url": "/api/scraped-frames/Classic_Cinema_Reel.webp",
       "layout_type": "strip_4",
-      "photo_slot_count": 0,
+      "photo_slot_count": 2,
       "width": 1080,
       "height": 3240,
       "bgColor": "#f7f1ed",
@@ -4060,7 +5126,22 @@
       "is_premium": true,
       "is_active": true,
       "download_count": 3,
-      "slots": []
+      "slots": [
+        {
+          "slot_index": 0,
+          "x": 86,
+          "y": 259,
+          "width": 908,
+          "height": 1337
+        },
+        {
+          "slot_index": 1,
+          "x": 86,
+          "y": 1644,
+          "width": 908,
+          "height": 1337
+        }
+      ]
     },
     {
       "id": "frame-scraped-fruit-floral",
@@ -4070,7 +5151,7 @@
       "thumbnail_url": "/api/scraped-frames/Fruit_Floral.webp",
       "overlay_image_url": "/api/scraped-frames/Fruit_Floral.webp",
       "layout_type": "strip_4",
-      "photo_slot_count": 0,
+      "photo_slot_count": 3,
       "width": 1080,
       "height": 3240,
       "bgColor": "#f7f1ed",
@@ -4079,7 +5160,29 @@
       "is_premium": true,
       "is_active": true,
       "download_count": 7,
-      "slots": []
+      "slots": [
+        {
+          "slot_index": 0,
+          "x": 86,
+          "y": 259,
+          "width": 908,
+          "height": 875
+        },
+        {
+          "slot_index": 1,
+          "x": 86,
+          "y": 1182,
+          "width": 908,
+          "height": 875
+        },
+        {
+          "slot_index": 2,
+          "x": 86,
+          "y": 2105,
+          "width": 908,
+          "height": 875
+        }
+      ]
     },
     {
       "id": "frame-scraped-bold-contrast",
@@ -4089,7 +5192,7 @@
       "thumbnail_url": "/api/scraped-frames/Bold_Contrast.webp",
       "overlay_image_url": "/api/scraped-frames/Bold_Contrast.webp",
       "layout_type": "strip_4",
-      "photo_slot_count": 0,
+      "photo_slot_count": 3,
       "width": 1080,
       "height": 3240,
       "bgColor": "#FFFFFF",
@@ -4098,7 +5201,29 @@
       "is_premium": true,
       "is_active": true,
       "download_count": 3,
-      "slots": []
+      "slots": [
+        {
+          "slot_index": 0,
+          "x": 86,
+          "y": 259,
+          "width": 908,
+          "height": 875
+        },
+        {
+          "slot_index": 1,
+          "x": 86,
+          "y": 1182,
+          "width": 908,
+          "height": 875
+        },
+        {
+          "slot_index": 2,
+          "x": 86,
+          "y": 2105,
+          "width": 908,
+          "height": 875
+        }
+      ]
     },
     {
       "id": "frame-scraped-love-ingredients",
@@ -4108,7 +5233,7 @@
       "thumbnail_url": "/api/scraped-frames/Love_Ingredients.webp",
       "overlay_image_url": "/api/scraped-frames/Love_Ingredients.webp",
       "layout_type": "strip_4",
-      "photo_slot_count": 0,
+      "photo_slot_count": 2,
       "width": 1080,
       "height": 3240,
       "bgColor": "#f7f1ed",
@@ -4117,7 +5242,22 @@
       "is_premium": true,
       "is_active": true,
       "download_count": 8,
-      "slots": []
+      "slots": [
+        {
+          "slot_index": 0,
+          "x": 86,
+          "y": 259,
+          "width": 908,
+          "height": 1337
+        },
+        {
+          "slot_index": 1,
+          "x": 86,
+          "y": 1644,
+          "width": 908,
+          "height": 1337
+        }
+      ]
     },
     {
       "id": "frame-scraped-red-brown",
@@ -4127,7 +5267,7 @@
       "thumbnail_url": "/api/scraped-frames/red_\u00d7_brown.webp",
       "overlay_image_url": "/api/scraped-frames/red_\u00d7_brown.webp",
       "layout_type": "grid_2x2",
-      "photo_slot_count": 0,
+      "photo_slot_count": 1,
       "width": 1080,
       "height": 1920,
       "bgColor": "#ffffff",
@@ -4136,7 +5276,15 @@
       "is_premium": true,
       "is_active": true,
       "download_count": 269,
-      "slots": []
+      "slots": [
+        {
+          "slot_index": 0,
+          "x": 86,
+          "y": 153,
+          "width": 908,
+          "height": 1422
+        }
+      ]
     },
     {
       "id": "frame-scraped-ocean-melody-polaroids",
@@ -4146,7 +5294,7 @@
       "thumbnail_url": "/api/scraped-frames/Ocean_Melody_Polaroids.webp",
       "overlay_image_url": "/api/scraped-frames/Ocean_Melody_Polaroids.webp",
       "layout_type": "grid_2x2",
-      "photo_slot_count": 0,
+      "photo_slot_count": 3,
       "width": 1080,
       "height": 1920,
       "bgColor": "#ffffff",
@@ -4155,7 +5303,29 @@
       "is_premium": true,
       "is_active": true,
       "download_count": 344,
-      "slots": []
+      "slots": [
+        {
+          "slot_index": 0,
+          "x": 86,
+          "y": 153,
+          "width": 908,
+          "height": 493
+        },
+        {
+          "slot_index": 1,
+          "x": 86,
+          "y": 674,
+          "width": 908,
+          "height": 493
+        },
+        {
+          "slot_index": 2,
+          "x": 86,
+          "y": 1195,
+          "width": 908,
+          "height": 493
+        }
+      ]
     },
     {
       "id": "frame-scraped-vintage-b-day-record",
@@ -4165,7 +5335,7 @@
       "thumbnail_url": "/api/scraped-frames/Vintage_B-Day_Record.webp",
       "overlay_image_url": "/api/scraped-frames/Vintage_B-Day_Record.webp",
       "layout_type": "grid_2x2",
-      "photo_slot_count": 0,
+      "photo_slot_count": 1,
       "width": 1080,
       "height": 1920,
       "bgColor": "#ffffff",
@@ -4174,7 +5344,15 @@
       "is_premium": true,
       "is_active": true,
       "download_count": 54,
-      "slots": []
+      "slots": [
+        {
+          "slot_index": 0,
+          "x": 86,
+          "y": 153,
+          "width": 908,
+          "height": 1422
+        }
+      ]
     },
     {
       "id": "frame-scraped-blush-birthday-picnic",
@@ -4184,7 +5362,7 @@
       "thumbnail_url": "/api/scraped-frames/Blush_Birthday_Picnic.webp",
       "overlay_image_url": "/api/scraped-frames/Blush_Birthday_Picnic.webp",
       "layout_type": "grid_2x2",
-      "photo_slot_count": 0,
+      "photo_slot_count": 1,
       "width": 1080,
       "height": 1920,
       "bgColor": "#ffffff",
@@ -4193,7 +5371,15 @@
       "is_premium": true,
       "is_active": true,
       "download_count": 49,
-      "slots": []
+      "slots": [
+        {
+          "slot_index": 0,
+          "x": 86,
+          "y": 153,
+          "width": 908,
+          "height": 1422
+        }
+      ]
     },
     {
       "id": "frame-scraped-buat-foto-bareng-teman",
@@ -4203,7 +5389,7 @@
       "thumbnail_url": "/api/scraped-frames/buat_foto_bareng_teman.webp",
       "overlay_image_url": "/api/scraped-frames/buat_foto_bareng_teman.webp",
       "layout_type": "grid_2x2",
-      "photo_slot_count": 0,
+      "photo_slot_count": 3,
       "width": 1080,
       "height": 1920,
       "bgColor": "#ffffff",
@@ -4212,7 +5398,29 @@
       "is_premium": true,
       "is_active": true,
       "download_count": 16,
-      "slots": []
+      "slots": [
+        {
+          "slot_index": 0,
+          "x": 86,
+          "y": 153,
+          "width": 908,
+          "height": 493
+        },
+        {
+          "slot_index": 1,
+          "x": 86,
+          "y": 674,
+          "width": 908,
+          "height": 493
+        },
+        {
+          "slot_index": 2,
+          "x": 86,
+          "y": 1195,
+          "width": 908,
+          "height": 493
+        }
+      ]
     },
     {
       "id": "frame-scraped-vintage-polaroid",
@@ -4222,7 +5430,7 @@
       "thumbnail_url": "/api/scraped-frames/vintage_polaroid.webp",
       "overlay_image_url": "/api/scraped-frames/vintage_polaroid.webp",
       "layout_type": "grid_2x2",
-      "photo_slot_count": 0,
+      "photo_slot_count": 3,
       "width": 1080,
       "height": 1920,
       "bgColor": "#ffffff",
@@ -4231,7 +5439,29 @@
       "is_premium": true,
       "is_active": true,
       "download_count": 87,
-      "slots": []
+      "slots": [
+        {
+          "slot_index": 0,
+          "x": 86,
+          "y": 153,
+          "width": 908,
+          "height": 493
+        },
+        {
+          "slot_index": 1,
+          "x": 86,
+          "y": 674,
+          "width": 908,
+          "height": 493
+        },
+        {
+          "slot_index": 2,
+          "x": 86,
+          "y": 1195,
+          "width": 908,
+          "height": 493
+        }
+      ]
     },
     {
       "id": "frame-scraped-navy",
@@ -4241,7 +5471,7 @@
       "thumbnail_url": "/api/scraped-frames/Navy.webp",
       "overlay_image_url": "/api/scraped-frames/Navy.webp",
       "layout_type": "grid_2x2",
-      "photo_slot_count": 0,
+      "photo_slot_count": 3,
       "width": 1080,
       "height": 1920,
       "bgColor": "#ffffff",
@@ -4250,7 +5480,29 @@
       "is_premium": true,
       "is_active": true,
       "download_count": 55,
-      "slots": []
+      "slots": [
+        {
+          "slot_index": 0,
+          "x": 86,
+          "y": 153,
+          "width": 908,
+          "height": 493
+        },
+        {
+          "slot_index": 1,
+          "x": 86,
+          "y": 674,
+          "width": 908,
+          "height": 493
+        },
+        {
+          "slot_index": 2,
+          "x": 86,
+          "y": 1195,
+          "width": 908,
+          "height": 493
+        }
+      ]
     },
     {
       "id": "frame-scraped-ocean-cream",
@@ -4260,7 +5512,7 @@
       "thumbnail_url": "/api/scraped-frames/ocean_cream.webp",
       "overlay_image_url": "/api/scraped-frames/ocean_cream.webp",
       "layout_type": "grid_2x2",
-      "photo_slot_count": 0,
+      "photo_slot_count": 2,
       "width": 1080,
       "height": 1920,
       "bgColor": "#ffffff",
@@ -4269,7 +5521,22 @@
       "is_premium": true,
       "is_active": true,
       "download_count": 33,
-      "slots": []
+      "slots": [
+        {
+          "slot_index": 0,
+          "x": 86,
+          "y": 153,
+          "width": 908,
+          "height": 749
+        },
+        {
+          "slot_index": 1,
+          "x": 86,
+          "y": 940,
+          "width": 908,
+          "height": 749
+        }
+      ]
     },
     {
       "id": "frame-scraped-browniee",
@@ -4279,7 +5546,7 @@
       "thumbnail_url": "/api/scraped-frames/browniee.png",
       "overlay_image_url": "/api/scraped-frames/browniee.png",
       "layout_type": "grid_2x2",
-      "photo_slot_count": 0,
+      "photo_slot_count": 3,
       "width": 1080,
       "height": 1920,
       "bgColor": "#ffffff",
@@ -4288,7 +5555,29 @@
       "is_premium": true,
       "is_active": true,
       "download_count": 282,
-      "slots": []
+      "slots": [
+        {
+          "slot_index": 0,
+          "x": 86,
+          "y": 153,
+          "width": 908,
+          "height": 493
+        },
+        {
+          "slot_index": 1,
+          "x": 86,
+          "y": 674,
+          "width": 908,
+          "height": 493
+        },
+        {
+          "slot_index": 2,
+          "x": 86,
+          "y": 1195,
+          "width": 908,
+          "height": 493
+        }
+      ]
     },
     {
       "id": "frame-scraped-frameseries-black-2",
@@ -4298,7 +5587,7 @@
       "thumbnail_url": "/api/scraped-frames/FrameSeries_-_Black_-_2.webp",
       "overlay_image_url": "/api/scraped-frames/FrameSeries_-_Black_-_2.webp",
       "layout_type": "grid_2x2",
-      "photo_slot_count": 0,
+      "photo_slot_count": 2,
       "width": 1080,
       "height": 1920,
       "bgColor": "#ffffff",
@@ -4307,7 +5596,22 @@
       "is_premium": true,
       "is_active": true,
       "download_count": 188,
-      "slots": []
+      "slots": [
+        {
+          "slot_index": 0,
+          "x": 86,
+          "y": 153,
+          "width": 908,
+          "height": 749
+        },
+        {
+          "slot_index": 1,
+          "x": 86,
+          "y": 940,
+          "width": 908,
+          "height": 749
+        }
+      ]
     },
     {
       "id": "frame-scraped-koran",
@@ -4317,7 +5621,7 @@
       "thumbnail_url": "/api/scraped-frames/koran.webp",
       "overlay_image_url": "/api/scraped-frames/koran.webp",
       "layout_type": "grid_2x2",
-      "photo_slot_count": 0,
+      "photo_slot_count": 2,
       "width": 1080,
       "height": 1920,
       "bgColor": "#ffffff",
@@ -4326,7 +5630,22 @@
       "is_premium": true,
       "is_active": true,
       "download_count": 737,
-      "slots": []
+      "slots": [
+        {
+          "slot_index": 0,
+          "x": 86,
+          "y": 153,
+          "width": 908,
+          "height": 749
+        },
+        {
+          "slot_index": 1,
+          "x": 86,
+          "y": 940,
+          "width": 908,
+          "height": 749
+        }
+      ]
     },
     {
       "id": "frame-scraped-dial-up-nostalgia",
@@ -4336,7 +5655,7 @@
       "thumbnail_url": "/api/scraped-frames/Dial-Up_Nostalgia.png",
       "overlay_image_url": "/api/scraped-frames/Dial-Up_Nostalgia.png",
       "layout_type": "grid_2x2",
-      "photo_slot_count": 0,
+      "photo_slot_count": 1,
       "width": 1080,
       "height": 1920,
       "bgColor": "#ffffff",
@@ -4345,7 +5664,15 @@
       "is_premium": true,
       "is_active": true,
       "download_count": 29,
-      "slots": []
+      "slots": [
+        {
+          "slot_index": 0,
+          "x": 86,
+          "y": 153,
+          "width": 908,
+          "height": 1422
+        }
+      ]
     },
     {
       "id": "frame-scraped-red-photo",
@@ -4355,7 +5682,7 @@
       "thumbnail_url": "/api/scraped-frames/Red_Photo.webp",
       "overlay_image_url": "/api/scraped-frames/Red_Photo.webp",
       "layout_type": "grid_2x2",
-      "photo_slot_count": 0,
+      "photo_slot_count": 6,
       "width": 1080,
       "height": 1920,
       "bgColor": "#ffffff",
@@ -4364,7 +5691,50 @@
       "is_premium": true,
       "is_active": true,
       "download_count": 699,
-      "slots": []
+      "slots": [
+        {
+          "slot_index": 0,
+          "x": 64,
+          "y": 115,
+          "width": 454,
+          "height": 512
+        },
+        {
+          "slot_index": 1,
+          "x": 561,
+          "y": 115,
+          "width": 454,
+          "height": 512
+        },
+        {
+          "slot_index": 2,
+          "x": 64,
+          "y": 665,
+          "width": 454,
+          "height": 512
+        },
+        {
+          "slot_index": 3,
+          "x": 561,
+          "y": 665,
+          "width": 454,
+          "height": 512
+        },
+        {
+          "slot_index": 4,
+          "x": 64,
+          "y": 1215,
+          "width": 454,
+          "height": 512
+        },
+        {
+          "slot_index": 5,
+          "x": 561,
+          "y": 1215,
+          "width": 454,
+          "height": 512
+        }
+      ]
     },
     {
       "id": "frame-scraped-cherry-picnic",
@@ -4374,7 +5744,7 @@
       "thumbnail_url": "/api/scraped-frames/Cherry_Picnic\ud83c\udf52.webp",
       "overlay_image_url": "/api/scraped-frames/Cherry_Picnic\ud83c\udf52.webp",
       "layout_type": "grid_2x2",
-      "photo_slot_count": 0,
+      "photo_slot_count": 3,
       "width": 1080,
       "height": 1920,
       "bgColor": "#ffffff",
@@ -4383,7 +5753,29 @@
       "is_premium": true,
       "is_active": true,
       "download_count": 37,
-      "slots": []
+      "slots": [
+        {
+          "slot_index": 0,
+          "x": 86,
+          "y": 153,
+          "width": 908,
+          "height": 493
+        },
+        {
+          "slot_index": 1,
+          "x": 86,
+          "y": 674,
+          "width": 908,
+          "height": 493
+        },
+        {
+          "slot_index": 2,
+          "x": 86,
+          "y": 1195,
+          "width": 908,
+          "height": 493
+        }
+      ]
     },
     {
       "id": "frame-scraped-holiday-mode-on",
@@ -4393,7 +5785,7 @@
       "thumbnail_url": "/api/scraped-frames/Holiday_Mode_On.webp",
       "overlay_image_url": "/api/scraped-frames/Holiday_Mode_On.webp",
       "layout_type": "grid_2x2",
-      "photo_slot_count": 0,
+      "photo_slot_count": 6,
       "width": 1080,
       "height": 1920,
       "bgColor": "#000000",
@@ -4402,7 +5794,50 @@
       "is_premium": true,
       "is_active": true,
       "download_count": 70,
-      "slots": []
+      "slots": [
+        {
+          "slot_index": 0,
+          "x": 64,
+          "y": 115,
+          "width": 454,
+          "height": 512
+        },
+        {
+          "slot_index": 1,
+          "x": 561,
+          "y": 115,
+          "width": 454,
+          "height": 512
+        },
+        {
+          "slot_index": 2,
+          "x": 64,
+          "y": 665,
+          "width": 454,
+          "height": 512
+        },
+        {
+          "slot_index": 3,
+          "x": 561,
+          "y": 665,
+          "width": 454,
+          "height": 512
+        },
+        {
+          "slot_index": 4,
+          "x": 64,
+          "y": 1215,
+          "width": 454,
+          "height": 512
+        },
+        {
+          "slot_index": 5,
+          "x": 561,
+          "y": 1215,
+          "width": 454,
+          "height": 512
+        }
+      ]
     },
     {
       "id": "frame-scraped-holi-yay-sparkles",
@@ -4412,7 +5847,7 @@
       "thumbnail_url": "/api/scraped-frames/Holi-YAY_Sparkles.webp",
       "overlay_image_url": "/api/scraped-frames/Holi-YAY_Sparkles.webp",
       "layout_type": "grid_2x2",
-      "photo_slot_count": 0,
+      "photo_slot_count": 6,
       "width": 1080,
       "height": 1920,
       "bgColor": "#050504",
@@ -4421,7 +5856,50 @@
       "is_premium": true,
       "is_active": true,
       "download_count": 53,
-      "slots": []
+      "slots": [
+        {
+          "slot_index": 0,
+          "x": 64,
+          "y": 115,
+          "width": 454,
+          "height": 512
+        },
+        {
+          "slot_index": 1,
+          "x": 561,
+          "y": 115,
+          "width": 454,
+          "height": 512
+        },
+        {
+          "slot_index": 2,
+          "x": 64,
+          "y": 665,
+          "width": 454,
+          "height": 512
+        },
+        {
+          "slot_index": 3,
+          "x": 561,
+          "y": 665,
+          "width": 454,
+          "height": 512
+        },
+        {
+          "slot_index": 4,
+          "x": 64,
+          "y": 1215,
+          "width": 454,
+          "height": 512
+        },
+        {
+          "slot_index": 5,
+          "x": 561,
+          "y": 1215,
+          "width": 454,
+          "height": 512
+        }
+      ]
     },
     {
       "id": "frame-scraped-sweet-and-cozy-days",
@@ -4431,7 +5909,7 @@
       "thumbnail_url": "/api/scraped-frames/Sweet_and_Cozy_Days.webp",
       "overlay_image_url": "/api/scraped-frames/Sweet_and_Cozy_Days.webp",
       "layout_type": "grid_2x2",
-      "photo_slot_count": 0,
+      "photo_slot_count": 6,
       "width": 1080,
       "height": 1920,
       "bgColor": "#000000",
@@ -4440,7 +5918,50 @@
       "is_premium": true,
       "is_active": true,
       "download_count": 290,
-      "slots": []
+      "slots": [
+        {
+          "slot_index": 0,
+          "x": 64,
+          "y": 115,
+          "width": 454,
+          "height": 512
+        },
+        {
+          "slot_index": 1,
+          "x": 561,
+          "y": 115,
+          "width": 454,
+          "height": 512
+        },
+        {
+          "slot_index": 2,
+          "x": 64,
+          "y": 665,
+          "width": 454,
+          "height": 512
+        },
+        {
+          "slot_index": 3,
+          "x": 561,
+          "y": 665,
+          "width": 454,
+          "height": 512
+        },
+        {
+          "slot_index": 4,
+          "x": 64,
+          "y": 1215,
+          "width": 454,
+          "height": 512
+        },
+        {
+          "slot_index": 5,
+          "x": 561,
+          "y": 1215,
+          "width": 454,
+          "height": 512
+        }
+      ]
     },
     {
       "id": "frame-scraped-authentic-season-feels",
@@ -4450,7 +5971,7 @@
       "thumbnail_url": "/api/scraped-frames/Authentic_Season_Feels.webp",
       "overlay_image_url": "/api/scraped-frames/Authentic_Season_Feels.webp",
       "layout_type": "grid_2x2",
-      "photo_slot_count": 0,
+      "photo_slot_count": 6,
       "width": 1080,
       "height": 1920,
       "bgColor": "#f7f1ed",
@@ -4459,7 +5980,50 @@
       "is_premium": true,
       "is_active": true,
       "download_count": 8,
-      "slots": []
+      "slots": [
+        {
+          "slot_index": 0,
+          "x": 64,
+          "y": 115,
+          "width": 454,
+          "height": 512
+        },
+        {
+          "slot_index": 1,
+          "x": 561,
+          "y": 115,
+          "width": 454,
+          "height": 512
+        },
+        {
+          "slot_index": 2,
+          "x": 64,
+          "y": 665,
+          "width": 454,
+          "height": 512
+        },
+        {
+          "slot_index": 3,
+          "x": 561,
+          "y": 665,
+          "width": 454,
+          "height": 512
+        },
+        {
+          "slot_index": 4,
+          "x": 64,
+          "y": 1215,
+          "width": 454,
+          "height": 512
+        },
+        {
+          "slot_index": 5,
+          "x": 561,
+          "y": 1215,
+          "width": 454,
+          "height": 512
+        }
+      ]
     },
     {
       "id": "frame-scraped-moments-with-loved-ones",
@@ -4469,7 +6033,7 @@
       "thumbnail_url": "/api/scraped-frames/Moments_with_Loved_Ones.webp",
       "overlay_image_url": "/api/scraped-frames/Moments_with_Loved_Ones.webp",
       "layout_type": "grid_2x2",
-      "photo_slot_count": 0,
+      "photo_slot_count": 6,
       "width": 1080,
       "height": 1920,
       "bgColor": "#f7f1ed",
@@ -4478,7 +6042,50 @@
       "is_premium": true,
       "is_active": true,
       "download_count": 2,
-      "slots": []
+      "slots": [
+        {
+          "slot_index": 0,
+          "x": 64,
+          "y": 115,
+          "width": 454,
+          "height": 512
+        },
+        {
+          "slot_index": 1,
+          "x": 561,
+          "y": 115,
+          "width": 454,
+          "height": 512
+        },
+        {
+          "slot_index": 2,
+          "x": 64,
+          "y": 665,
+          "width": 454,
+          "height": 512
+        },
+        {
+          "slot_index": 3,
+          "x": 561,
+          "y": 665,
+          "width": 454,
+          "height": 512
+        },
+        {
+          "slot_index": 4,
+          "x": 64,
+          "y": 1215,
+          "width": 454,
+          "height": 512
+        },
+        {
+          "slot_index": 5,
+          "x": 561,
+          "y": 1215,
+          "width": 454,
+          "height": 512
+        }
+      ]
     },
     {
       "id": "frame-scraped-bright-holiday-spirits",
@@ -4488,7 +6095,7 @@
       "thumbnail_url": "/api/scraped-frames/Bright_Holiday_Spirits.webp",
       "overlay_image_url": "/api/scraped-frames/Bright_Holiday_Spirits.webp",
       "layout_type": "grid_2x2",
-      "photo_slot_count": 0,
+      "photo_slot_count": 4,
       "width": 1080,
       "height": 1920,
       "bgColor": "#f7f1ed",
@@ -4497,7 +6104,36 @@
       "is_premium": true,
       "is_active": true,
       "download_count": 13,
-      "slots": []
+      "slots": [
+        {
+          "slot_index": 0,
+          "x": 64,
+          "y": 115,
+          "width": 454,
+          "height": 778
+        },
+        {
+          "slot_index": 1,
+          "x": 561,
+          "y": 115,
+          "width": 454,
+          "height": 778
+        },
+        {
+          "slot_index": 2,
+          "x": 64,
+          "y": 950,
+          "width": 454,
+          "height": 778
+        },
+        {
+          "slot_index": 3,
+          "x": 561,
+          "y": 950,
+          "width": 454,
+          "height": 778
+        }
+      ]
     },
     {
       "id": "frame-scraped-happy-holiyay-vibes",
@@ -4507,7 +6143,7 @@
       "thumbnail_url": "/api/scraped-frames/Happy_Holiyay_Vibes.webp",
       "overlay_image_url": "/api/scraped-frames/Happy_Holiyay_Vibes.webp",
       "layout_type": "grid_2x2",
-      "photo_slot_count": 0,
+      "photo_slot_count": 4,
       "width": 1080,
       "height": 1920,
       "bgColor": "#f7f1ed",
@@ -4516,7 +6152,36 @@
       "is_premium": true,
       "is_active": true,
       "download_count": 10,
-      "slots": []
+      "slots": [
+        {
+          "slot_index": 0,
+          "x": 64,
+          "y": 115,
+          "width": 454,
+          "height": 778
+        },
+        {
+          "slot_index": 1,
+          "x": 561,
+          "y": 115,
+          "width": 454,
+          "height": 778
+        },
+        {
+          "slot_index": 2,
+          "x": 64,
+          "y": 950,
+          "width": 454,
+          "height": 778
+        },
+        {
+          "slot_index": 3,
+          "x": 561,
+          "y": 950,
+          "width": 454,
+          "height": 778
+        }
+      ]
     },
     {
       "id": "frame-scraped-make-your-moments-real",
@@ -4526,7 +6191,7 @@
       "thumbnail_url": "/api/scraped-frames/Make_Your_Moments_Real.webp",
       "overlay_image_url": "/api/scraped-frames/Make_Your_Moments_Real.webp",
       "layout_type": "grid_2x2",
-      "photo_slot_count": 0,
+      "photo_slot_count": 2,
       "width": 1080,
       "height": 1920,
       "bgColor": "#f7f1ed",
@@ -4535,7 +6200,22 @@
       "is_premium": true,
       "is_active": true,
       "download_count": 14,
-      "slots": []
+      "slots": [
+        {
+          "slot_index": 0,
+          "x": 86,
+          "y": 153,
+          "width": 908,
+          "height": 749
+        },
+        {
+          "slot_index": 1,
+          "x": 86,
+          "y": 940,
+          "width": 908,
+          "height": 749
+        }
+      ]
     },
     {
       "id": "frame-scraped-holiday-starter-pack-pink",
@@ -4545,7 +6225,7 @@
       "thumbnail_url": "/api/scraped-frames/Holiday_Starter_Pack_Pink.webp",
       "overlay_image_url": "/api/scraped-frames/Holiday_Starter_Pack_Pink.webp",
       "layout_type": "grid_2x2",
-      "photo_slot_count": 0,
+      "photo_slot_count": 6,
       "width": 1080,
       "height": 1920,
       "bgColor": "#f7f1ed",
@@ -4554,7 +6234,50 @@
       "is_premium": true,
       "is_active": true,
       "download_count": 5,
-      "slots": []
+      "slots": [
+        {
+          "slot_index": 0,
+          "x": 64,
+          "y": 115,
+          "width": 454,
+          "height": 512
+        },
+        {
+          "slot_index": 1,
+          "x": 561,
+          "y": 115,
+          "width": 454,
+          "height": 512
+        },
+        {
+          "slot_index": 2,
+          "x": 64,
+          "y": 665,
+          "width": 454,
+          "height": 512
+        },
+        {
+          "slot_index": 3,
+          "x": 561,
+          "y": 665,
+          "width": 454,
+          "height": 512
+        },
+        {
+          "slot_index": 4,
+          "x": 64,
+          "y": 1215,
+          "width": 454,
+          "height": 512
+        },
+        {
+          "slot_index": 5,
+          "x": 561,
+          "y": 1215,
+          "width": 454,
+          "height": 512
+        }
+      ]
     },
     {
       "id": "frame-scraped-holiday-starter-pack-blue",
@@ -4564,7 +6287,7 @@
       "thumbnail_url": "/api/scraped-frames/Holiday_Starter_Pack_Blue.webp",
       "overlay_image_url": "/api/scraped-frames/Holiday_Starter_Pack_Blue.webp",
       "layout_type": "grid_2x2",
-      "photo_slot_count": 0,
+      "photo_slot_count": 6,
       "width": 1080,
       "height": 1920,
       "bgColor": "#f7f1ed",
@@ -4573,7 +6296,50 @@
       "is_premium": true,
       "is_active": true,
       "download_count": 2,
-      "slots": []
+      "slots": [
+        {
+          "slot_index": 0,
+          "x": 64,
+          "y": 115,
+          "width": 454,
+          "height": 512
+        },
+        {
+          "slot_index": 1,
+          "x": 561,
+          "y": 115,
+          "width": 454,
+          "height": 512
+        },
+        {
+          "slot_index": 2,
+          "x": 64,
+          "y": 665,
+          "width": 454,
+          "height": 512
+        },
+        {
+          "slot_index": 3,
+          "x": 561,
+          "y": 665,
+          "width": 454,
+          "height": 512
+        },
+        {
+          "slot_index": 4,
+          "x": 64,
+          "y": 1215,
+          "width": 454,
+          "height": 512
+        },
+        {
+          "slot_index": 5,
+          "x": 561,
+          "y": 1215,
+          "width": 454,
+          "height": 512
+        }
+      ]
     },
     {
       "id": "frame-scraped-checkered-romance",
@@ -4583,7 +6349,7 @@
       "thumbnail_url": "/api/scraped-frames/Checkered_Romance.webp",
       "overlay_image_url": "/api/scraped-frames/Checkered_Romance.webp",
       "layout_type": "grid_2x2",
-      "photo_slot_count": 0,
+      "photo_slot_count": 4,
       "width": 1080,
       "height": 1920,
       "bgColor": "#f7f1ed",
@@ -4592,7 +6358,36 @@
       "is_premium": true,
       "is_active": true,
       "download_count": 260,
-      "slots": []
+      "slots": [
+        {
+          "slot_index": 0,
+          "x": 64,
+          "y": 115,
+          "width": 454,
+          "height": 778
+        },
+        {
+          "slot_index": 1,
+          "x": 561,
+          "y": 115,
+          "width": 454,
+          "height": 778
+        },
+        {
+          "slot_index": 2,
+          "x": 64,
+          "y": 950,
+          "width": 454,
+          "height": 778
+        },
+        {
+          "slot_index": 3,
+          "x": 561,
+          "y": 950,
+          "width": 454,
+          "height": 778
+        }
+      ]
     },
     {
       "id": "frame-scraped-golden-stars-dream",
@@ -4602,7 +6397,7 @@
       "thumbnail_url": "/api/scraped-frames/Golden_Stars_Dream.webp",
       "overlay_image_url": "/api/scraped-frames/Golden_Stars_Dream.webp",
       "layout_type": "grid_2x2",
-      "photo_slot_count": 0,
+      "photo_slot_count": 6,
       "width": 1080,
       "height": 1920,
       "bgColor": "#f7f1ed",
@@ -4611,7 +6406,50 @@
       "is_premium": true,
       "is_active": true,
       "download_count": 234,
-      "slots": []
+      "slots": [
+        {
+          "slot_index": 0,
+          "x": 64,
+          "y": 115,
+          "width": 454,
+          "height": 512
+        },
+        {
+          "slot_index": 1,
+          "x": 561,
+          "y": 115,
+          "width": 454,
+          "height": 512
+        },
+        {
+          "slot_index": 2,
+          "x": 64,
+          "y": 665,
+          "width": 454,
+          "height": 512
+        },
+        {
+          "slot_index": 3,
+          "x": 561,
+          "y": 665,
+          "width": 454,
+          "height": 512
+        },
+        {
+          "slot_index": 4,
+          "x": 64,
+          "y": 1215,
+          "width": 454,
+          "height": 512
+        },
+        {
+          "slot_index": 5,
+          "x": 561,
+          "y": 1215,
+          "width": 454,
+          "height": 512
+        }
+      ]
     },
     {
       "id": "frame-scraped-classic-heart-stripes",
@@ -4621,7 +6459,7 @@
       "thumbnail_url": "/api/scraped-frames/Classic_Heart_Stripes.webp",
       "overlay_image_url": "/api/scraped-frames/Classic_Heart_Stripes.webp",
       "layout_type": "grid_2x2",
-      "photo_slot_count": 0,
+      "photo_slot_count": 2,
       "width": 1080,
       "height": 1920,
       "bgColor": "#f7f1ed",
@@ -4630,7 +6468,22 @@
       "is_premium": true,
       "is_active": true,
       "download_count": 139,
-      "slots": []
+      "slots": [
+        {
+          "slot_index": 0,
+          "x": 86,
+          "y": 153,
+          "width": 908,
+          "height": 749
+        },
+        {
+          "slot_index": 1,
+          "x": 86,
+          "y": 940,
+          "width": 908,
+          "height": 749
+        }
+      ]
     },
     {
       "id": "frame-scraped-long-way-love",
@@ -4640,7 +6493,7 @@
       "thumbnail_url": "/api/scraped-frames/Long_Way_Love.webp",
       "overlay_image_url": "/api/scraped-frames/Long_Way_Love.webp",
       "layout_type": "grid_2x2",
-      "photo_slot_count": 0,
+      "photo_slot_count": 6,
       "width": 1080,
       "height": 1920,
       "bgColor": "#f7f1ed",
@@ -4649,7 +6502,50 @@
       "is_premium": true,
       "is_active": true,
       "download_count": 4,
-      "slots": []
+      "slots": [
+        {
+          "slot_index": 0,
+          "x": 64,
+          "y": 115,
+          "width": 454,
+          "height": 512
+        },
+        {
+          "slot_index": 1,
+          "x": 561,
+          "y": 115,
+          "width": 454,
+          "height": 512
+        },
+        {
+          "slot_index": 2,
+          "x": 64,
+          "y": 665,
+          "width": 454,
+          "height": 512
+        },
+        {
+          "slot_index": 3,
+          "x": 561,
+          "y": 665,
+          "width": 454,
+          "height": 512
+        },
+        {
+          "slot_index": 4,
+          "x": 64,
+          "y": 1215,
+          "width": 454,
+          "height": 512
+        },
+        {
+          "slot_index": 5,
+          "x": 561,
+          "y": 1215,
+          "width": 454,
+          "height": 512
+        }
+      ]
     },
     {
       "id": "frame-scraped-elegant-shared-happiness",
@@ -4659,7 +6555,7 @@
       "thumbnail_url": "/api/scraped-frames/Elegant_Shared_Happiness.webp",
       "overlay_image_url": "/api/scraped-frames/Elegant_Shared_Happiness.webp",
       "layout_type": "grid_2x2",
-      "photo_slot_count": 0,
+      "photo_slot_count": 4,
       "width": 1080,
       "height": 1920,
       "bgColor": "#f7f1ed",
@@ -4668,7 +6564,36 @@
       "is_premium": true,
       "is_active": true,
       "download_count": 11,
-      "slots": []
+      "slots": [
+        {
+          "slot_index": 0,
+          "x": 64,
+          "y": 115,
+          "width": 454,
+          "height": 778
+        },
+        {
+          "slot_index": 1,
+          "x": 561,
+          "y": 115,
+          "width": 454,
+          "height": 778
+        },
+        {
+          "slot_index": 2,
+          "x": 64,
+          "y": 950,
+          "width": 454,
+          "height": 778
+        },
+        {
+          "slot_index": 3,
+          "x": 561,
+          "y": 950,
+          "width": 454,
+          "height": 778
+        }
+      ]
     },
     {
       "id": "frame-scraped-scalloped-sweetness",
@@ -4678,7 +6603,7 @@
       "thumbnail_url": "/api/scraped-frames/Scalloped_Sweetness.webp",
       "overlay_image_url": "/api/scraped-frames/Scalloped_Sweetness.webp",
       "layout_type": "grid_2x2",
-      "photo_slot_count": 0,
+      "photo_slot_count": 4,
       "width": 1080,
       "height": 1920,
       "bgColor": "#f7f1ed",
@@ -4687,7 +6612,36 @@
       "is_premium": true,
       "is_active": true,
       "download_count": 5,
-      "slots": []
+      "slots": [
+        {
+          "slot_index": 0,
+          "x": 64,
+          "y": 115,
+          "width": 454,
+          "height": 778
+        },
+        {
+          "slot_index": 1,
+          "x": 561,
+          "y": 115,
+          "width": 454,
+          "height": 778
+        },
+        {
+          "slot_index": 2,
+          "x": 64,
+          "y": 950,
+          "width": 454,
+          "height": 778
+        },
+        {
+          "slot_index": 3,
+          "x": 561,
+          "y": 950,
+          "width": 454,
+          "height": 778
+        }
+      ]
     },
     {
       "id": "frame-scraped-whimsical-jellyfish-dream",
@@ -4697,7 +6651,7 @@
       "thumbnail_url": "/api/scraped-frames/Whimsical_Jellyfish_Dream.webp",
       "overlay_image_url": "/api/scraped-frames/Whimsical_Jellyfish_Dream.webp",
       "layout_type": "grid_2x2",
-      "photo_slot_count": 0,
+      "photo_slot_count": 6,
       "width": 1080,
       "height": 1620,
       "bgColor": "#000000",
@@ -4706,7 +6660,50 @@
       "is_premium": true,
       "is_active": true,
       "download_count": 16,
-      "slots": []
+      "slots": [
+        {
+          "slot_index": 0,
+          "x": 64,
+          "y": 97,
+          "width": 454,
+          "height": 432
+        },
+        {
+          "slot_index": 1,
+          "x": 561,
+          "y": 97,
+          "width": 454,
+          "height": 432
+        },
+        {
+          "slot_index": 2,
+          "x": 64,
+          "y": 561,
+          "width": 454,
+          "height": 432
+        },
+        {
+          "slot_index": 3,
+          "x": 561,
+          "y": 561,
+          "width": 454,
+          "height": 432
+        },
+        {
+          "slot_index": 4,
+          "x": 64,
+          "y": 1025,
+          "width": 454,
+          "height": 432
+        },
+        {
+          "slot_index": 5,
+          "x": 561,
+          "y": 1025,
+          "width": 454,
+          "height": 432
+        }
+      ]
     },
     {
       "id": "frame-scraped-green-meow-garden",
@@ -4716,7 +6713,7 @@
       "thumbnail_url": "/api/scraped-frames/Green_Meow_Garden.webp",
       "overlay_image_url": "/api/scraped-frames/Green_Meow_Garden.webp",
       "layout_type": "grid_2x2",
-      "photo_slot_count": 0,
+      "photo_slot_count": 8,
       "width": 1080,
       "height": 1620,
       "bgColor": "#f7f1ed",
@@ -4725,7 +6722,64 @@
       "is_premium": true,
       "is_active": true,
       "download_count": 23,
-      "slots": []
+      "slots": [
+        {
+          "slot_index": 0,
+          "x": 64,
+          "y": 97,
+          "width": 454,
+          "height": 322
+        },
+        {
+          "slot_index": 1,
+          "x": 561,
+          "y": 97,
+          "width": 454,
+          "height": 322
+        },
+        {
+          "slot_index": 2,
+          "x": 64,
+          "y": 443,
+          "width": 454,
+          "height": 322
+        },
+        {
+          "slot_index": 3,
+          "x": 561,
+          "y": 443,
+          "width": 454,
+          "height": 322
+        },
+        {
+          "slot_index": 4,
+          "x": 64,
+          "y": 789,
+          "width": 454,
+          "height": 322
+        },
+        {
+          "slot_index": 5,
+          "x": 561,
+          "y": 789,
+          "width": 454,
+          "height": 322
+        },
+        {
+          "slot_index": 6,
+          "x": 64,
+          "y": 1135,
+          "width": 454,
+          "height": 322
+        },
+        {
+          "slot_index": 7,
+          "x": 561,
+          "y": 1135,
+          "width": 454,
+          "height": 322
+        }
+      ]
     },
     {
       "id": "frame-scraped-naughty-cat-party",
@@ -4735,7 +6789,7 @@
       "thumbnail_url": "/api/scraped-frames/Naughty_Cat_Party.webp",
       "overlay_image_url": "/api/scraped-frames/Naughty_Cat_Party.webp",
       "layout_type": "grid_2x2",
-      "photo_slot_count": 0,
+      "photo_slot_count": 4,
       "width": 1080,
       "height": 1620,
       "bgColor": "#f7f1ed",
@@ -4744,7 +6798,36 @@
       "is_premium": true,
       "is_active": true,
       "download_count": 7,
-      "slots": []
+      "slots": [
+        {
+          "slot_index": 0,
+          "x": 64,
+          "y": 97,
+          "width": 454,
+          "height": 656
+        },
+        {
+          "slot_index": 1,
+          "x": 561,
+          "y": 97,
+          "width": 454,
+          "height": 656
+        },
+        {
+          "slot_index": 2,
+          "x": 64,
+          "y": 801,
+          "width": 454,
+          "height": 656
+        },
+        {
+          "slot_index": 3,
+          "x": 561,
+          "y": 801,
+          "width": 454,
+          "height": 656
+        }
+      ]
     },
     {
       "id": "frame-scraped-sharky-adventure",
@@ -4754,7 +6837,7 @@
       "thumbnail_url": "/api/scraped-frames/Sharky_Adventure.webp",
       "overlay_image_url": "/api/scraped-frames/Sharky_Adventure.webp",
       "layout_type": "grid_2x2",
-      "photo_slot_count": 0,
+      "photo_slot_count": 6,
       "width": 1080,
       "height": 1620,
       "bgColor": "#FFFFFF",
@@ -4763,7 +6846,50 @@
       "is_premium": true,
       "is_active": true,
       "download_count": 36,
-      "slots": []
+      "slots": [
+        {
+          "slot_index": 0,
+          "x": 64,
+          "y": 97,
+          "width": 454,
+          "height": 432
+        },
+        {
+          "slot_index": 1,
+          "x": 561,
+          "y": 97,
+          "width": 454,
+          "height": 432
+        },
+        {
+          "slot_index": 2,
+          "x": 64,
+          "y": 561,
+          "width": 454,
+          "height": 432
+        },
+        {
+          "slot_index": 3,
+          "x": 561,
+          "y": 561,
+          "width": 454,
+          "height": 432
+        },
+        {
+          "slot_index": 4,
+          "x": 64,
+          "y": 1025,
+          "width": 454,
+          "height": 432
+        },
+        {
+          "slot_index": 5,
+          "x": 561,
+          "y": 1025,
+          "width": 454,
+          "height": 432
+        }
+      ]
     },
     {
       "id": "frame-scraped-matcha-green-dinosaur",
@@ -4773,7 +6899,7 @@
       "thumbnail_url": "/api/scraped-frames/Matcha_Green_Dinosaur.webp",
       "overlay_image_url": "/api/scraped-frames/Matcha_Green_Dinosaur.webp",
       "layout_type": "grid_2x2",
-      "photo_slot_count": 0,
+      "photo_slot_count": 5,
       "width": 1080,
       "height": 1620,
       "bgColor": "#000000",
@@ -4782,7 +6908,43 @@
       "is_premium": true,
       "is_active": true,
       "download_count": 21,
-      "slots": []
+      "slots": [
+        {
+          "slot_index": 0,
+          "x": 64,
+          "y": 97,
+          "width": 454,
+          "height": 432
+        },
+        {
+          "slot_index": 1,
+          "x": 561,
+          "y": 97,
+          "width": 454,
+          "height": 432
+        },
+        {
+          "slot_index": 2,
+          "x": 64,
+          "y": 561,
+          "width": 454,
+          "height": 432
+        },
+        {
+          "slot_index": 3,
+          "x": 561,
+          "y": 561,
+          "width": 454,
+          "height": 432
+        },
+        {
+          "slot_index": 4,
+          "x": 64,
+          "y": 1025,
+          "width": 454,
+          "height": 432
+        }
+      ]
     },
     {
       "id": "frame-scraped-ocean-friends",
@@ -4792,7 +6954,7 @@
       "thumbnail_url": "/api/scraped-frames/Ocean_Friends.webp",
       "overlay_image_url": "/api/scraped-frames/Ocean_Friends.webp",
       "layout_type": "strip_4",
-      "photo_slot_count": 0,
+      "photo_slot_count": 4,
       "width": 1080,
       "height": 3240,
       "bgColor": "#f7f1ed",
@@ -4801,7 +6963,36 @@
       "is_premium": true,
       "is_active": true,
       "download_count": 3,
-      "slots": []
+      "slots": [
+        {
+          "slot_index": 0,
+          "x": 86,
+          "y": 260,
+          "width": 908,
+          "height": 644
+        },
+        {
+          "slot_index": 1,
+          "x": 86,
+          "y": 952,
+          "width": 908,
+          "height": 644
+        },
+        {
+          "slot_index": 2,
+          "x": 86,
+          "y": 1644,
+          "width": 908,
+          "height": 644
+        },
+        {
+          "slot_index": 3,
+          "x": 86,
+          "y": 2336,
+          "width": 908,
+          "height": 644
+        }
+      ]
     },
     {
       "id": "frame-scraped-dino-adventure-sketch",
@@ -4811,7 +7002,7 @@
       "thumbnail_url": "/api/scraped-frames/Dino_Adventure_Sketch.webp",
       "overlay_image_url": "/api/scraped-frames/Dino_Adventure_Sketch.webp",
       "layout_type": "strip_4",
-      "photo_slot_count": 0,
+      "photo_slot_count": 3,
       "width": 1080,
       "height": 3240,
       "bgColor": "#FF6600",
@@ -4820,7 +7011,29 @@
       "is_premium": true,
       "is_active": true,
       "download_count": 8,
-      "slots": []
+      "slots": [
+        {
+          "slot_index": 0,
+          "x": 86,
+          "y": 259,
+          "width": 908,
+          "height": 875
+        },
+        {
+          "slot_index": 1,
+          "x": 86,
+          "y": 1182,
+          "width": 908,
+          "height": 875
+        },
+        {
+          "slot_index": 2,
+          "x": 86,
+          "y": 2105,
+          "width": 908,
+          "height": 875
+        }
+      ]
     },
     {
       "id": "frame-scraped-deep-blue-adventure",
@@ -4830,7 +7043,7 @@
       "thumbnail_url": "/api/scraped-frames/Deep_Blue_Adventure.webp",
       "overlay_image_url": "/api/scraped-frames/Deep_Blue_Adventure.webp",
       "layout_type": "strip_4",
-      "photo_slot_count": 0,
+      "photo_slot_count": 3,
       "width": 1080,
       "height": 3240,
       "bgColor": "#FFFFFF",
@@ -4839,7 +7052,29 @@
       "is_premium": true,
       "is_active": true,
       "download_count": 2,
-      "slots": []
+      "slots": [
+        {
+          "slot_index": 0,
+          "x": 86,
+          "y": 259,
+          "width": 908,
+          "height": 875
+        },
+        {
+          "slot_index": 1,
+          "x": 86,
+          "y": 1182,
+          "width": 908,
+          "height": 875
+        },
+        {
+          "slot_index": 2,
+          "x": 86,
+          "y": 2105,
+          "width": 908,
+          "height": 875
+        }
+      ]
     },
     {
       "id": "frame-scraped-ocean-wonders",
@@ -4849,7 +7084,7 @@
       "thumbnail_url": "/api/scraped-frames/Ocean_Wonders.webp",
       "overlay_image_url": "/api/scraped-frames/Ocean_Wonders.webp",
       "layout_type": "strip_4",
-      "photo_slot_count": 0,
+      "photo_slot_count": 3,
       "width": 1080,
       "height": 3240,
       "bgColor": "#f7f1ed",
@@ -4858,7 +7093,29 @@
       "is_premium": true,
       "is_active": true,
       "download_count": 2,
-      "slots": []
+      "slots": [
+        {
+          "slot_index": 0,
+          "x": 86,
+          "y": 259,
+          "width": 908,
+          "height": 875
+        },
+        {
+          "slot_index": 1,
+          "x": 86,
+          "y": 1182,
+          "width": 908,
+          "height": 875
+        },
+        {
+          "slot_index": 2,
+          "x": 86,
+          "y": 2105,
+          "width": 908,
+          "height": 875
+        }
+      ]
     },
     {
       "id": "frame-scraped-little-dragon-tale",
@@ -4868,7 +7125,7 @@
       "thumbnail_url": "/api/scraped-frames/Little_Dragon_Tale.webp",
       "overlay_image_url": "/api/scraped-frames/Little_Dragon_Tale.webp",
       "layout_type": "strip_4",
-      "photo_slot_count": 0,
+      "photo_slot_count": 3,
       "width": 1080,
       "height": 3240,
       "bgColor": "#f7f1ed",
@@ -4877,7 +7134,29 @@
       "is_premium": true,
       "is_active": true,
       "download_count": 1,
-      "slots": []
+      "slots": [
+        {
+          "slot_index": 0,
+          "x": 86,
+          "y": 259,
+          "width": 908,
+          "height": 875
+        },
+        {
+          "slot_index": 1,
+          "x": 86,
+          "y": 1182,
+          "width": 908,
+          "height": 875
+        },
+        {
+          "slot_index": 2,
+          "x": 86,
+          "y": 2105,
+          "width": 908,
+          "height": 875
+        }
+      ]
     },
     {
       "id": "frame-scraped-puppys-day-out",
@@ -4887,7 +7166,7 @@
       "thumbnail_url": "/api/scraped-frames/Puppy\u2019s_Day_Out.webp",
       "overlay_image_url": "/api/scraped-frames/Puppy\u2019s_Day_Out.webp",
       "layout_type": "strip_4",
-      "photo_slot_count": 0,
+      "photo_slot_count": 2,
       "width": 1080,
       "height": 3240,
       "bgColor": "#000000",
@@ -4896,7 +7175,22 @@
       "is_premium": true,
       "is_active": true,
       "download_count": 3,
-      "slots": []
+      "slots": [
+        {
+          "slot_index": 0,
+          "x": 86,
+          "y": 259,
+          "width": 908,
+          "height": 1337
+        },
+        {
+          "slot_index": 1,
+          "x": 86,
+          "y": 1644,
+          "width": 908,
+          "height": 1337
+        }
+      ]
     },
     {
       "id": "frame-scraped-strawberry-fairytale",
@@ -4906,7 +7200,7 @@
       "thumbnail_url": "/api/scraped-frames/Strawberry_Fairytale.png",
       "overlay_image_url": "/api/scraped-frames/Strawberry_Fairytale.png",
       "layout_type": "grid_2x2",
-      "photo_slot_count": 0,
+      "photo_slot_count": 5,
       "width": 1080,
       "height": 1920,
       "bgColor": "#ffffff",
@@ -4915,7 +7209,43 @@
       "is_premium": true,
       "is_active": true,
       "download_count": 367,
-      "slots": []
+      "slots": [
+        {
+          "slot_index": 0,
+          "x": 64,
+          "y": 115,
+          "width": 454,
+          "height": 512
+        },
+        {
+          "slot_index": 1,
+          "x": 561,
+          "y": 115,
+          "width": 454,
+          "height": 512
+        },
+        {
+          "slot_index": 2,
+          "x": 64,
+          "y": 665,
+          "width": 454,
+          "height": 512
+        },
+        {
+          "slot_index": 3,
+          "x": 561,
+          "y": 665,
+          "width": 454,
+          "height": 512
+        },
+        {
+          "slot_index": 4,
+          "x": 64,
+          "y": 1215,
+          "width": 454,
+          "height": 512
+        }
+      ]
     },
     {
       "id": "frame-scraped-productive-proud-aesthetic",
@@ -4925,7 +7255,7 @@
       "thumbnail_url": "/api/scraped-frames/Productive_&_Proud_Aesthetic.webp",
       "overlay_image_url": "/api/scraped-frames/Productive_&_Proud_Aesthetic.webp",
       "layout_type": "grid_2x2",
-      "photo_slot_count": 0,
+      "photo_slot_count": 6,
       "width": 1080,
       "height": 1620,
       "bgColor": "#000000",
@@ -4934,7 +7264,50 @@
       "is_premium": true,
       "is_active": true,
       "download_count": 39,
-      "slots": []
+      "slots": [
+        {
+          "slot_index": 0,
+          "x": 64,
+          "y": 97,
+          "width": 454,
+          "height": 432
+        },
+        {
+          "slot_index": 1,
+          "x": 561,
+          "y": 97,
+          "width": 454,
+          "height": 432
+        },
+        {
+          "slot_index": 2,
+          "x": 64,
+          "y": 561,
+          "width": 454,
+          "height": 432
+        },
+        {
+          "slot_index": 3,
+          "x": 561,
+          "y": 561,
+          "width": 454,
+          "height": 432
+        },
+        {
+          "slot_index": 4,
+          "x": 64,
+          "y": 1025,
+          "width": 454,
+          "height": 432
+        },
+        {
+          "slot_index": 5,
+          "x": 561,
+          "y": 1025,
+          "width": 454,
+          "height": 432
+        }
+      ]
     },
     {
       "id": "frame-scraped-positive-vibes-pink",
@@ -4944,7 +7317,7 @@
       "thumbnail_url": "/api/scraped-frames/Positive_Vibes_Pink.webp",
       "overlay_image_url": "/api/scraped-frames/Positive_Vibes_Pink.webp",
       "layout_type": "grid_2x2",
-      "photo_slot_count": 0,
+      "photo_slot_count": 6,
       "width": 1080,
       "height": 1620,
       "bgColor": "#000000",
@@ -4953,7 +7326,50 @@
       "is_premium": true,
       "is_active": true,
       "download_count": 43,
-      "slots": []
+      "slots": [
+        {
+          "slot_index": 0,
+          "x": 64,
+          "y": 97,
+          "width": 454,
+          "height": 432
+        },
+        {
+          "slot_index": 1,
+          "x": 561,
+          "y": 97,
+          "width": 454,
+          "height": 432
+        },
+        {
+          "slot_index": 2,
+          "x": 64,
+          "y": 561,
+          "width": 454,
+          "height": 432
+        },
+        {
+          "slot_index": 3,
+          "x": 561,
+          "y": 561,
+          "width": 454,
+          "height": 432
+        },
+        {
+          "slot_index": 4,
+          "x": 64,
+          "y": 1025,
+          "width": 454,
+          "height": 432
+        },
+        {
+          "slot_index": 5,
+          "x": 561,
+          "y": 1025,
+          "width": 454,
+          "height": 432
+        }
+      ]
     },
     {
       "id": "frame-scraped-deep-blue-wanderlust",
@@ -4963,7 +7379,7 @@
       "thumbnail_url": "/api/scraped-frames/Deep_Blue_Wanderlust.webp",
       "overlay_image_url": "/api/scraped-frames/Deep_Blue_Wanderlust.webp",
       "layout_type": "grid_2x2",
-      "photo_slot_count": 0,
+      "photo_slot_count": 6,
       "width": 1080,
       "height": 1620,
       "bgColor": "#f7f1ed",
@@ -4972,7 +7388,50 @@
       "is_premium": true,
       "is_active": true,
       "download_count": 23,
-      "slots": []
+      "slots": [
+        {
+          "slot_index": 0,
+          "x": 64,
+          "y": 97,
+          "width": 454,
+          "height": 432
+        },
+        {
+          "slot_index": 1,
+          "x": 561,
+          "y": 97,
+          "width": 454,
+          "height": 432
+        },
+        {
+          "slot_index": 2,
+          "x": 64,
+          "y": 561,
+          "width": 454,
+          "height": 432
+        },
+        {
+          "slot_index": 3,
+          "x": 561,
+          "y": 561,
+          "width": 454,
+          "height": 432
+        },
+        {
+          "slot_index": 4,
+          "x": 64,
+          "y": 1025,
+          "width": 454,
+          "height": 432
+        },
+        {
+          "slot_index": 5,
+          "x": 561,
+          "y": 1025,
+          "width": 454,
+          "height": 432
+        }
+      ]
     },
     {
       "id": "frame-scraped-black-white-floral-punch",
@@ -4982,7 +7441,7 @@
       "thumbnail_url": "/api/scraped-frames/Black_&_White_Floral_Punch.webp",
       "overlay_image_url": "/api/scraped-frames/Black_&_White_Floral_Punch.webp",
       "layout_type": "grid_2x2",
-      "photo_slot_count": 0,
+      "photo_slot_count": 4,
       "width": 1080,
       "height": 1620,
       "bgColor": "#f7f1ed",
@@ -4991,7 +7450,36 @@
       "is_premium": true,
       "is_active": true,
       "download_count": 16,
-      "slots": []
+      "slots": [
+        {
+          "slot_index": 0,
+          "x": 64,
+          "y": 97,
+          "width": 454,
+          "height": 656
+        },
+        {
+          "slot_index": 1,
+          "x": 561,
+          "y": 97,
+          "width": 454,
+          "height": 656
+        },
+        {
+          "slot_index": 2,
+          "x": 64,
+          "y": 801,
+          "width": 454,
+          "height": 656
+        },
+        {
+          "slot_index": 3,
+          "x": 561,
+          "y": 801,
+          "width": 454,
+          "height": 656
+        }
+      ]
     },
     {
       "id": "frame-scraped-colorful-doodle-rest",
@@ -5001,7 +7489,7 @@
       "thumbnail_url": "/api/scraped-frames/Colorful_Doodle_Rest.webp",
       "overlay_image_url": "/api/scraped-frames/Colorful_Doodle_Rest.webp",
       "layout_type": "grid_2x2",
-      "photo_slot_count": 0,
+      "photo_slot_count": 6,
       "width": 1080,
       "height": 1620,
       "bgColor": "#f7f1ed",
@@ -5010,7 +7498,50 @@
       "is_premium": true,
       "is_active": true,
       "download_count": 10,
-      "slots": []
+      "slots": [
+        {
+          "slot_index": 0,
+          "x": 64,
+          "y": 97,
+          "width": 454,
+          "height": 432
+        },
+        {
+          "slot_index": 1,
+          "x": 561,
+          "y": 97,
+          "width": 454,
+          "height": 432
+        },
+        {
+          "slot_index": 2,
+          "x": 64,
+          "y": 561,
+          "width": 454,
+          "height": 432
+        },
+        {
+          "slot_index": 3,
+          "x": 561,
+          "y": 561,
+          "width": 454,
+          "height": 432
+        },
+        {
+          "slot_index": 4,
+          "x": 64,
+          "y": 1025,
+          "width": 454,
+          "height": 432
+        },
+        {
+          "slot_index": 5,
+          "x": 561,
+          "y": 1025,
+          "width": 454,
+          "height": 432
+        }
+      ]
     },
     {
       "id": "frame-scraped-sunlight-daisy-garden",
@@ -5020,7 +7551,7 @@
       "thumbnail_url": "/api/scraped-frames/Sunlight_Daisy_Garden.webp",
       "overlay_image_url": "/api/scraped-frames/Sunlight_Daisy_Garden.webp",
       "layout_type": "grid_2x2",
-      "photo_slot_count": 0,
+      "photo_slot_count": 2,
       "width": 1080,
       "height": 1620,
       "bgColor": "#f7f1ed",
@@ -5029,7 +7560,22 @@
       "is_premium": true,
       "is_active": true,
       "download_count": 8,
-      "slots": []
+      "slots": [
+        {
+          "slot_index": 0,
+          "x": 86,
+          "y": 129,
+          "width": 908,
+          "height": 632
+        },
+        {
+          "slot_index": 1,
+          "x": 86,
+          "y": 793,
+          "width": 908,
+          "height": 632
+        }
+      ]
     },
     {
       "id": "frame-scraped-vintage-lace-elegance",
@@ -5039,7 +7585,7 @@
       "thumbnail_url": "/api/scraped-frames/Vintage_Lace_Elegance.webp",
       "overlay_image_url": "/api/scraped-frames/Vintage_Lace_Elegance.webp",
       "layout_type": "grid_2x2",
-      "photo_slot_count": 0,
+      "photo_slot_count": 6,
       "width": 1080,
       "height": 1620,
       "bgColor": "#f7f1ed",
@@ -5048,7 +7594,50 @@
       "is_premium": true,
       "is_active": true,
       "download_count": 5,
-      "slots": []
+      "slots": [
+        {
+          "slot_index": 0,
+          "x": 64,
+          "y": 97,
+          "width": 454,
+          "height": 432
+        },
+        {
+          "slot_index": 1,
+          "x": 561,
+          "y": 97,
+          "width": 454,
+          "height": 432
+        },
+        {
+          "slot_index": 2,
+          "x": 64,
+          "y": 561,
+          "width": 454,
+          "height": 432
+        },
+        {
+          "slot_index": 3,
+          "x": 561,
+          "y": 561,
+          "width": 454,
+          "height": 432
+        },
+        {
+          "slot_index": 4,
+          "x": 64,
+          "y": 1025,
+          "width": 454,
+          "height": 432
+        },
+        {
+          "slot_index": 5,
+          "x": 561,
+          "y": 1025,
+          "width": 454,
+          "height": 432
+        }
+      ]
     },
     {
       "id": "frame-scraped-vibrant-positivity",
@@ -5058,7 +7647,7 @@
       "thumbnail_url": "/api/scraped-frames/Vibrant_Positivity.webp",
       "overlay_image_url": "/api/scraped-frames/Vibrant_Positivity.webp",
       "layout_type": "grid_2x2",
-      "photo_slot_count": 0,
+      "photo_slot_count": 6,
       "width": 1080,
       "height": 1620,
       "bgColor": "#f7f1ed",
@@ -5067,7 +7656,50 @@
       "is_premium": true,
       "is_active": true,
       "download_count": 11,
-      "slots": []
+      "slots": [
+        {
+          "slot_index": 0,
+          "x": 64,
+          "y": 97,
+          "width": 454,
+          "height": 432
+        },
+        {
+          "slot_index": 1,
+          "x": 561,
+          "y": 97,
+          "width": 454,
+          "height": 432
+        },
+        {
+          "slot_index": 2,
+          "x": 64,
+          "y": 561,
+          "width": 454,
+          "height": 432
+        },
+        {
+          "slot_index": 3,
+          "x": 561,
+          "y": 561,
+          "width": 454,
+          "height": 432
+        },
+        {
+          "slot_index": 4,
+          "x": 64,
+          "y": 1025,
+          "width": 454,
+          "height": 432
+        },
+        {
+          "slot_index": 5,
+          "x": 561,
+          "y": 1025,
+          "width": 454,
+          "height": 432
+        }
+      ]
     },
     {
       "id": "frame-scraped-whispers-of-the-wind",
@@ -5077,7 +7709,7 @@
       "thumbnail_url": "/api/scraped-frames/Whispers_of_the_Wind.webp",
       "overlay_image_url": "/api/scraped-frames/Whispers_of_the_Wind.webp",
       "layout_type": "strip_4",
-      "photo_slot_count": 0,
+      "photo_slot_count": 3,
       "width": 1080,
       "height": 3240,
       "bgColor": "#f7f1ed",
@@ -5086,7 +7718,29 @@
       "is_premium": true,
       "is_active": true,
       "download_count": 17,
-      "slots": []
+      "slots": [
+        {
+          "slot_index": 0,
+          "x": 86,
+          "y": 259,
+          "width": 908,
+          "height": 875
+        },
+        {
+          "slot_index": 1,
+          "x": 86,
+          "y": 1182,
+          "width": 908,
+          "height": 875
+        },
+        {
+          "slot_index": 2,
+          "x": 86,
+          "y": 2105,
+          "width": 908,
+          "height": 875
+        }
+      ]
     },
     {
       "id": "frame-scraped-graceful-growth",
@@ -5096,7 +7750,7 @@
       "thumbnail_url": "/api/scraped-frames/Graceful_Growth.webp",
       "overlay_image_url": "/api/scraped-frames/Graceful_Growth.webp",
       "layout_type": "strip_4",
-      "photo_slot_count": 0,
+      "photo_slot_count": 3,
       "width": 1080,
       "height": 3240,
       "bgColor": "#000000",
@@ -5105,7 +7759,29 @@
       "is_premium": true,
       "is_active": true,
       "download_count": 4,
-      "slots": []
+      "slots": [
+        {
+          "slot_index": 0,
+          "x": 86,
+          "y": 259,
+          "width": 908,
+          "height": 875
+        },
+        {
+          "slot_index": 1,
+          "x": 86,
+          "y": 1182,
+          "width": 908,
+          "height": 875
+        },
+        {
+          "slot_index": 2,
+          "x": 86,
+          "y": 2105,
+          "width": 908,
+          "height": 875
+        }
+      ]
     },
     {
       "id": "frame-scraped-minimalist-elegance",
@@ -5115,7 +7791,7 @@
       "thumbnail_url": "/api/scraped-frames/Minimalist_Elegance.webp",
       "overlay_image_url": "/api/scraped-frames/Minimalist_Elegance.webp",
       "layout_type": "strip_4",
-      "photo_slot_count": 0,
+      "photo_slot_count": 3,
       "width": 1080,
       "height": 3240,
       "bgColor": "#f7f1ed",
@@ -5124,7 +7800,29 @@
       "is_premium": true,
       "is_active": true,
       "download_count": 1,
-      "slots": []
+      "slots": [
+        {
+          "slot_index": 0,
+          "x": 86,
+          "y": 259,
+          "width": 908,
+          "height": 875
+        },
+        {
+          "slot_index": 1,
+          "x": 86,
+          "y": 1182,
+          "width": 908,
+          "height": 875
+        },
+        {
+          "slot_index": 2,
+          "x": 86,
+          "y": 2105,
+          "width": 908,
+          "height": 875
+        }
+      ]
     },
     {
       "id": "frame-scraped-love-again-1000",
@@ -5134,7 +7832,7 @@
       "thumbnail_url": "/api/scraped-frames/Love_again_1000\u00d7.webp",
       "overlay_image_url": "/api/scraped-frames/Love_again_1000\u00d7.webp",
       "layout_type": "strip_4",
-      "photo_slot_count": 0,
+      "photo_slot_count": 3,
       "width": 1080,
       "height": 3240,
       "bgColor": "#ffffff",
@@ -5143,7 +7841,29 @@
       "is_premium": true,
       "is_active": true,
       "download_count": 236,
-      "slots": []
+      "slots": [
+        {
+          "slot_index": 0,
+          "x": 86,
+          "y": 259,
+          "width": 908,
+          "height": 875
+        },
+        {
+          "slot_index": 1,
+          "x": 86,
+          "y": 1182,
+          "width": 908,
+          "height": 875
+        },
+        {
+          "slot_index": 2,
+          "x": 86,
+          "y": 2105,
+          "width": 908,
+          "height": 875
+        }
+      ]
     },
     {
       "id": "frame-scraped-blue-denim",
@@ -5436,7 +8156,7 @@
       "thumbnail_url": "/api/scraped-frames/Cream_vintage.png",
       "overlay_image_url": "/api/scraped-frames/Cream_vintage.png",
       "layout_type": "grid_2x2",
-      "photo_slot_count": 0,
+      "photo_slot_count": 8,
       "width": 1080,
       "height": 1920,
       "bgColor": "#ffffff",
@@ -5445,7 +8165,64 @@
       "is_premium": true,
       "is_active": true,
       "download_count": 79,
-      "slots": []
+      "slots": [
+        {
+          "slot_index": 0,
+          "x": 64,
+          "y": 115,
+          "width": 454,
+          "height": 382
+        },
+        {
+          "slot_index": 1,
+          "x": 561,
+          "y": 115,
+          "width": 454,
+          "height": 382
+        },
+        {
+          "slot_index": 2,
+          "x": 64,
+          "y": 525,
+          "width": 454,
+          "height": 382
+        },
+        {
+          "slot_index": 3,
+          "x": 561,
+          "y": 525,
+          "width": 454,
+          "height": 382
+        },
+        {
+          "slot_index": 4,
+          "x": 64,
+          "y": 935,
+          "width": 454,
+          "height": 382
+        },
+        {
+          "slot_index": 5,
+          "x": 561,
+          "y": 935,
+          "width": 454,
+          "height": 382
+        },
+        {
+          "slot_index": 6,
+          "x": 64,
+          "y": 1345,
+          "width": 454,
+          "height": 382
+        },
+        {
+          "slot_index": 7,
+          "x": 561,
+          "y": 1345,
+          "width": 454,
+          "height": 382
+        }
+      ]
     },
     {
       "id": "frame-scraped-fremio-series-graduation",
@@ -5455,7 +8232,7 @@
       "thumbnail_url": "/api/scraped-frames/Fremio_Series-Graduation.webp",
       "overlay_image_url": "/api/scraped-frames/Fremio_Series-Graduation.webp",
       "layout_type": "grid_2x2",
-      "photo_slot_count": 0,
+      "photo_slot_count": 3,
       "width": 1080,
       "height": 1920,
       "bgColor": "#ffffff",
@@ -5464,7 +8241,29 @@
       "is_premium": true,
       "is_active": true,
       "download_count": 43,
-      "slots": []
+      "slots": [
+        {
+          "slot_index": 0,
+          "x": 86,
+          "y": 153,
+          "width": 908,
+          "height": 493
+        },
+        {
+          "slot_index": 1,
+          "x": 86,
+          "y": 674,
+          "width": 908,
+          "height": 493
+        },
+        {
+          "slot_index": 2,
+          "x": 86,
+          "y": 1195,
+          "width": 908,
+          "height": 493
+        }
+      ]
     },
     {
       "id": "frame-scraped-romantic-vintage-frame",
@@ -5474,7 +8273,7 @@
       "thumbnail_url": "/api/scraped-frames/romantic_vintage_frame.png",
       "overlay_image_url": "/api/scraped-frames/romantic_vintage_frame.png",
       "layout_type": "grid_2x2",
-      "photo_slot_count": 0,
+      "photo_slot_count": 3,
       "width": 1080,
       "height": 1620,
       "bgColor": "#000000",
@@ -5483,7 +8282,29 @@
       "is_premium": true,
       "is_active": true,
       "download_count": 9,
-      "slots": []
+      "slots": [
+        {
+          "slot_index": 0,
+          "x": 86,
+          "y": 129,
+          "width": 908,
+          "height": 416
+        },
+        {
+          "slot_index": 1,
+          "x": 86,
+          "y": 569,
+          "width": 908,
+          "height": 416
+        },
+        {
+          "slot_index": 2,
+          "x": 86,
+          "y": 1009,
+          "width": 908,
+          "height": 416
+        }
+      ]
     },
     {
       "id": "frame-scraped-green-frame",
@@ -5493,7 +8314,7 @@
       "thumbnail_url": "/api/scraped-frames/green_frame.webp",
       "overlay_image_url": "/api/scraped-frames/green_frame.webp",
       "layout_type": "strip_4",
-      "photo_slot_count": 0,
+      "photo_slot_count": 1,
       "width": 1080,
       "height": 3240,
       "bgColor": "#ffffff",
@@ -5502,7 +8323,15 @@
       "is_premium": true,
       "is_active": true,
       "download_count": 11,
-      "slots": []
+      "slots": [
+        {
+          "slot_index": 0,
+          "x": 86,
+          "y": 259,
+          "width": 908,
+          "height": 2722
+        }
+      ]
     },
     {
       "id": "frame-scraped-ticketseries-1",
@@ -5512,7 +8341,7 @@
       "thumbnail_url": "/api/scraped-frames/TicketSeries-1.webp",
       "overlay_image_url": "/api/scraped-frames/TicketSeries-1.webp",
       "layout_type": "grid_2x2",
-      "photo_slot_count": 0,
+      "photo_slot_count": 3,
       "width": 1080,
       "height": 1920,
       "bgColor": "#ffffff",
@@ -5521,7 +8350,29 @@
       "is_premium": true,
       "is_active": true,
       "download_count": 21,
-      "slots": []
+      "slots": [
+        {
+          "slot_index": 0,
+          "x": 86,
+          "y": 153,
+          "width": 908,
+          "height": 493
+        },
+        {
+          "slot_index": 1,
+          "x": 86,
+          "y": 674,
+          "width": 908,
+          "height": 493
+        },
+        {
+          "slot_index": 2,
+          "x": 86,
+          "y": 1195,
+          "width": 908,
+          "height": 493
+        }
+      ]
     },
     {
       "id": "frame-scraped-jeans-frame",
@@ -5531,7 +8382,7 @@
       "thumbnail_url": "/api/scraped-frames/Jeans_frame.webp",
       "overlay_image_url": "/api/scraped-frames/Jeans_frame.webp",
       "layout_type": "grid_2x2",
-      "photo_slot_count": 0,
+      "photo_slot_count": 2,
       "width": 1080,
       "height": 1920,
       "bgColor": "#ffffff",
@@ -5540,7 +8391,22 @@
       "is_premium": true,
       "is_active": true,
       "download_count": 18,
-      "slots": []
+      "slots": [
+        {
+          "slot_index": 0,
+          "x": 86,
+          "y": 153,
+          "width": 908,
+          "height": 749
+        },
+        {
+          "slot_index": 1,
+          "x": 86,
+          "y": 940,
+          "width": 908,
+          "height": 749
+        }
+      ]
     },
     {
       "id": "frame-scraped-pinky-dilley",
@@ -5550,7 +8416,7 @@
       "thumbnail_url": "/api/scraped-frames/pinky_dilley.png",
       "overlay_image_url": "/api/scraped-frames/pinky_dilley.png",
       "layout_type": "grid_2x2",
-      "photo_slot_count": 0,
+      "photo_slot_count": 1,
       "width": 1080,
       "height": 1620,
       "bgColor": "#EDBBD0",
@@ -5559,7 +8425,15 @@
       "is_premium": true,
       "is_active": true,
       "download_count": 7,
-      "slots": []
+      "slots": [
+        {
+          "slot_index": 0,
+          "x": 86,
+          "y": 129,
+          "width": 908,
+          "height": 1200
+        }
+      ]
     },
     {
       "id": "frame-scraped-board-frame",
@@ -5569,7 +8443,7 @@
       "thumbnail_url": "/api/scraped-frames/Board_Frame.png",
       "overlay_image_url": "/api/scraped-frames/Board_Frame.png",
       "layout_type": "grid_2x2",
-      "photo_slot_count": 0,
+      "photo_slot_count": 2,
       "width": 1080,
       "height": 1920,
       "bgColor": "#ffffff",
@@ -5578,7 +8452,22 @@
       "is_premium": true,
       "is_active": true,
       "download_count": 25,
-      "slots": []
+      "slots": [
+        {
+          "slot_index": 0,
+          "x": 86,
+          "y": 153,
+          "width": 908,
+          "height": 749
+        },
+        {
+          "slot_index": 1,
+          "x": 86,
+          "y": 940,
+          "width": 908,
+          "height": 749
+        }
+      ]
     },
     {
       "id": "frame-scraped-red-jeans-retro",
@@ -5588,7 +8477,7 @@
       "thumbnail_url": "/api/scraped-frames/Red_Jeans_Retro.png",
       "overlay_image_url": "/api/scraped-frames/Red_Jeans_Retro.png",
       "layout_type": "grid_2x2",
-      "photo_slot_count": 0,
+      "photo_slot_count": 3,
       "width": 1080,
       "height": 1920,
       "bgColor": "#ffffff",
@@ -5597,7 +8486,29 @@
       "is_premium": true,
       "is_active": true,
       "download_count": 15,
-      "slots": []
+      "slots": [
+        {
+          "slot_index": 0,
+          "x": 86,
+          "y": 153,
+          "width": 908,
+          "height": 493
+        },
+        {
+          "slot_index": 1,
+          "x": 86,
+          "y": 674,
+          "width": 908,
+          "height": 493
+        },
+        {
+          "slot_index": 2,
+          "x": 86,
+          "y": 1195,
+          "width": 908,
+          "height": 493
+        }
+      ]
     },
     {
       "id": "frame-scraped-blue-memories-frame",
@@ -5607,7 +8518,7 @@
       "thumbnail_url": "/api/scraped-frames/Blue_memories_-_frame.webp",
       "overlay_image_url": "/api/scraped-frames/Blue_memories_-_frame.webp",
       "layout_type": "grid_2x2",
-      "photo_slot_count": 0,
+      "photo_slot_count": 2,
       "width": 1080,
       "height": 1920,
       "bgColor": "#ffffff",
@@ -5616,7 +8527,22 @@
       "is_premium": true,
       "is_active": true,
       "download_count": 13,
-      "slots": []
+      "slots": [
+        {
+          "slot_index": 0,
+          "x": 86,
+          "y": 153,
+          "width": 908,
+          "height": 749
+        },
+        {
+          "slot_index": 1,
+          "x": 86,
+          "y": 940,
+          "width": 908,
+          "height": 749
+        }
+      ]
     },
     {
       "id": "frame-scraped-night-to-remember-frame",
@@ -5626,7 +8552,7 @@
       "thumbnail_url": "/api/scraped-frames/Night_to_remember_-_frame.webp",
       "overlay_image_url": "/api/scraped-frames/Night_to_remember_-_frame.webp",
       "layout_type": "grid_2x2",
-      "photo_slot_count": 0,
+      "photo_slot_count": 3,
       "width": 1080,
       "height": 1920,
       "bgColor": "#ffffff",
@@ -5635,7 +8561,29 @@
       "is_premium": true,
       "is_active": true,
       "download_count": 13,
-      "slots": []
+      "slots": [
+        {
+          "slot_index": 0,
+          "x": 86,
+          "y": 153,
+          "width": 908,
+          "height": 493
+        },
+        {
+          "slot_index": 1,
+          "x": 86,
+          "y": 674,
+          "width": 908,
+          "height": 493
+        },
+        {
+          "slot_index": 2,
+          "x": 86,
+          "y": 1195,
+          "width": 908,
+          "height": 493
+        }
+      ]
     },
     {
       "id": "frame-scraped-starcam",
@@ -5645,7 +8593,7 @@
       "thumbnail_url": "/api/scraped-frames/StarCam.webp",
       "overlay_image_url": "/api/scraped-frames/StarCam.webp",
       "layout_type": "strip_4",
-      "photo_slot_count": 0,
+      "photo_slot_count": 3,
       "width": 1080,
       "height": 3240,
       "bgColor": "#ffffff",
@@ -5654,7 +8602,29 @@
       "is_premium": true,
       "is_active": true,
       "download_count": 11,
-      "slots": []
+      "slots": [
+        {
+          "slot_index": 0,
+          "x": 86,
+          "y": 259,
+          "width": 908,
+          "height": 875
+        },
+        {
+          "slot_index": 1,
+          "x": 86,
+          "y": 1182,
+          "width": 908,
+          "height": 875
+        },
+        {
+          "slot_index": 2,
+          "x": 86,
+          "y": 2105,
+          "width": 908,
+          "height": 875
+        }
+      ]
     },
     {
       "id": "frame-scraped-meowcam",
@@ -5664,7 +8634,7 @@
       "thumbnail_url": "/api/scraped-frames/MeowCam.webp",
       "overlay_image_url": "/api/scraped-frames/MeowCam.webp",
       "layout_type": "strip_4",
-      "photo_slot_count": 0,
+      "photo_slot_count": 3,
       "width": 1080,
       "height": 3240,
       "bgColor": "#ffffff",
@@ -5673,7 +8643,29 @@
       "is_premium": true,
       "is_active": true,
       "download_count": 13,
-      "slots": []
+      "slots": [
+        {
+          "slot_index": 0,
+          "x": 86,
+          "y": 259,
+          "width": 908,
+          "height": 875
+        },
+        {
+          "slot_index": 1,
+          "x": 86,
+          "y": 1182,
+          "width": 908,
+          "height": 875
+        },
+        {
+          "slot_index": 2,
+          "x": 86,
+          "y": 2105,
+          "width": 908,
+          "height": 875
+        }
+      ]
     },
     {
       "id": "frame-scraped-fremioseries-redspotify-6",
@@ -5683,7 +8675,7 @@
       "thumbnail_url": "/api/scraped-frames/FremioSeries_-_RedSpotify_-_6.webp",
       "overlay_image_url": "/api/scraped-frames/FremioSeries_-_RedSpotify_-_6.webp",
       "layout_type": "grid_2x2",
-      "photo_slot_count": 0,
+      "photo_slot_count": 4,
       "width": 1080,
       "height": 1920,
       "bgColor": "#ffffff",
@@ -5692,7 +8684,36 @@
       "is_premium": true,
       "is_active": true,
       "download_count": 18,
-      "slots": []
+      "slots": [
+        {
+          "slot_index": 0,
+          "x": 64,
+          "y": 115,
+          "width": 454,
+          "height": 778
+        },
+        {
+          "slot_index": 1,
+          "x": 561,
+          "y": 115,
+          "width": 454,
+          "height": 778
+        },
+        {
+          "slot_index": 2,
+          "x": 64,
+          "y": 950,
+          "width": 454,
+          "height": 778
+        },
+        {
+          "slot_index": 3,
+          "x": 561,
+          "y": 950,
+          "width": 454,
+          "height": 778
+        }
+      ]
     },
     {
       "id": "frame-scraped-fremioseries-red-3",
@@ -5702,7 +8723,7 @@
       "thumbnail_url": "/api/scraped-frames/FremioSeries_-_Red_-_3.png",
       "overlay_image_url": "/api/scraped-frames/FremioSeries_-_Red_-_3.png",
       "layout_type": "grid_2x2",
-      "photo_slot_count": 0,
+      "photo_slot_count": 4,
       "width": 1080,
       "height": 1920,
       "bgColor": "#DB6088",
@@ -5711,7 +8732,36 @@
       "is_premium": true,
       "is_active": true,
       "download_count": 11,
-      "slots": []
+      "slots": [
+        {
+          "slot_index": 0,
+          "x": 64,
+          "y": 115,
+          "width": 454,
+          "height": 778
+        },
+        {
+          "slot_index": 1,
+          "x": 561,
+          "y": 115,
+          "width": 454,
+          "height": 778
+        },
+        {
+          "slot_index": 2,
+          "x": 64,
+          "y": 950,
+          "width": 454,
+          "height": 778
+        },
+        {
+          "slot_index": 3,
+          "x": 561,
+          "y": 950,
+          "width": 454,
+          "height": 778
+        }
+      ]
     },
     {
       "id": "frame-scraped-fremioseries-blackwhite-4",
@@ -5721,7 +8771,7 @@
       "thumbnail_url": "/api/scraped-frames/FremioSeries_-_BlackWhite_-_4.webp",
       "overlay_image_url": "/api/scraped-frames/FremioSeries_-_BlackWhite_-_4.webp",
       "layout_type": "grid_2x2",
-      "photo_slot_count": 0,
+      "photo_slot_count": 4,
       "width": 1080,
       "height": 1920,
       "bgColor": "#ffffff",
@@ -5730,7 +8780,36 @@
       "is_premium": true,
       "is_active": true,
       "download_count": 30,
-      "slots": []
+      "slots": [
+        {
+          "slot_index": 0,
+          "x": 64,
+          "y": 115,
+          "width": 454,
+          "height": 778
+        },
+        {
+          "slot_index": 1,
+          "x": 561,
+          "y": 115,
+          "width": 454,
+          "height": 778
+        },
+        {
+          "slot_index": 2,
+          "x": 64,
+          "y": 950,
+          "width": 454,
+          "height": 778
+        },
+        {
+          "slot_index": 3,
+          "x": 561,
+          "y": 950,
+          "width": 454,
+          "height": 778
+        }
+      ]
     },
     {
       "id": "frame-scraped-sweet-moment-frame",
@@ -5740,7 +8819,7 @@
       "thumbnail_url": "/api/scraped-frames/Sweet_moment_frame.webp",
       "overlay_image_url": "/api/scraped-frames/Sweet_moment_frame.webp",
       "layout_type": "grid_2x2",
-      "photo_slot_count": 0,
+      "photo_slot_count": 2,
       "width": 1080,
       "height": 1920,
       "bgColor": "#ffffff",
@@ -5749,7 +8828,22 @@
       "is_premium": true,
       "is_active": true,
       "download_count": 10,
-      "slots": []
+      "slots": [
+        {
+          "slot_index": 0,
+          "x": 86,
+          "y": 153,
+          "width": 908,
+          "height": 749
+        },
+        {
+          "slot_index": 1,
+          "x": 86,
+          "y": 940,
+          "width": 908,
+          "height": 749
+        }
+      ]
     },
     {
       "id": "frame-scraped-dilley-cute",
@@ -5759,7 +8853,7 @@
       "thumbnail_url": "/api/scraped-frames/dilley_cute.webp",
       "overlay_image_url": "/api/scraped-frames/dilley_cute.webp",
       "layout_type": "grid_2x2",
-      "photo_slot_count": 0,
+      "photo_slot_count": 6,
       "width": 1080,
       "height": 1920,
       "bgColor": "#ffffff",
@@ -5768,7 +8862,50 @@
       "is_premium": true,
       "is_active": true,
       "download_count": 34,
-      "slots": []
+      "slots": [
+        {
+          "slot_index": 0,
+          "x": 64,
+          "y": 115,
+          "width": 454,
+          "height": 512
+        },
+        {
+          "slot_index": 1,
+          "x": 561,
+          "y": 115,
+          "width": 454,
+          "height": 512
+        },
+        {
+          "slot_index": 2,
+          "x": 64,
+          "y": 665,
+          "width": 454,
+          "height": 512
+        },
+        {
+          "slot_index": 3,
+          "x": 561,
+          "y": 665,
+          "width": 454,
+          "height": 512
+        },
+        {
+          "slot_index": 4,
+          "x": 64,
+          "y": 1215,
+          "width": 454,
+          "height": 512
+        },
+        {
+          "slot_index": 5,
+          "x": 561,
+          "y": 1215,
+          "width": 454,
+          "height": 512
+        }
+      ]
     },
     {
       "id": "frame-scraped-burgundury",
@@ -5778,7 +8915,7 @@
       "thumbnail_url": "/api/scraped-frames/Burgundury.webp",
       "overlay_image_url": "/api/scraped-frames/Burgundury.webp",
       "layout_type": "grid_2x2",
-      "photo_slot_count": 0,
+      "photo_slot_count": 3,
       "width": 1080,
       "height": 1920,
       "bgColor": "#ffffff",
@@ -5787,7 +8924,29 @@
       "is_premium": true,
       "is_active": true,
       "download_count": 8,
-      "slots": []
+      "slots": [
+        {
+          "slot_index": 0,
+          "x": 86,
+          "y": 153,
+          "width": 908,
+          "height": 493
+        },
+        {
+          "slot_index": 1,
+          "x": 86,
+          "y": 674,
+          "width": 908,
+          "height": 493
+        },
+        {
+          "slot_index": 2,
+          "x": 86,
+          "y": 1195,
+          "width": 908,
+          "height": 493
+        }
+      ]
     },
     {
       "id": "frame-scraped-aesthetic-frame",
@@ -5797,7 +8956,7 @@
       "thumbnail_url": "/api/scraped-frames/Aesthetic_frame.webp",
       "overlay_image_url": "/api/scraped-frames/Aesthetic_frame.webp",
       "layout_type": "grid_2x2",
-      "photo_slot_count": 0,
+      "photo_slot_count": 3,
       "width": 1080,
       "height": 1920,
       "bgColor": "#961919",
@@ -5806,7 +8965,29 @@
       "is_premium": true,
       "is_active": true,
       "download_count": 20,
-      "slots": []
+      "slots": [
+        {
+          "slot_index": 0,
+          "x": 86,
+          "y": 153,
+          "width": 908,
+          "height": 493
+        },
+        {
+          "slot_index": 1,
+          "x": 86,
+          "y": 674,
+          "width": 908,
+          "height": 493
+        },
+        {
+          "slot_index": 2,
+          "x": 86,
+          "y": 1195,
+          "width": 908,
+          "height": 493
+        }
+      ]
     }
   ],
   "stickers": [
