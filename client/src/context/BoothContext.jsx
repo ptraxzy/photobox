@@ -10,19 +10,58 @@ export function BoothProvider({ children }) {
   const [stickersList, setStickersList] = useState([]);
   const [loading, setLoading] = useState(true);
 
+  // Helper to read from sessionStorage
+  const getSessionItem = (key, defaultValue) => {
+    try {
+      const item = sessionStorage.getItem(key);
+      return item ? JSON.parse(item) : defaultValue;
+    } catch {
+      return defaultValue;
+    }
+  };
+
   // Active Booth State
-  const [page, setPage] = useState('landing'); // landing, gallery, booth, editor, result
-  const [selectedFrame, setSelectedFrame] = useState(null);
-  const [capturedPhotos, setCapturedPhotos] = useState([]); // indices match slot_index
-  const [activeFilter, setActiveFilter] = useState('normal'); // normal, grayscale, sepia, warm, cool, highcontrast
+  const [page, setPage] = useState(() => getSessionItem('sv_page', 'landing'));
+  const [selectedFrame, setSelectedFrame] = useState(() => getSessionItem('sv_selectedFrame', null));
+  const [capturedPhotos, setCapturedPhotos] = useState(() => getSessionItem('sv_capturedPhotos', []));
+  const [activeFilter, setActiveFilter] = useState(() => getSessionItem('sv_activeFilter', 'normal'));
   
   // Editor State
-  const [placedStickers, setPlacedStickers] = useState([]);
-  const [placedTexts, setPlacedTexts] = useState([]);
-  const [selectedElementId, setSelectedElementId] = useState(null); // sticker id or text id
+  const [placedStickers, setPlacedStickers] = useState(() => getSessionItem('sv_placedStickers', []));
+  const [placedTexts, setPlacedTexts] = useState(() => getSessionItem('sv_placedTexts', []));
+  const [selectedElementId, setSelectedElementId] = useState(null); // No need to persist selection
   
   // Final Result State
-  const [finalCompositeImage, setFinalCompositeImage] = useState(null);
+  const [finalCompositeImage, setFinalCompositeImage] = useState(() => getSessionItem('sv_finalCompositeImage', null));
+
+  // Sync state changes to sessionStorage
+  useEffect(() => {
+    sessionStorage.setItem('sv_page', JSON.stringify(page));
+  }, [page]);
+
+  useEffect(() => {
+    sessionStorage.setItem('sv_selectedFrame', JSON.stringify(selectedFrame));
+  }, [selectedFrame]);
+
+  useEffect(() => {
+    sessionStorage.setItem('sv_capturedPhotos', JSON.stringify(capturedPhotos));
+  }, [capturedPhotos]);
+
+  useEffect(() => {
+    sessionStorage.setItem('sv_activeFilter', JSON.stringify(activeFilter));
+  }, [activeFilter]);
+
+  useEffect(() => {
+    sessionStorage.setItem('sv_placedStickers', JSON.stringify(placedStickers));
+  }, [placedStickers]);
+
+  useEffect(() => {
+    sessionStorage.setItem('sv_placedTexts', JSON.stringify(placedTexts));
+  }, [placedTexts]);
+
+  useEffect(() => {
+    sessionStorage.setItem('sv_finalCompositeImage', JSON.stringify(finalCompositeImage));
+  }, [finalCompositeImage]);
 
   // Fetch initial metadata from Server API
   useEffect(() => {
