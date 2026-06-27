@@ -308,10 +308,28 @@ export default function BoothPage() {
             {/* Flash screen overlay effect */}
             <div className={`flash-effect ${isFlashActive ? 'flash-active' : ''}`} />
 
-            {/* Countdown Overlay */}
-            {countdown !== null && (
-              <div className="countdown-overlay">
-                <span className="countdown-number">{countdown}</span>
+            {/* Countdown Overlay positioned over active slot */}
+            {countdown !== null && activeSlot !== -1 && (
+              <div 
+                className="countdown-overlay-slot"
+                style={{
+                  position: 'absolute',
+                  left: `${selectedFrame.slots[activeSlot].x * scale}px`,
+                  top: `${selectedFrame.slots[activeSlot].y * scale}px`,
+                  width: `${selectedFrame.slots[activeSlot].width * scale}px`,
+                  height: `${selectedFrame.slots[activeSlot].height * scale}px`,
+                  borderRadius: `${20 * scale}px`,
+                  display: 'flex',
+                  alignItems: 'center',
+                  justifyContent: 'center',
+                  zIndex: 10,
+                  background: 'rgba(255, 255, 255, 0.15)',
+                  backdropFilter: 'blur(8px)'
+                }}
+              >
+                <div className="countdown-circle-glowing">
+                  <span>{countdown}</span>
+                </div>
               </div>
             )}
 

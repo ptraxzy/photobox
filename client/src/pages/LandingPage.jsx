@@ -87,37 +87,37 @@ export default function LandingPage() {
           <div 
             className="glass-panel frame-card" 
             onClick={() => setPage('gallery')}
-            style={{ padding: '24px', cursor: 'pointer', background: 'rgba(255,214,232,0.6)' }}
+            style={{ padding: '32px 24px', cursor: 'pointer', background: 'linear-gradient(135deg, rgba(255,255,255,0.85) 0%, rgba(255,240,243,0.7) 100%)', border: '1px solid rgba(255, 94, 126, 0.15)' }}
           >
-            <div style={{ background: '#fff', padding: '16px', borderRadius: '16px', width: '60px', height: '60px', display: 'flex', alignItems: 'center', justifyContent: 'center', color: '#ca4b8c', marginBottom: '16px' }}>
+            <div style={{ background: '#fff', padding: '16px', borderRadius: '16px', width: '60px', height: '60px', display: 'flex', alignItems: 'center', justifyContent: 'center', color: '#ff5e7e', marginBottom: '20px', boxShadow: '0 4px 12px rgba(255,94,126,0.1)' }}>
               <Heart size={28} />
             </div>
-            <h3 style={{ fontSize: '20px', marginBottom: '8px' }}>Korean Style</h3>
-            <p style={{ fontSize: '14px' }}>Strip 4-kotak aesthetic dengan perpaduan warna pastel yang lembut.</p>
+            <h3 style={{ fontSize: '20px', marginBottom: '8px', fontWeight: '700' }}>Korean Style</h3>
+            <p style={{ fontSize: '13px', color: 'var(--text-muted)', lineHeight: '1.6' }}>Strip 4-kotak aesthetic dengan perpaduan warna pastel yang lembut.</p>
           </div>
 
           <div 
             className="glass-panel frame-card" 
             onClick={() => setPage('gallery')}
-            style={{ padding: '24px', cursor: 'pointer', background: 'rgba(214,228,255,0.6)' }}
+            style={{ padding: '32px 24px', cursor: 'pointer', background: 'linear-gradient(135deg, rgba(255,255,255,0.85) 0%, rgba(255,240,243,0.7) 100%)', border: '1px solid rgba(255, 94, 126, 0.15)' }}
           >
-            <div style={{ background: '#fff', padding: '16px', borderRadius: '16px', width: '60px', height: '60px', display: 'flex', alignItems: 'center', justifyContent: 'center', color: '#2563eb', marginBottom: '16px' }}>
+            <div style={{ background: '#fff', padding: '16px', borderRadius: '16px', width: '60px', height: '60px', display: 'flex', alignItems: 'center', justifyContent: 'center', color: '#ff5e7e', marginBottom: '20px', boxShadow: '0 4px 12px rgba(255,94,126,0.1)' }}>
               <Camera size={28} />
             </div>
-            <h3 style={{ fontSize: '20px', marginBottom: '8px' }}>Vintage Polaroid</h3>
-            <p style={{ fontSize: '14px' }}>Frame satu foto retro bergaya film instan yang klasik dan timeless.</p>
+            <h3 style={{ fontSize: '20px', marginBottom: '8px', fontWeight: '700' }}>Vintage Polaroid</h3>
+            <p style={{ fontSize: '13px', color: 'var(--text-muted)', lineHeight: '1.6' }}>Frame satu foto retro bergaya film instan yang klasik dan timeless.</p>
           </div>
 
           <div 
             className="glass-panel frame-card" 
             onClick={() => setPage('gallery')}
-            style={{ padding: '24px', cursor: 'pointer', background: 'rgba(243,214,255,0.6)' }}
+            style={{ padding: '32px 24px', cursor: 'pointer', background: 'linear-gradient(135deg, rgba(255,255,255,0.85) 0%, rgba(255,240,243,0.7) 100%)', border: '1px solid rgba(255, 94, 126, 0.15)' }}
           >
-            <div style={{ background: '#fff', padding: '16px', borderRadius: '16px', width: '60px', height: '60px', display: 'flex', alignItems: 'center', justifyContent: 'center', color: '#7c3aed', marginBottom: '16px' }}>
+            <div style={{ background: '#fff', padding: '16px', borderRadius: '16px', width: '60px', height: '60px', display: 'flex', alignItems: 'center', justifyContent: 'center', color: '#ff5e7e', marginBottom: '20px', boxShadow: '0 4px 12px rgba(255,94,126,0.1)' }}>
               <Smile size={28} />
             </div>
-            <h3 style={{ fontSize: '20px', marginBottom: '8px' }}>Event Special</h3>
-            <p style={{ fontSize: '14px' }}>Template meriah khusus untuk perayaan pernikahan dan pesta ulang tahun.</p>
+            <h3 style={{ fontSize: '20px', marginBottom: '8px', fontWeight: '700' }}>Event Special</h3>
+            <p style={{ fontSize: '13px', color: 'var(--text-muted)', lineHeight: '1.6' }}>Template meriah khusus untuk perayaan pernikahan dan pesta ulang tahun.</p>
           </div>
         </div>
       </section>

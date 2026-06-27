@@ -91,7 +91,7 @@ export default function ResultPage() {
     <div className="container result-layout page-transition">
       
       <div style={{ textAlign: 'center' }}>
-        <span className="hero-badge" style={{ background: 'var(--brand-purple)', color: 'var(--brand-purple-dark)' }}>
+        <span className="hero-badge">
           <Sparkles size={14} style={{ display: 'inline-block', marginRight: '4px', verticalAlign: 'middle' }} />
           Yay! Foto Kamu Sudah Jadi
         </span>
