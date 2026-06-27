@@ -66,24 +66,41 @@ export function BoothProvider({ children }) {
     sessionStorage.setItem('sv_finalCompositeImage', JSON.stringify(finalCompositeImage));
   }, [finalCompositeImage]);
 
-  // Fetch initial metadata from Server API
+  // Fetch initial metadata - tries static JSON files first (works on Vercel),
+  // falls back to Express API (works locally)
   useEffect(() => {
     async function fetchData() {
       try {
         setLoading(true);
-        // Categories
-        const catRes = await fetch(`${API_BASE_URL}/api/categories`);
-        const cats = await catRes.json();
+
+        // Try static JSON first (for Vercel/static hosting), fallback to API
+        let cats, fms, sticks;
+        
+        try {
+          // Static JSON files (works everywhere including Vercel)
+          const [catRes, frameRes, stickRes] = await Promise.all([
+            fetch('/data/categories.json'),
+            fetch('/data/frames.json'),
+            fetch('/data/stickers.json')
+          ]);
+          if (!catRes.ok || !frameRes.ok || !stickRes.ok) throw new Error('Static fetch failed');
+          cats = await catRes.json();
+          fms = await frameRes.json();
+          sticks = await stickRes.json();
+        } catch {
+          // Fallback to Express API (local development)
+          const [catRes, frameRes, stickRes] = await Promise.all([
+            fetch(`${API_BASE_URL}/api/categories`),
+            fetch(`${API_BASE_URL}/api/frames`),
+            fetch(`${API_BASE_URL}/api/stickers`)
+          ]);
+          cats = await catRes.json();
+          fms = await frameRes.json();
+          sticks = await stickRes.json();
+        }
+
         setCategories(cats);
-
-        // Frames
-        const frameRes = await fetch(`${API_BASE_URL}/api/frames`);
-        const fms = await frameRes.json();
         setFrames(fms);
-
-        // Stickers
-        const stickRes = await fetch(`${API_BASE_URL}/api/stickers`);
-        const sticks = await stickRes.json();
         setStickersList(sticks);
       } catch (err) {
         console.error('Error fetching SnapVibe metadata:', err);
