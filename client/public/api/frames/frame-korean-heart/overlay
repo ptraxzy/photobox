@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="400" height="1200" viewBox="0 0 400 1200">
+      <defs>
+        <mask id="hole-mask">
+          <rect width="400" height="1200" fill="white" /><rect x="30" y="30" width="340" height="255" rx="20" ry="20" fill="black" /><rect x="30" y="315" width="340" height="255" rx="20" ry="20" fill="black" /><rect x="30" y="600" width="340" height="255" rx="20" ry="20" fill="black" /><rect x="30" y="885" width="340" height="255" rx="20" ry="20" fill="black" />
+        </mask>
+        
+      </defs>
+      <!-- Base Background Card -->
+      <rect width="400" height="1200" fill="#ffe3e8" mask="url(#hole-mask)" />
+      
+      <!-- Slot outlines (adds a very nice border around punched slots for photo alignment) -->
+      <rect x="30" y="30" width="340" height="255" rx="20" ry="20" fill="none" stroke="#ca1d5c" stroke-width="4" opacity="0.3" />
+<rect x="30" y="315" width="340" height="255" rx="20" ry="20" fill="none" stroke="#ca1d5c" stroke-width="4" opacity="0.3" />
+<rect x="30" y="600" width="340" height="255" rx="20" ry="20" fill="none" stroke="#ca1d5c" stroke-width="4" opacity="0.3" />
+<rect x="30" y="885" width="340" height="255" rx="20" ry="20" fill="none" stroke="#ca1d5c" stroke-width="4" opacity="0.3" />
+      
+      <!-- Outer Border -->
+      <rect width="400" height="1200" fill="none" stroke="#ca1d5c" stroke-width="12" />
+      
+      <!-- Decorations Layer -->
+      
+      <!-- Heart frames decoration -->
+      <g fill="#ca1d5c" stroke="none" opacity="0.7">
+        <path d="M12 21.35l-1.45-1.32C5.4 15.36 2 12.28 2 8.5 2 5.42 4.42 3 7.5 3c1.74 0 3.41.81 4.5 2.09C13.09 3.81 14.76 3 16.5 3 19.58 3 22 5.42 22 8.5c0 3.78-3.4 6.86-8.55 11.54L12 21.35z" transform="translate(20, 1145) scale(1)" />
+        <path d="M12 21.35l-1.45-1.32C5.4 15.36 2 12.28 2 8.5 2 5.42 4.42 3 7.5 3c1.74 0 3.41.81 4.5 2.09C13.09 3.81 14.76 3 16.5 3 19.58 3 22 5.42 22 8.5c0 3.78-3.4 6.86-8.55 11.54L12 21.35z" transform="translate(355, 1145) scale(1)" />
+      </g>
+    
+      
+      <!-- Branding Logo Text -->
+      <text x="200" y="1175" font-family="'Plus Jakarta Sans', 'Outfit', sans-serif" font-weight="800" font-size="14" fill="#ca1d5c" letter-spacing="3" text-anchor="middle">SNAPVIBE ✦ MEMORIES</text>
+    </svg>

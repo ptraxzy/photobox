@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="800" viewBox="0 0 800 800">
+      <defs>
+        <mask id="hole-mask">
+          <rect width="800" height="800" fill="white" /><rect x="40" y="40" width="340" height="340" rx="20" ry="20" fill="black" /><rect x="420" y="40" width="340" height="340" rx="20" ry="20" fill="black" /><rect x="40" y="420" width="340" height="340" rx="20" ry="20" fill="black" /><rect x="420" y="420" width="340" height="340" rx="20" ry="20" fill="black" />
+        </mask>
+        
+      </defs>
+      <!-- Base Background Card -->
+      <rect width="800" height="800" fill="#fbf8f5" mask="url(#hole-mask)" />
+      
+      <!-- Slot outlines (adds a very nice border around punched slots for photo alignment) -->
+      <rect x="40" y="40" width="340" height="340" rx="20" ry="20" fill="none" stroke="#8c6e5a" stroke-width="4" opacity="0.3" />
+<rect x="420" y="40" width="340" height="340" rx="20" ry="20" fill="none" stroke="#8c6e5a" stroke-width="4" opacity="0.3" />
+<rect x="40" y="420" width="340" height="340" rx="20" ry="20" fill="none" stroke="#8c6e5a" stroke-width="4" opacity="0.3" />
+<rect x="420" y="420" width="340" height="340" rx="20" ry="20" fill="none" stroke="#8c6e5a" stroke-width="4" opacity="0.3" />
+      
+      <!-- Outer Border -->
+      <rect width="800" height="800" fill="none" stroke="#8c6e5a" stroke-width="12" />
+      
+      <!-- Decorations Layer -->
+      
+      <!-- Soft floral outlines -->
+      <g stroke="#8c6e5a" stroke-width="2" fill="none" opacity="0.6" transform="translate(20, 20)">
+        <circle cx="10" cy="10" r="8" />
+        <path d="M10,2 Q10,6 10,10 T10,18 M2,10 Q6,10 10,10 T18,10" />
+      </g>
+      <g stroke="#8c6e5a" stroke-width="2" fill="none" opacity="0.6" transform="translate(760, 20)">
+        <circle cx="10" cy="10" r="8" />
+        <path d="M10,2 Q10,6 10,10 T10,18 M2,10 Q6,10 10,10 T18,10" />
+      </g>
+      <g stroke="#8c6e5a" stroke-width="2" fill="none" opacity="0.6" transform="translate(760, 760)">
+        <circle cx="10" cy="10" r="8" />
+        <path d="M10,2 Q10,6 10,10 T10,18 M2,10 Q6,10 10,10 T18,10" />
+      </g>
+      <g stroke="#8c6e5a" stroke-width="2" fill="none" opacity="0.6" transform="translate(20, 760)">
+        <circle cx="10" cy="10" r="8" />
+        <path d="M10,2 Q10,6 10,10 T10,18 M2,10 Q6,10 10,10 T18,10" />
+      </g>
+    
+      
+      <!-- Branding Logo Text -->
+      <text x="400" y="780" font-family="'Plus Jakarta Sans', 'Outfit', sans-serif" font-weight="800" font-size="15" fill="#8c6e5a" letter-spacing="3" text-anchor="middle">SNAPVIBE ✦ STUDIO</text>
+    </svg>

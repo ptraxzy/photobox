@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="400" height="1200" viewBox="0 0 400 1200">
+      <defs>
+        <mask id="hole-mask">
+          <rect width="400" height="1200" fill="white" /><rect x="30" y="30" width="340" height="255" rx="20" ry="20" fill="black" /><rect x="30" y="315" width="340" height="255" rx="20" ry="20" fill="black" /><rect x="30" y="600" width="340" height="255" rx="20" ry="20" fill="black" /><rect x="30" y="885" width="340" height="255" rx="20" ry="20" fill="black" />
+        </mask>
+        
+      </defs>
+      <!-- Base Background Card -->
+      <rect width="400" height="1200" fill="#0d0e15" mask="url(#hole-mask)" />
+      
+      <!-- Slot outlines (adds a very nice border around punched slots for photo alignment) -->
+      <rect x="30" y="30" width="340" height="255" rx="20" ry="20" fill="none" stroke="#00f0ff" stroke-width="4" opacity="0.3" />
+<rect x="30" y="315" width="340" height="255" rx="20" ry="20" fill="none" stroke="#00f0ff" stroke-width="4" opacity="0.3" />
+<rect x="30" y="600" width="340" height="255" rx="20" ry="20" fill="none" stroke="#00f0ff" stroke-width="4" opacity="0.3" />
+<rect x="30" y="885" width="340" height="255" rx="20" ry="20" fill="none" stroke="#00f0ff" stroke-width="4" opacity="0.3" />
+      
+      <!-- Outer Border -->
+      <rect width="400" height="1200" fill="none" stroke="#00f0ff" stroke-width="12" />
+      
+      <!-- Decorations Layer -->
+      
+      <!-- Glowing outer layout strokes -->
+      <rect x="15" y="15" width="370" height="1170" fill="none" stroke="#00f0ff" stroke-width="5" filter="drop-shadow(0 0 8px #00f0ff)" />
+      <text x="200" y="1165" font-family="'Outfit', sans-serif" font-weight="800" font-size="14" fill="#00f0ff" letter-spacing="4" text-anchor="middle" filter="drop-shadow(0 0 4px #00f0ff)">CYBERVIBE</text>
+    
+      
+      <!-- Branding Logo Text -->
+      <text x="200" y="1175" font-family="'Plus Jakarta Sans', 'Outfit', sans-serif" font-weight="800" font-size="14" fill="#00f0ff" letter-spacing="3" text-anchor="middle">SNAPVIBE ✦ MEMORIES</text>
+    </svg>

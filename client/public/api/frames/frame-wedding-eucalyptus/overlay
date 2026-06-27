@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="400" height="1200" viewBox="0 0 400 1200">
+      <defs>
+        <mask id="hole-mask">
+          <rect width="400" height="1200" fill="white" /><rect x="30" y="30" width="340" height="255" rx="20" ry="20" fill="black" /><rect x="30" y="315" width="340" height="255" rx="20" ry="20" fill="black" /><rect x="30" y="600" width="340" height="255" rx="20" ry="20" fill="black" /><rect x="30" y="885" width="340" height="255" rx="20" ry="20" fill="black" />
+        </mask>
+        
+      </defs>
+      <!-- Base Background Card -->
+      <rect width="400" height="1200" fill="#f3f5f3" mask="url(#hole-mask)" />
+      
+      <!-- Slot outlines (adds a very nice border around punched slots for photo alignment) -->
+      <rect x="30" y="30" width="340" height="255" rx="20" ry="20" fill="none" stroke="#477255" stroke-width="4" opacity="0.3" />
+<rect x="30" y="315" width="340" height="255" rx="20" ry="20" fill="none" stroke="#477255" stroke-width="4" opacity="0.3" />
+<rect x="30" y="600" width="340" height="255" rx="20" ry="20" fill="none" stroke="#477255" stroke-width="4" opacity="0.3" />
+<rect x="30" y="885" width="340" height="255" rx="20" ry="20" fill="none" stroke="#477255" stroke-width="4" opacity="0.3" />
+      
+      <!-- Outer Border -->
+      <rect width="400" height="1200" fill="none" stroke="#477255" stroke-width="12" />
+      
+      <!-- Decorations Layer -->
+      
+      <!-- Soft organic eucalyptus leaves -->
+      <g fill="#477255" opacity="0.6">
+        <!-- Top Right corner branch -->
+        <path d="M380,20 Q320,50 280,120" stroke="#477255" stroke-width="1.5" fill="none" />
+        <ellipse cx="350" cy="30" rx="10" ry="6" transform="rotate(20, 350, 30)" />
+        <ellipse cx="320" cy="50" rx="12" ry="7" transform="rotate(35, 320, 50)" />
+        <ellipse cx="300" cy="80" rx="14" ry="8" transform="rotate(50, 300, 80)" />
+      </g>
+    
+      
+      <!-- Branding Logo Text -->
+      <text x="200" y="1175" font-family="'Plus Jakarta Sans', 'Outfit', sans-serif" font-weight="800" font-size="14" fill="#477255" letter-spacing="3" text-anchor="middle">SNAPVIBE ✦ MEMORIES</text>
+    </svg>

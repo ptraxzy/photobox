@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="240" height="240" viewBox="0 0 800 800">
+      <defs>
+        <mask id="hole-mask">
+          <rect width="800" height="800" fill="white" /><rect x="40" y="40" width="340" height="340" rx="20" ry="20" fill="black" /><rect x="420" y="40" width="340" height="340" rx="20" ry="20" fill="black" /><rect x="40" y="420" width="340" height="340" rx="20" ry="20" fill="black" /><rect x="420" y="420" width="340" height="340" rx="20" ry="20" fill="black" />
+        </mask>
+        
+      <pattern id="cat-hearts" width="40" height="40" patternUnits="userSpaceOnUse">
+        <rect width="40" height="40" fill="#fefce8" />
+        <path d="M12,12 C8,8 0,12 8,20 C16,12 8,8 12,12 Z" fill="#ca8a04" opacity="0.08" />
+      </pattern>
+    
+      </defs>
+      <!-- Base Background Card -->
+      <rect width="800" height="800" fill="url(#cat-hearts)" mask="url(#hole-mask)" />
+      
+      <!-- Slot outlines (adds a very nice border around punched slots for photo alignment) -->
+      <rect x="40" y="40" width="340" height="340" rx="20" ry="20" fill="none" stroke="#ca8a04" stroke-width="4" opacity="0.3" />
+<rect x="420" y="40" width="340" height="340" rx="20" ry="20" fill="none" stroke="#ca8a04" stroke-width="4" opacity="0.3" />
+<rect x="40" y="420" width="340" height="340" rx="20" ry="20" fill="none" stroke="#ca8a04" stroke-width="4" opacity="0.3" />
+<rect x="420" y="420" width="340" height="340" rx="20" ry="20" fill="none" stroke="#ca8a04" stroke-width="4" opacity="0.3" />
+      
+      <!-- Outer Border -->
+      <rect width="800" height="800" fill="none" stroke="#ca8a04" stroke-width="12" />
+      
+      <!-- Decorations Layer -->
+      
+      <g transform="translate(100, 32)" fill="white" stroke="#ca8a04" stroke-width="2">
+        <circle cx="0" cy="0" r="12" />
+        <circle cx="-10" cy="-10" r="6" />
+        <circle cx="0" cy="-12" r="6" />
+        <circle cx="10" cy="-10" r="6" />
+      </g>
+      <g transform="translate(700, 32)" fill="white" stroke="#ca8a04" stroke-width="2">
+        <circle cx="0" cy="0" r="12" />
+        <circle cx="-10" cy="-10" r="6" />
+        <circle cx="0" cy="-12" r="6" />
+        <circle cx="10" cy="-10" r="6" />
+      </g>
+      
+      <path d="M10,400 Q40,395 50,392 M10,410 Q40,410 50,410 M10,420 Q40,425 50,428" stroke="#ca8a04" stroke-width="2" fill="none" stroke-linecap="round" />
+      <path d="M790,400 Q760,395 750,392 M790,410 Q760,410 750,410 M790,420 Q760,425 750,428" stroke="#ca8a04" stroke-width="2" fill="none" stroke-linecap="round" />
+      
+      <g transform="translate(400, 740) scale(1.1)" stroke="#ca8a04" stroke-width="2" fill="none">
+        <rect x="-15" y="-10" width="30" height="35" fill="white" />
+        <path d="M-15,-10 L0,-25 L15,-10 Z" fill="#fef08a" />
+        <line x1="0" y1="-25" x2="0" y2="-10" />
+        <circle cx="0" cy="10" r="4" fill="#f87171" stroke="#ca8a04" stroke-width="1.5" />
+      </g>
+      
+      <text x="400" y="790" font-family="'Outfit', sans-serif" font-weight="900" font-size="16" fill="#ca8a04" text-anchor="middle" letter-spacing="1">STUBBY MEOW</text>
+    
+      
+      <!-- Branding Logo Text -->
+      <text x="400" y="780" font-family="'Plus Jakarta Sans', 'Outfit', sans-serif" font-weight="800" font-size="15" fill="#ca8a04" letter-spacing="3" text-anchor="middle">SNAPVIBE ✦ STUDIO</text>
+    </svg>

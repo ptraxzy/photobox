@@ -1,0 +1,106 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="540" height="960" viewBox="0 0 540 960">
+      <defs>
+        <mask id="hole-mask">
+          <rect width="540" height="960" fill="white" /><rect x="250" y="260" width="260" height="310" rx="20" ry="20" fill="black" />
+        </mask>
+        
+      <pattern id="grille-texture" width="10" height="10" patternUnits="userSpaceOnUse">
+        <rect width="10" height="10" fill="#2d2a26" />
+        <circle cx="5" cy="5" r="2.5" fill="#8c7a6b" opacity="0.45" />
+        <circle cx="5" cy="5" r="1.2" fill="#d9c3b0" opacity="0.25" />
+      </pattern>
+    
+      </defs>
+      <!-- Base Background Card -->
+      <rect width="540" height="960" fill="url(#grille-texture)" mask="url(#hole-mask)" />
+      
+      <!-- Slot outlines (adds a very nice border around punched slots for photo alignment) -->
+      <rect x="250" y="260" width="260" height="310" rx="20" ry="20" fill="none" stroke="#8c7a6b" stroke-width="4" opacity="0.3" />
+      
+      <!-- Outer Border -->
+      <rect width="540" height="960" fill="none" stroke="#8c7a6b" stroke-width="12" />
+      
+      <!-- Decorations Layer -->
+      
+      <polygon points="40,120 400,60 440,380 80,440" fill="#fcfbf7" stroke="#e8e5d7" stroke-width="2" />
+      <rect x="90" y="90" width="15" height="20" rx="3" ry="3" fill="#2d2a26" transform="rotate(-9, 97, 100)" /><rect x="125" y="90" width="15" height="20" rx="3" ry="3" fill="#2d2a26" transform="rotate(-9, 132, 100)" /><rect x="160" y="90" width="15" height="20" rx="3" ry="3" fill="#2d2a26" transform="rotate(-9, 167, 100)" /><rect x="195" y="90" width="15" height="20" rx="3" ry="3" fill="#2d2a26" transform="rotate(-9, 202, 100)" /><rect x="230" y="90" width="15" height="20" rx="3" ry="3" fill="#2d2a26" transform="rotate(-9, 237, 100)" /><rect x="265" y="90" width="15" height="20" rx="3" ry="3" fill="#2d2a26" transform="rotate(-9, 272, 100)" /><rect x="300" y="90" width="15" height="20" rx="3" ry="3" fill="#2d2a26" transform="rotate(-9, 307, 100)" /><rect x="335" y="90" width="15" height="20" rx="3" ry="3" fill="#2d2a26" transform="rotate(-9, 342, 100)" />
+      
+      <path d="M 110,0 Q 130,50 110,100 T 115,200 T 110,300" stroke="#473e35" stroke-width="3" fill="none" stroke-linecap="round" />
+      <g transform="translate(85, 220) rotate(12)" fill="#1c1917" stroke="#333" stroke-width="2">
+        <path d="M10,20 Q25,-10 40,-15 Q50,-10 45,20 L35,80 Q25,110 10,115 Q-5,110 -5,80 Z" />
+        <ellipse cx="-2" cy="15" rx="15" ry="10" fill="#292524" />
+        <ellipse cx="32" cy="95" rx="15" ry="10" fill="#292524" />
+        <path d="M-8,15 Q5,5 15,15 Q25,5 38,15 L25,45 Z" fill="#f472b6" stroke="#db2777" stroke-width="1.5" />
+      </g>
+      
+      <g transform="translate(45, 380) rotate(-6)">
+        <rect x="0" y="0" width="220" height="310" fill="#faf6db" stroke="#ebdca5" stroke-width="2" rx="6" />
+        <text x="20" y="45" font-family="'Impact', 'Arial Black', sans-serif" font-weight="900" font-size="34" fill="#b91c1c">1957</text>
+        <line x1="20" y1="60" x2="200" y2="60" stroke="#b91c1c" stroke-width="2" />
+        <text x="35" y="80" font-family="sans-serif" font-weight="bold" font-size="11" fill="#78350f">SUN.</text>
+        <text x="115" y="80" font-family="sans-serif" font-weight="bold" font-size="11" fill="#78350f">MON.</text>
+        <line x1="20" y1="90" x2="200" y2="90" stroke="#78350f" stroke-width="1.5" />
+        
+        <text x="35" y="135" font-family="serif" font-size="30" fill="#b91c1c" font-weight="bold" text-anchor="middle">7</text>
+        <text x="35" y="200" font-family="serif" font-size="30" fill="#b91c1c" font-weight="bold" text-anchor="middle">14</text>
+        <text x="35" y="265" font-family="serif" font-size="30" fill="#b91c1c" font-weight="bold" text-anchor="middle">21</text>
+        <text x="115" y="135" font-family="serif" font-size="30" fill="#2d2a26" font-weight="bold" text-anchor="middle">8</text>
+        <text x="115" y="200" font-family="serif" font-size="30" fill="#2d2a26" font-weight="bold" text-anchor="middle">15</text>
+        <text x="115" y="265" font-family="serif" font-size="30" fill="#2d2a26" font-weight="bold" text-anchor="middle">22</text>
+        
+        <circle cx="160" cy="180" r="28" fill="#fbcfe8" stroke="#db2777" stroke-width="1" />
+        <path d="M 132,180 Q 150,140 188,180" stroke="#222" stroke-width="3" fill="none" />
+        <circle cx="140" cy="190" r="6" fill="#ef4444" />
+        <circle cx="140" cy="190" r="2" fill="white" />
+      </g>
+      
+      <g stroke="#78350f" stroke-width="3" fill="none">
+        <rect x="238" y="248" width="284" height="444" fill="#a78bfa" opacity="0.05" />
+        <rect x="238" y="248" width="284" height="444" stroke="#7c2d12" stroke-width="10" rx="20" ry="20" />
+        <rect x="242" y="252" width="276" height="436" stroke="#ea580c" stroke-width="4" rx="16" ry="16" />
+        
+        <rect x="248" y="258" width="264" height="314" stroke="#451a03" stroke-width="3" />
+        
+        <rect x="243" y="568" width="274" height="118" fill="#ea580c" opacity="0.15" />
+        <line x1="238" y1="568" x2="522" y2="568" stroke="#7c2d12" stroke-width="4" />
+        
+        <circle cx="310" cy="625" r="28" fill="#fddfcc" stroke="#7c2d12" stroke-width="2.5" />
+        <circle cx="310" cy="625" r="10" fill="#f97316" stroke="#7c2d12" stroke-width="1.5" />
+        <text x="310" y="628" font-family="sans-serif" font-size="8" font-weight="bold" fill="#7c2d12" text-anchor="middle">SET</text>
+        
+        <circle cx="385" cy="610" r="10" fill="#fddfcc" stroke="#7c2d12" stroke-width="1.5" />
+        <text x="385" y="613" font-family="sans-serif" font-size="7" font-weight="bold" fill="#7c2d12" text-anchor="middle">M</text>
+        <circle cx="445" cy="610" r="10" fill="#fddfcc" stroke="#7c2d12" stroke-width="1.5" />
+        <text x="445" y="613" font-family="sans-serif" font-size="7" font-weight="bold" fill="#7c2d12" text-anchor="middle">W</text>
+        
+        <circle cx="385" cy="642" r="10" fill="#fddfcc" stroke="#7c2d12" stroke-width="1.5" />
+        <text x="385" y="645" font-family="sans-serif" font-size="7" font-weight="bold" fill="#7c2d12" text-anchor="middle">T</text>
+        <circle cx="445" cy="642" r="10" fill="#fddfcc" stroke="#7c2d12" stroke-width="1.5" />
+        <text x="445" y="645" font-family="sans-serif" font-size="6" fill="#7c2d12" text-anchor="middle">DISP</text>
+      </g>
+      
+      <g transform="translate(35, 740) scale(1.6)" fill="#fbcfe8" stroke="#db2777" stroke-width="1.5" opacity="0.95">
+        <circle cx="20" cy="20" r="7" />
+        <ellipse cx="11" cy="20" rx="6" ry="4.5" />
+        <ellipse cx="23" cy="9" rx="5" ry="9" transform="rotate(20, 23, 9)" />
+        <ellipse cx="17" cy="9" rx="5" ry="9" transform="rotate(-20, 17, 9)" />
+        <ellipse cx="20" cy="33" rx="5" ry="8" />
+        <ellipse cx="34" cy="38" rx="12" ry="7" />
+        <ellipse cx="25" cy="51" rx="5" ry="9" />
+        <ellipse cx="41" cy="51" rx="5" ry="9" />
+      </g>
+      
+      <g transform="translate(430, 715) scale(1.5)">
+        <path d="M12,2 L15,9 L22,10 L17,15 L18,22 L12,18 L6,22 L7,15 L2,10 L9,9 Z" fill="#ec4899" stroke="#be185d" stroke-width="1.5" />
+      </g>
+      <g transform="translate(465, 740) scale(1.2)">
+        <path d="M12,2 L15,9 L22,10 L17,15 L18,22 L12,18 L6,22 L7,15 L2,10 L9,9 Z" fill="#a855f7" stroke="#7e22ce" stroke-width="1.5" />
+      </g>
+      <g transform="translate(415, 755) scale(1.3)">
+        <path d="M12,2 L15,9 L22,10 L17,15 L18,22 L12,18 L6,22 L7,15 L2,10 L9,9 Z" fill="#06b6d4" stroke="#0e7490" stroke-width="1.5" />
+      </g>
+    
+      
+      <!-- Branding Logo Text -->
+      <text x="270" y="935" font-family="'Plus Jakarta Sans', 'Outfit', sans-serif" font-weight="800" font-size="14" fill="#8c7a6b" letter-spacing="3" text-anchor="middle">SNAPVIBE ✦ MEMORIES</text>
+    </svg>

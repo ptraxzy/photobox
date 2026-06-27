@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="400" height="1000" viewBox="0 0 400 1000">
+      <defs>
+        <mask id="hole-mask">
+          <rect width="400" height="1000" fill="white" /><rect x="40" y="40" width="320" height="260" rx="20" ry="20" fill="black" /><rect x="40" y="340" width="320" height="260" rx="20" ry="20" fill="black" /><rect x="40" y="640" width="320" height="260" rx="20" ry="20" fill="black" />
+        </mask>
+        
+      <pattern id="gingham-pat" width="40" height="40" patternUnits="userSpaceOnUse">
+        <rect width="40" height="40" fill="#fcf3f3" />
+        <rect width="20" height="40" fill="#ffccd5" opacity="0.65" />
+        <rect width="40" height="20" fill="#ffccd5" opacity="0.65" />
+      </pattern>
+    
+      </defs>
+      <!-- Base Background Card -->
+      <rect width="400" height="1000" fill="url(#gingham-pat)" mask="url(#hole-mask)" />
+      
+      <!-- Slot outlines (adds a very nice border around punched slots for photo alignment) -->
+      <rect x="40" y="40" width="320" height="260" rx="20" ry="20" fill="none" stroke="#c24b4b" stroke-width="4" opacity="0.3" />
+<rect x="40" y="340" width="320" height="260" rx="20" ry="20" fill="none" stroke="#c24b4b" stroke-width="4" opacity="0.3" />
+<rect x="40" y="640" width="320" height="260" rx="20" ry="20" fill="none" stroke="#c24b4b" stroke-width="4" opacity="0.3" />
+      
+      <!-- Outer Border -->
+      <rect width="400" height="1000" fill="none" stroke="#c24b4b" stroke-width="12" />
+      
+      <!-- Decorations Layer -->
+      
+      <!-- Picnic branding badge overlay -->
+      <g fill="#ffffff" opacity="0.9" transform="translate(140, 935)">
+        <rect width="120" height="32" rx="16" fill="white" stroke="#c24b4b" stroke-width="2" />
+        <text x="60" y="20" font-family="'Outfit', sans-serif" font-weight="800" font-size="11" fill="#c24b4b" text-anchor="middle">PICNIC VIBE</text>
+      </g>
+      <!-- Small cherry/flowers -->
+      <circle cx="35" cy="480" r="6" fill="#c24b4b" />
+      <circle cx="45" cy="484" r="6" fill="#c24b4b" />
+      <path d="M35,474 Q42,470 45,478" stroke="green" stroke-width="1.5" fill="none" />
+    
+      
+      <!-- Branding Logo Text -->
+      <text x="200" y="975" font-family="'Plus Jakarta Sans', 'Outfit', sans-serif" font-weight="800" font-size="14" fill="#c24b4b" letter-spacing="3" text-anchor="middle">SNAPVIBE ✦ MEMORIES</text>
+    </svg>

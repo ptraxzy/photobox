@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="120" height="360" viewBox="0 0 400 1200">
+      <defs>
+        <mask id="hole-mask">
+          <rect width="400" height="1200" fill="white" /><rect x="30" y="30" width="340" height="255" rx="20" ry="20" fill="black" /><rect x="30" y="315" width="340" height="255" rx="20" ry="20" fill="black" /><rect x="30" y="600" width="340" height="255" rx="20" ry="20" fill="black" /><rect x="30" y="885" width="340" height="255" rx="20" ry="20" fill="black" />
+        </mask>
+        
+      </defs>
+      <!-- Base Background Card -->
+      <rect width="400" height="1200" fill="#fdf1f3" mask="url(#hole-mask)" />
+      
+      <!-- Slot outlines (adds a very nice border around punched slots for photo alignment) -->
+      <rect x="30" y="30" width="340" height="255" rx="20" ry="20" fill="none" stroke="#e0586e" stroke-width="4" opacity="0.3" />
+<rect x="30" y="315" width="340" height="255" rx="20" ry="20" fill="none" stroke="#e0586e" stroke-width="4" opacity="0.3" />
+<rect x="30" y="600" width="340" height="255" rx="20" ry="20" fill="none" stroke="#e0586e" stroke-width="4" opacity="0.3" />
+<rect x="30" y="885" width="340" height="255" rx="20" ry="20" fill="none" stroke="#e0586e" stroke-width="4" opacity="0.3" />
+      
+      <!-- Outer Border -->
+      <rect width="400" height="1200" fill="none" stroke="#e0586e" stroke-width="12" />
+      
+      <!-- Decorations Layer -->
+      
+      <!-- Floating rose petal path drawings -->
+      <g fill="#e0586e" stroke="none" opacity="0.65">
+        <path d="M25,120 C20,110 35,100 40,115 C40,125 30,130 25,120 Z" />
+        <path d="M365,520 C360,510 375,500 380,515 C380,525 370,530 365,520 Z" />
+        <path d="M25,820 C20,810 35,800 40,815 C40,825 30,830 25,820 Z" />
+      </g>
+    
+      
+      <!-- Branding Logo Text -->
+      <text x="200" y="1175" font-family="'Plus Jakarta Sans', 'Outfit', sans-serif" font-weight="800" font-size="14" fill="#e0586e" letter-spacing="3" text-anchor="middle">SNAPVIBE ✦ MEMORIES</text>
+    </svg>

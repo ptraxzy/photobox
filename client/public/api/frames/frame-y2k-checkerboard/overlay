@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="800" viewBox="0 0 800 800">
+      <defs>
+        <mask id="hole-mask">
+          <rect width="800" height="800" fill="white" /><rect x="40" y="40" width="330" height="330" rx="20" ry="20" fill="black" /><rect x="430" y="40" width="330" height="330" rx="20" ry="20" fill="black" /><rect x="40" y="410" width="330" height="330" rx="20" ry="20" fill="black" /><rect x="430" y="410" width="330" height="330" rx="20" ry="20" fill="black" />
+        </mask>
+        
+      <pattern id="checkers" width="40" height="40" patternUnits="userSpaceOnUse">
+        <rect width="20" height="20" fill="#ffffff" />
+        <rect x="20" width="20" height="20" fill="#222222" />
+        <rect y="20" width="20" height="20" fill="#222222" />
+        <rect x="20" y="20" width="20" height="20" fill="#ffffff" />
+      </pattern>
+    
+      </defs>
+      <!-- Base Background Card -->
+      <rect width="800" height="800" fill="url(#checkers)" mask="url(#hole-mask)" />
+      
+      <!-- Slot outlines (adds a very nice border around punched slots for photo alignment) -->
+      <rect x="40" y="40" width="330" height="330" rx="20" ry="20" fill="none" stroke="#22c55e" stroke-width="4" opacity="0.3" />
+<rect x="430" y="40" width="330" height="330" rx="20" ry="20" fill="none" stroke="#22c55e" stroke-width="4" opacity="0.3" />
+<rect x="40" y="410" width="330" height="330" rx="20" ry="20" fill="none" stroke="#22c55e" stroke-width="4" opacity="0.3" />
+<rect x="430" y="410" width="330" height="330" rx="20" ry="20" fill="none" stroke="#22c55e" stroke-width="4" opacity="0.3" />
+      
+      <!-- Outer Border -->
+      <rect width="800" height="800" fill="none" stroke="#22c55e" stroke-width="12" />
+      
+      <!-- Decorations Layer -->
+      
+      <rect x="0" y="660" width="800" height="140" fill="#15a34a" />
+      <line x1="0" y1="660" x2="800" y2="660" stroke="black" stroke-width="6" />
+      <text x="200" y="735" font-family="'Outfit', sans-serif" font-weight="900" font-size="40" fill="none" stroke="black" stroke-width="4" text-anchor="middle">SNAP UR JOY</text>
+      <text x="600" y="735" font-family="'Outfit', sans-serif" font-weight="900" font-size="40" fill="none" stroke="black" stroke-width="4" text-anchor="middle">SNAP UR JOY</text>
+      <path d="M12,2 L15,9 L22,10 L17,15 L18,22 L12,18 L6,22 L7,15 L2,10 L9,9 Z" fill="#eab308" stroke="black" stroke-width="2.5" transform="translate(30, 680) scale(1.3)" />
+      <path d="M12,2 L15,9 L22,10 L17,15 L18,22 L12,18 L6,22 L7,15 L2,10 L9,9 Z" fill="#eab308" stroke="black" stroke-width="2.5" transform="translate(350, 680) scale(1.3)" />
+      <path d="M12,2 L15,9 L22,10 L17,15 L18,22 L12,18 L6,22 L7,15 L2,10 L9,9 Z" fill="#eab308" stroke="black" stroke-width="2.5" transform="translate(730, 680) scale(1.3)" />
+    
+      
+      <!-- Branding Logo Text -->
+      <text x="400" y="780" font-family="'Plus Jakarta Sans', 'Outfit', sans-serif" font-weight="800" font-size="15" fill="#22c55e" letter-spacing="3" text-anchor="middle">SNAPVIBE ✦ STUDIO</text>
+    </svg>

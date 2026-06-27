@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="240" height="240" viewBox="0 0 800 800">
+      <defs>
+        <mask id="hole-mask">
+          <rect width="800" height="800" fill="white" /><rect x="50" y="50" width="330" height="330" rx="20" ry="20" fill="black" /><rect x="420" y="50" width="330" height="330" rx="20" ry="20" fill="black" /><rect x="50" y="420" width="330" height="330" rx="20" ry="20" fill="black" /><rect x="420" y="420" width="330" height="330" rx="20" ry="20" fill="black" />
+        </mask>
+        
+      <pattern id="news-pat" width="120" height="120" patternUnits="userSpaceOnUse">
+        <rect width="120" height="120" fill="#f4eee1" />
+        <line x1="60" y1="0" x2="60" y2="120" stroke="#dfd7c6" stroke-width="1" />
+        <rect x="10" y="10" width="40" height="3" fill="#cbc0ac" />
+        <rect x="10" y="18" width="35" height="3" fill="#cbc0ac" />
+        <rect x="10" y="26" width="45" height="3" fill="#cbc0ac" />
+        <rect x="70" y="40" width="40" height="3" fill="#cbc0ac" />
+        <rect x="70" y="48" width="45" height="3" fill="#cbc0ac" />
+        <rect x="70" y="56" width="38" height="3" fill="#cbc0ac" />
+      </pattern>
+    
+      </defs>
+      <!-- Base Background Card -->
+      <rect width="800" height="800" fill="url(#news-pat)" mask="url(#hole-mask)" />
+      
+      <!-- Slot outlines (adds a very nice border around punched slots for photo alignment) -->
+      <rect x="50" y="50" width="330" height="330" rx="20" ry="20" fill="none" stroke="#473a24" stroke-width="4" opacity="0.3" />
+<rect x="420" y="50" width="330" height="330" rx="20" ry="20" fill="none" stroke="#473a24" stroke-width="4" opacity="0.3" />
+<rect x="50" y="420" width="330" height="330" rx="20" ry="20" fill="none" stroke="#473a24" stroke-width="4" opacity="0.3" />
+<rect x="420" y="420" width="330" height="330" rx="20" ry="20" fill="none" stroke="#473a24" stroke-width="4" opacity="0.3" />
+      
+      <!-- Outer Border -->
+      <rect width="800" height="800" fill="none" stroke="#473a24" stroke-width="12" />
+      
+      <!-- Decorations Layer -->
+      
+      <g fill="#473a24" opacity="0.8">
+        <text x="400" y="35" font-family="'Outfit', sans-serif" font-weight="800" font-size="20" letter-spacing="4" text-anchor="middle">BANDUNG DAILY</text>
+        <line x1="40" y1="42" x2="760" y2="42" stroke="#473a24" stroke-width="2" />
+        <text x="50" y="785" font-family="'Plus Jakarta Sans', sans-serif" font-weight="700" font-size="11">VOL. XII NO. 45 - 2026</text>
+        <text x="750" y="785" font-family="'Plus Jakarta Sans', sans-serif" font-weight="700" font-size="11" text-anchor="end">EDISI SPESIAL</text>
+      </g>
+    
+      
+      <!-- Branding Logo Text -->
+      <text x="400" y="780" font-family="'Plus Jakarta Sans', 'Outfit', sans-serif" font-weight="800" font-size="15" fill="#473a24" letter-spacing="3" text-anchor="middle">SNAPVIBE ✦ STUDIO</text>
+    </svg>

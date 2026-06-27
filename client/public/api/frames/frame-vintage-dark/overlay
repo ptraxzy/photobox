@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="600" height="700" viewBox="0 0 600 700">
+      <defs>
+        <mask id="hole-mask">
+          <rect width="600" height="700" fill="white" /><rect x="40" y="40" width="520" height="520" rx="20" ry="20" fill="black" />
+        </mask>
+        
+      </defs>
+      <!-- Base Background Card -->
+      <rect width="600" height="700" fill="#1a1a1a" mask="url(#hole-mask)" />
+      
+      <!-- Slot outlines (adds a very nice border around punched slots for photo alignment) -->
+      <rect x="40" y="40" width="520" height="520" rx="20" ry="20" fill="none" stroke="#ffffff" stroke-width="4" opacity="0.3" />
+      
+      <!-- Outer Border -->
+      <rect width="600" height="700" fill="none" stroke="#ffffff" stroke-width="12" />
+      
+      <!-- Decorations Layer -->
+      
+      <!-- Camera icon -->
+      <g stroke="#ffffff" stroke-width="2.5" fill="none" opacity="0.75" transform="translate(282, 635) scale(1.5)">
+        <path d="M23 19a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h4l2-3h6l2 3h4a2 2 0 0 1 2 2z" />
+        <circle cx="12" cy="13" r="4" />
+      </g>
+    
+      
+      <!-- Branding Logo Text -->
+      <text x="300" y="680" font-family="'Plus Jakarta Sans', 'Outfit', sans-serif" font-weight="800" font-size="15" fill="#ffffff" letter-spacing="3" text-anchor="middle">SNAPVIBE ✦ STUDIO</text>
+    </svg>

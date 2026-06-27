@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="120" height="300" viewBox="0 0 400 1000">
+      <defs>
+        <mask id="hole-mask">
+          <rect width="400" height="1000" fill="white" /><rect x="40" y="40" width="320" height="260" rx="20" ry="20" fill="black" /><rect x="40" y="340" width="320" height="260" rx="20" ry="20" fill="black" /><rect x="40" y="640" width="320" height="260" rx="20" ry="20" fill="black" />
+        </mask>
+        
+      </defs>
+      <!-- Base Background Card -->
+      <rect width="400" height="1000" fill="#dfd7c6" mask="url(#hole-mask)" />
+      
+      <!-- Slot outlines (adds a very nice border around punched slots for photo alignment) -->
+      <rect x="40" y="40" width="320" height="260" rx="20" ry="20" fill="none" stroke="#5b4e39" stroke-width="4" opacity="0.3" />
+<rect x="40" y="340" width="320" height="260" rx="20" ry="20" fill="none" stroke="#5b4e39" stroke-width="4" opacity="0.3" />
+<rect x="40" y="640" width="320" height="260" rx="20" ry="20" fill="none" stroke="#5b4e39" stroke-width="4" opacity="0.3" />
+      
+      <!-- Outer Border -->
+      <rect width="400" height="1000" fill="none" stroke="#5b4e39" stroke-width="12" />
+      
+      <!-- Decorations Layer -->
+      
+      <!-- Corner Washi tape overlays -->
+      <rect x="25" y="25" width="80" height="24" fill="#fcf6b1" opacity="0.6" transform="rotate(-15, 60, 30)" rx="1" />
+      <rect x="295" y="295" width="80" height="24" fill="#a8dadc" opacity="0.6" transform="rotate(10, 335, 300)" rx="1" />
+      <rect x="25" y="605" width="80" height="24" fill="#ffccd5" opacity="0.6" transform="rotate(-5, 60, 610)" rx="1" />
+      <rect x="295" y="905" width="80" height="24" fill="#fcf6b1" opacity="0.6" transform="rotate(12, 335, 910)" rx="1" />
+      
+      <!-- Scrap stickers -->
+      <circle cx="30" cy="480" r="10" fill="#fca5a5" opacity="0.7" />
+      <path d="M30,473 L30,487 M23,480 L37,480" stroke="#5b4e39" stroke-width="2" />
+    
+      
+      <!-- Branding Logo Text -->
+      <text x="200" y="975" font-family="'Plus Jakarta Sans', 'Outfit', sans-serif" font-weight="800" font-size="14" fill="#5b4e39" letter-spacing="3" text-anchor="middle">SNAPVIBE ✦ MEMORIES</text>
+    </svg>

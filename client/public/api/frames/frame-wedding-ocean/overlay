@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="800" viewBox="0 0 800 800">
+      <defs>
+        <mask id="hole-mask">
+          <rect width="800" height="800" fill="white" /><rect x="45" y="45" width="330" height="330" rx="20" ry="20" fill="black" /><rect x="425" y="45" width="330" height="330" rx="20" ry="20" fill="black" /><rect x="45" y="425" width="330" height="330" rx="20" ry="20" fill="black" /><rect x="425" y="425" width="330" height="330" rx="20" ry="20" fill="black" />
+        </mask>
+        
+      </defs>
+      <!-- Base Background Card -->
+      <rect width="800" height="800" fill="#fcf8f2" mask="url(#hole-mask)" />
+      
+      <!-- Slot outlines (adds a very nice border around punched slots for photo alignment) -->
+      <rect x="45" y="45" width="330" height="330" rx="20" ry="20" fill="none" stroke="#2e6f7e" stroke-width="4" opacity="0.3" />
+<rect x="425" y="45" width="330" height="330" rx="20" ry="20" fill="none" stroke="#2e6f7e" stroke-width="4" opacity="0.3" />
+<rect x="45" y="425" width="330" height="330" rx="20" ry="20" fill="none" stroke="#2e6f7e" stroke-width="4" opacity="0.3" />
+<rect x="425" y="425" width="330" height="330" rx="20" ry="20" fill="none" stroke="#2e6f7e" stroke-width="4" opacity="0.3" />
+      
+      <!-- Outer Border -->
+      <rect width="800" height="800" fill="none" stroke="#2e6f7e" stroke-width="12" />
+      
+      <!-- Decorations Layer -->
+      
+      <g stroke="#2e6f7e" fill="none" stroke-width="2" opacity="0.6">
+        <!-- Wave top right -->
+        <path d="M 720,40 Q 750,20 780,40 M 700,50 Q 740,25 780,55" />
+        <!-- Starfish bottom left -->
+        <path d="M 40,750 L 50,725 L 60,750 L 85,755 L 65,770 L 75,795 L 50,780 L 25,795 L 35,770 L 15,755 Z" fill="#ffb7b2" opacity="0.8" stroke-width="1.5" />
+        <!-- Shell bottom right -->
+        <path d="M 740,770 A 20,20 0 0,1 780,770 L 760,790 Z" fill="#ffdac1" opacity="0.8" stroke-width="1.5" />
+      </g>
+    
+      
+      <!-- Branding Logo Text -->
+      <text x="400" y="780" font-family="'Plus Jakarta Sans', 'Outfit', sans-serif" font-weight="800" font-size="15" fill="#2e6f7e" letter-spacing="3" text-anchor="middle">SNAPVIBE ✦ STUDIO</text>
+    </svg>

@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="240" height="240" viewBox="0 0 800 800">
+      <defs>
+        <mask id="hole-mask">
+          <rect width="800" height="800" fill="white" /><rect x="50" y="50" width="330" height="330" rx="20" ry="20" fill="black" /><rect x="420" y="50" width="330" height="330" rx="20" ry="20" fill="black" /><rect x="50" y="420" width="330" height="330" rx="20" ry="20" fill="black" />
+        </mask>
+        
+      </defs>
+      <!-- Base Background Card -->
+      <rect width="800" height="800" fill="#e8e1d5" mask="url(#hole-mask)" />
+      
+      <!-- Slot outlines (adds a very nice border around punched slots for photo alignment) -->
+      <rect x="50" y="50" width="330" height="330" rx="20" ry="20" fill="none" stroke="#5c4f3d" stroke-width="4" opacity="0.3" />
+<rect x="420" y="50" width="330" height="330" rx="20" ry="20" fill="none" stroke="#5c4f3d" stroke-width="4" opacity="0.3" />
+<rect x="50" y="420" width="330" height="330" rx="20" ry="20" fill="none" stroke="#5c4f3d" stroke-width="4" opacity="0.3" />
+      
+      <!-- Outer Border -->
+      <rect width="800" height="800" fill="none" stroke="#5c4f3d" stroke-width="12" />
+      
+      <!-- Decorations Layer -->
+      
+      <!-- Vintage stamps & notes -->
+      <rect x="50" y="730" width="80" height="24" fill="#a8dadc" opacity="0.6" transform="rotate(-5)" rx="1" />
+      <text x="90" y="746" font-family="'Outfit', sans-serif" font-weight="800" font-size="11" fill="#5c4f3d" text-anchor="middle">BOARDING PASS</text>
+      <!-- Circular postmark -->
+      <circle cx="700" cy="710" r="35" fill="none" stroke="#5c4f3d" stroke-width="1.5" stroke-dasharray="3,3" opacity="0.6" />
+      <circle cx="700" cy="710" r="28" fill="none" stroke="#5c4f3d" stroke-width="1" opacity="0.6" />
+      <text x="700" y="714" font-family="'Outfit', sans-serif" font-weight="700" font-size="9" fill="#5c4f3d" text-anchor="middle" opacity="0.6">PASSPORT</text>
+    
+      
+      <!-- Branding Logo Text -->
+      <text x="400" y="780" font-family="'Plus Jakarta Sans', 'Outfit', sans-serif" font-weight="800" font-size="15" fill="#5c4f3d" letter-spacing="3" text-anchor="middle">SNAPVIBE ✦ STUDIO</text>
+    </svg>

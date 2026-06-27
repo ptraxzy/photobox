@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="600" height="1000" viewBox="0 0 600 1000">
+      <defs>
+        <mask id="hole-mask">
+          <rect width="600" height="1000" fill="white" /><rect x="30" y="180" width="250" height="230" rx="20" ry="20" fill="black" /><rect x="320" y="180" width="250" height="230" rx="20" ry="20" fill="black" /><rect x="30" y="450" width="250" height="230" rx="20" ry="20" fill="black" /><rect x="320" y="450" width="250" height="230" rx="20" ry="20" fill="black" /><rect x="30" y="720" width="250" height="230" rx="20" ry="20" fill="black" /><rect x="320" y="720" width="250" height="230" rx="20" ry="20" fill="black" />
+        </mask>
+        
+      <pattern id="halftone" width="8" height="8" patternUnits="userSpaceOnUse">
+        <circle cx="4" cy="4" r="1.5" fill="#1d4ed8" opacity="0.45" />
+      </pattern>
+    
+      </defs>
+      <!-- Base Background Card -->
+      <rect width="600" height="1000" fill="#dbeafe" mask="url(#hole-mask)" />
+      
+      <!-- Slot outlines (adds a very nice border around punched slots for photo alignment) -->
+      <rect x="30" y="180" width="250" height="230" rx="20" ry="20" fill="none" stroke="#1d4ed8" stroke-width="4" opacity="0.3" />
+<rect x="320" y="180" width="250" height="230" rx="20" ry="20" fill="none" stroke="#1d4ed8" stroke-width="4" opacity="0.3" />
+<rect x="30" y="450" width="250" height="230" rx="20" ry="20" fill="none" stroke="#1d4ed8" stroke-width="4" opacity="0.3" />
+<rect x="320" y="450" width="250" height="230" rx="20" ry="20" fill="none" stroke="#1d4ed8" stroke-width="4" opacity="0.3" />
+<rect x="30" y="720" width="250" height="230" rx="20" ry="20" fill="none" stroke="#1d4ed8" stroke-width="4" opacity="0.3" />
+<rect x="320" y="720" width="250" height="230" rx="20" ry="20" fill="none" stroke="#1d4ed8" stroke-width="4" opacity="0.3" />
+      
+      <!-- Outer Border -->
+      <rect width="600" height="1000" fill="none" stroke="#1d4ed8" stroke-width="12" />
+      
+      <!-- Decorations Layer -->
+      
+      <rect x="0" y="0" width="160" height="150" fill="url(#halftone)" />
+      <rect x="440" y="0" width="160" height="150" fill="url(#halftone)" />
+      <rect x="0" y="0" width="600" height="150" fill="#1c55d0" />
+      <text x="300" y="75" font-family="'Sacramento', 'Dancing Script', cursive" font-weight="bold" font-size="64" fill="#ffffff" text-anchor="middle">holiday</text>
+      <text x="300" y="125" font-family="'Plus Jakarta Sans', 'Arial Black', sans-serif" font-weight="900" font-size="28" letter-spacing="4" fill="#ffffff" text-anchor="middle">STARTER PACK</text>
+      
+      <text x="35" y="174" font-family="'Plus Jakarta Sans', sans-serif" font-weight="800" font-size="16" fill="#1c55d0">[POSE]</text>
+      <text x="325" y="174" font-family="'Plus Jakarta Sans', sans-serif" font-weight="800" font-size="16" fill="#1c55d0">[POSE]</text>
+      
+      <text x="35" y="444" font-family="'Plus Jakarta Sans', sans-serif" font-weight="800" font-size="16" fill="#1c55d0">[SMILE]</text>
+      <text x="325" y="444" font-family="'Plus Jakarta Sans', sans-serif" font-weight="800" font-size="16" fill="#1c55d0">[SMILE]</text>
+      
+      <text x="35" y="714" font-family="'Plus Jakarta Sans', sans-serif" font-weight="800" font-size="16" fill="#1c55d0">[LAUGH]</text>
+      <text x="325" y="714" font-family="'Plus Jakarta Sans', sans-serif" font-weight="800" font-size="16" fill="#1c55d0">[LAUGH]</text>
+      
+      <line x1="0" y1="430" x2="600" y2="430" stroke="#1c55d0" stroke-width="2.5" />
+      <line x1="0" y1="700" x2="600" y2="700" stroke="#1c55d0" stroke-width="2.5" />
+      <line x1="0" y1="970" x2="600" y2="970" stroke="#1c55d0" stroke-width="2.5" />
+      <line x1="300" y1="150" x2="300" y2="1000" stroke="#1c55d0" stroke-width="2.5" />
+    
+      
+      <!-- Branding Logo Text -->
+      <text x="300" y="975" font-family="'Plus Jakarta Sans', 'Outfit', sans-serif" font-weight="800" font-size="14" fill="#1d4ed8" letter-spacing="3" text-anchor="middle">SNAPVIBE ✦ MEMORIES</text>
+    </svg>

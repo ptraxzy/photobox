@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="800" viewBox="0 0 800 800">
+      <defs>
+        <mask id="hole-mask">
+          <rect width="800" height="800" fill="white" /><rect x="50" y="50" width="330" height="330" rx="20" ry="20" fill="black" /><rect x="420" y="50" width="330" height="330" rx="20" ry="20" fill="black" /><rect x="50" y="420" width="330" height="330" rx="20" ry="20" fill="black" />
+        </mask>
+        
+      </defs>
+      <!-- Base Background Card -->
+      <rect width="800" height="800" fill="#dfd7c6" mask="url(#hole-mask)" />
+      
+      <!-- Slot outlines (adds a very nice border around punched slots for photo alignment) -->
+      <rect x="50" y="50" width="330" height="330" rx="20" ry="20" fill="none" stroke="#6b4a3a" stroke-width="4" opacity="0.3" />
+<rect x="420" y="50" width="330" height="330" rx="20" ry="20" fill="none" stroke="#6b4a3a" stroke-width="4" opacity="0.3" />
+<rect x="50" y="420" width="330" height="330" rx="20" ry="20" fill="none" stroke="#6b4a3a" stroke-width="4" opacity="0.3" />
+      
+      <!-- Outer Border -->
+      <rect width="800" height="800" fill="none" stroke="#6b4a3a" stroke-width="12" />
+      
+      <!-- Decorations Layer -->
+      
+      <!-- Vinyl record peeking out of bottom right -->
+      <g transform="translate(420, 420)">
+        <!-- Outer record disc -->
+        <circle cx="165" cy="165" r="150" fill="#111111" />
+        <circle cx="165" cy="165" r="140" fill="none" stroke="#222" stroke-width="1.5" />
+        <circle cx="165" cy="165" r="120" fill="none" stroke="#222" stroke-width="1" />
+        <circle cx="165" cy="165" r="100" fill="none" stroke="#222" stroke-width="1.5" />
+        <circle cx="165" cy="165" r="80" fill="none" stroke="#222" stroke-width="1" />
+        
+        <!-- Record label center -->
+        <circle cx="165" cy="165" r="55" fill="#fca5a5" stroke="#6b4a3a" stroke-width="2" />
+        <circle cx="165" cy="165" r="45" fill="none" stroke="#6b4a3a" stroke-width="1" stroke-dasharray="2,2" />
+        
+        <!-- Label branding text -->
+        <text x="165" y="145" font-family="'Outfit', sans-serif" font-weight="800" font-size="9" fill="#6b4a3a" text-anchor="middle">RETRO BEAT</text>
+        <text x="165" y="190" font-family="'Plus Jakarta Sans', sans-serif" font-weight="700" font-size="8" fill="#6b4a3a" text-anchor="middle">LP 33 RPM</text>
+        
+        <!-- Spindle center hole -->
+        <circle cx="165" cy="165" r="10" fill="#dfd7c6" stroke="#444" stroke-width="1" />
+      </g>
+    
+      
+      <!-- Branding Logo Text -->
+      <text x="400" y="780" font-family="'Plus Jakarta Sans', 'Outfit', sans-serif" font-weight="800" font-size="15" fill="#6b4a3a" letter-spacing="3" text-anchor="middle">SNAPVIBE ✦ STUDIO</text>
+    </svg>
