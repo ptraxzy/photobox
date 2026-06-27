@@ -1,4 +1,4 @@
-import React, { useState, useEffect, useRef } from 'react';
+import React, { useState, useEffect, useRef, useCallback } from 'react';
 import { useBooth, API_BASE_URL } from '../context/BoothContext';
 import { Camera, Upload, RefreshCw, ChevronLeft, ArrowRight, Play } from 'lucide-react';
 
@@ -18,7 +18,16 @@ export default function BoothPage() {
   const [isShooting, setIsShooting] = useState(false);
   const [isFlashActive, setIsFlashActive] = useState(false);
   
-  const videoRef = useRef(null);
+  const videoElRef = useRef(null);
+  const videoRef = useCallback((node) => {
+    videoElRef.current = node;
+    if (node && stream) {
+      if (node.srcObject !== stream) {
+        node.srcObject = stream;
+      }
+      node.play().catch(err => console.log("Webcam play failed:", err));
+    }
+  }, [stream]);
   const fileInputRef = useRef(null);
 
   // Booth dimensions scaling factor for rendering preview
@@ -42,10 +51,6 @@ export default function BoothPage() {
         });
         setStream(mediaStream);
         setCameraAllowed(true);
-        if (videoRef.current) {
-          videoRef.current.srcObject = mediaStream;
-          videoRef.current.play().catch(err => console.log("Webcam play failed:", err));
-        }
       } catch (err) {
         console.warn('Webcam access denied or unavailable. Falling back to local upload:', err);
         setCameraAllowed(false);
@@ -66,21 +71,11 @@ export default function BoothPage() {
     };
   }, [selectedFrame]);
 
-  // Handle setting stream when active slot changes and camera is available
-  useEffect(() => {
-    if (stream && videoRef.current) {
-      if (videoRef.current.srcObject !== stream) {
-        videoRef.current.srcObject = stream;
-      }
-      videoRef.current.play().catch(err => console.log("Webcam play failed:", err));
-    }
-  }, [activeSlot, stream]);
-
   // Capture the photo from the video feed
   const capturePhoto = () => {
-    if (!videoRef.current || !selectedFrame) return;
+    if (!videoElRef.current || !selectedFrame) return;
 
-    const video = videoRef.current;
+    const video = videoElRef.current;
     const canvas = document.createElement('canvas');
     const slot = selectedFrame.slots[activeSlot];
 
@@ -189,8 +184,8 @@ export default function BoothPage() {
         setCountdown(null);
 
         // Perform capture
-        if (videoRef.current && selectedFrame) {
-          const video = videoRef.current;
+        if (videoElRef.current && selectedFrame) {
+          const video = videoElRef.current;
           const canvas = document.createElement('canvas');
           const slot = selectedFrame.slots[slotIdx];
           canvas.width = slot.width * 2;
