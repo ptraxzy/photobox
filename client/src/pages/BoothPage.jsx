@@ -44,6 +44,7 @@ export default function BoothPage() {
         setCameraAllowed(true);
         if (videoRef.current) {
           videoRef.current.srcObject = mediaStream;
+          videoRef.current.play().catch(err => console.log("Webcam play failed:", err));
         }
       } catch (err) {
         console.warn('Webcam access denied or unavailable. Falling back to local upload:', err);
@@ -67,8 +68,11 @@ export default function BoothPage() {
 
   // Handle setting stream when active slot changes and camera is available
   useEffect(() => {
-    if (stream && videoRef.current && !videoRef.current.srcObject) {
-      videoRef.current.srcObject = stream;
+    if (stream && videoRef.current) {
+      if (videoRef.current.srcObject !== stream) {
+        videoRef.current.srcObject = stream;
+      }
+      videoRef.current.play().catch(err => console.log("Webcam play failed:", err));
     }
   }, [activeSlot, stream]);
 
@@ -343,18 +347,6 @@ export default function BoothPage() {
                       </>
                     )}
 
-                    {/* 2. Live video stream (only if this slot is active and camera is running) */}
-                    {isCurrentActive && cameraAllowed && (
-                      <div className="live-feed-slot" style={{ border: 'none', top: 0, left: 0, width: '100%', height: '100%' }}>
-                        <video 
-                          ref={videoRef} 
-                          autoPlay 
-                          playsInline 
-                          className="live-feed-video"
-                        />
-                      </div>
-                    )}
-
                     {/* 3. Empty slot indicator */}
                     {!photo && !isCurrentActive && (
                       <div 
@@ -403,6 +395,33 @@ export default function BoothPage() {
                   </div>
                 );
               })}
+
+              {/* 2. Single Live Video Stream element dynamically positioned */}
+              {activeSlot !== -1 && cameraAllowed && (
+                <div 
+                  className="live-feed-slot" 
+                  style={{ 
+                    border: 'none', 
+                    position: 'absolute',
+                    left: `${selectedFrame.slots[activeSlot].x * scale}px`,
+                    top: `${selectedFrame.slots[activeSlot].y * scale}px`,
+                    width: `${selectedFrame.slots[activeSlot].width * scale}px`,
+                    height: `${selectedFrame.slots[activeSlot].height * scale}px`,
+                    borderRadius: `${20 * scale}px`,
+                    overflow: 'hidden',
+                    zIndex: 2,
+                    pointerEvents: 'none'
+                  }}
+                >
+                  <video 
+                    ref={videoRef} 
+                    autoPlay 
+                    playsInline 
+                    className="live-feed-video"
+                    style={{ width: '100%', height: '100%', objectFit: 'cover' }}
+                  />
+                </div>
+              )}
             </div>
 
             {/* PNG transparent frame cutout on top */}
