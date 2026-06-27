@@ -957,16 +957,84 @@ p {
   .hero-subtitle {
     font-size: 14px !important;
   }
+  .hero-section > div {
+    flex-direction: column !important;
+    align-items: stretch !important;
+    gap: 12px !important;
+  }
+  .hero-section > div .btn {
+    width: 100% !important;
+    justify-content: center !important;
+  }
   
   /* Header Mobile */
-  .header-container {
-    padding: 12px 16px !important;
+  .app-header {
+    padding: 10px 0 !important;
   }
-  .header-logo {
-    font-size: 20px !important;
+  .logo-link {
+    font-size: 18px !important;
+    gap: 6px !important;
   }
-  .header-actions {
-    gap: 8px !important;
+  .logo-icon {
+    width: 30px !important;
+    height: 30px !important;
+    border-radius: 8px !important;
+  }
+  .logo-icon svg {
+    width: 16px !important;
+    height: 16px !important;
+  }
+  .nav-links {
+    gap: 10px !important;
+  }
+  .nav-link {
+    font-size: 12px !important;
+  }
+  .nav-links .btn {
+    padding: 6px 12px !important;
+    border-radius: 8px !important;
+    font-size: 11px !important;
+  }
+  
+  /* How It Works Mobile */
+  .steps-grid {
+    grid-template-columns: 1fr !important;
+    gap: 24px !important;
+    margin: 20px 0 !important;
+  }
+  .step-card {
+    text-align: center !important;
+    align-items: center !important;
+  }
+  
+  /* Trending Section Mobile */
+  .trending-header {
+    flex-direction: column !important;
+    align-items: flex-start !important;
+    gap: 12px !important;
+  }
+  .trending-header button {
+    width: 100% !important;
+    justify-content: center !important;
+  }
+  
+  /* Gallery Search & Filters Mobile */
+  .gallery-section .glass-panel > div {
+    flex-direction: column !important;
+    align-items: stretch !important;
+    gap: 16px !important;
+  }
+  .gallery-filters {
+    width: 100% !important;
+    margin-bottom: 0 !important;
+    -ms-overflow-style: none !important;
+    scrollbar-width: none !important;
+  }
+  .gallery-filters::-webkit-scrollbar {
+    display: none !important;
+  }
+  .text-input-row {
+    width: 100% !important;
   }
   
   /* Booth & Editor Columns */
@@ -989,6 +1057,13 @@ p {
   .stickers-selector-grid {
     grid-template-columns: repeat(auto-fill, minmax(60px, 1fr)) !important;
     gap: 12px !important;
+  }
+  .sticker-scroll-row {
+    -ms-overflow-style: none !important;
+    scrollbar-width: none !important;
+  }
+  .sticker-scroll-row::-webkit-scrollbar {
+    display: none !important;
   }
   
   /* Results page actions */

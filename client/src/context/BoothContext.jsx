@@ -149,7 +149,7 @@ export function BoothProvider({ children }) {
       id: `sticker-${Date.now()}-${Math.random().toString(36).substr(2, 9)}`,
       type: 'sticker',
       name,
-      url: `${API_BASE_URL}/api/stickers/${name}`,
+      url: `${API_BASE_URL}/api/stickers/${name}.svg`,
       x: 100, // Initial center coordinates
       y: 100,
       scale: 1.0,
